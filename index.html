@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美股與美債重點經濟數據面板</title>
+    <style>
+        :root {
+            --bg-color: #f4f6f9;
+            --card-bg: #ffffff;
+            --text-main: #1f2937;
+            --text-sub: #6b7280;
+            --border-color: #e5e7eb;
+            --primary: #2563eb;
+            --up-color: #dc2626;   /* 上漲/高通膨 (紅) */
+            --down-color: #16a34a; /* 下跌/放緩 (綠) */
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 24px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        h1 { margin: 0; font-size: 1.5rem; }
+        .timestamp { font-size: 0.875rem; color: var(--text-sub); }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+        .card-header {
+            font-size: 0.875rem;
+            color: var(--text-sub);
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        .card-value {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .card-detail {
+            font-size: 0.875rem;
+            color: var(--text-sub);
+            line-height: 1.4;
+        }
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        .tag-up { background-color: #fee2e2; color: var(--up-color); }
+        .tag-down { background-color: #dcfce7; color: var(--down-color); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>📊 美股與美債重點經濟數據面板</h1>
+        <div class="timestamp">最後更新時間：2026-09-24</div>
+    </header>
+
+    <div class="grid">
+        <!-- 10年美債 -->
+        <div class="card">
+            <div class="card-header">美國 10 年期公債殖利率</div>
+            <div class="card-value">5.15% <span class="tag tag-up">高檔震盪</span></div>
+            <div class="card-detail">反映市場對 Higher for Longer 長期高利率政策之定價。</div>
+        </div>
+
+        <!-- 20年美債 -->
+        <div class="card">
+            <div class="card-header">美國 20 年期公債殖利率</div>
+            <div class="card-value">5.45% <span class="tag tag-up">長端溢價</span></div>
+            <div class="card-detail">長端殖利率偏高，顯示長天期債券要求較高風險溢價。</div>
+        </div>
+
+        <!-- 匯率 -->
+        <div class="card">
+            <div class="card-header">美元 / 新台幣 (USD/TWD)</div>
+            <div class="card-value">31.82 <span class="tag tag-up">美金偏強</span></div>
+            <div class="card-detail">受美台利差影響，台幣維持相對低點。</div>
+        </div>
+
+        <!-- 原油價格 -->
+        <div class="card">
+            <div class="card-header">WTI 原油期貨</div>
+            <div class="card-value">$102.48 <span class="tag tag-up">重回百元</span></div>
+            <div class="card-detail">地緣政治與需求帶動油價走高，加劇通膨壓力。</div>
+        </div>
+
+        <!-- CPI -->
+        <div class="card">
+            <div class="card-header">通膨數據 (CPI 年增率)</div>
+            <div class="card-value">3.35%</div>
+            <div class="card-detail">核心 CPI 為 4.45%，受原油與服務業成本支撐，高於 2% 目標。</div>
+        </div>
+
+        <!-- PMI -->
+        <div class="card">
+            <div class="card-header">製造業 PMI 快報值</div>
+            <div class="card-value">57.0 <span class="tag tag-down">強勁擴張</span></div>
+            <div class="card-detail">前值 53.9，預期 53.6。數值 > 50，顯示經濟動能依舊強勁。</div>
+        </div>
+
+        <!-- 非農就業 -->
+        <div class="card">
+            <div class="card-header">非農新增就業人口</div>
+            <div class="card-value">16.2 萬人</div>
+            <div class="card-detail">遠優於預期的 4.1 萬人；失業率維持在 4.1%。就業市場具韌性。</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
