@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 17:07:11 (UTC)",
+  "updated_at": "2026-09-24 17:17:30 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 4.96,
@@ -7,8 +7,8 @@
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 31.78,
-    "oil": 94.46
+    "usdtwd": 31.79,
+    "oil": 94.2
   },
   "history": {
     "fed_rate": {
