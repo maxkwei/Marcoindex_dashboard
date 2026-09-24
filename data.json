@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 16:14:04 (UTC)",
+  "updated_at": "2026-09-24 16:16:22 (UTC)",
   "market": {
     "us10y": {
       "current": 5.17,
@@ -7,14 +7,14 @@
       "change": 0.06
     },
     "us20y": {
-      "current": 79.73,
+      "current": 79.96,
       "prev": 80.46,
-      "change": -0.73
+      "change": -0.5
     },
     "oil": {
-      "current": 96.71,
+      "current": 96.59,
       "prev": 92.16,
-      "change": 4.55
+      "change": 4.43
     },
     "usdtwd": {
       "current": 31.81,
