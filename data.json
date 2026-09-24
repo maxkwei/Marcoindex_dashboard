@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-09-24 16:16:22 (UTC)",
+  "updated_at": "2026-09-24 16:20:45 (UTC)",
   "market": {
     "us10y": {
-      "current": 5.17,
+      "current": 5.16,
       "prev": 5.11,
-      "change": 0.06
+      "change": 0.05
     },
     "us20y": {
-      "current": 79.96,
+      "current": 79.98,
       "prev": 80.46,
-      "change": -0.5
+      "change": -0.48
     },
     "oil": {
-      "current": 96.59,
+      "current": 96.7,
       "prev": 92.16,
-      "change": 4.43
+      "change": 4.54
     },
     "usdtwd": {
-      "current": 31.81,
+      "current": 31.78,
       "prev": 31.68,
-      "change": 0.13
+      "change": 0.1
     }
   },
   "latest_macro": {
@@ -3916,10 +3916,10 @@
       "source": "news.cnyes.com"
     },
     {
-      "title": "美國公布8月CPI高於預期 外界預料美聯準會將升息 - 公視新聞網PNN",
+      "title": "美國公布8月CPI高於預期 外界預料美聯準會將升息 - news.pts.org.tw",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LRmlrckRwUWljbEdVaURyT2FiMXJZNGdFZTBDOWdRS21kdExRRTd3VWYtUW4yRmxfUWVIWHJoSS1ocTgzLUg3MVMwT1k4VHM?oc=5",
       "published": "Mon, 14 Sep 2026 07:00:00 GMT",
-      "source": "公視新聞網PNN"
+      "source": "news.pts.org.tw"
     },
     {
       "title": "美國CPI將公布！9月恐升息？黃金成最大黑馬？｜美股評析｜豐雲學堂 2026 年 09 月 - sinotrade.com.tw",
