@@ -14,10 +14,10 @@
       --text-sub: #94a3b8;
       --accent-blue: #38bdf8;
       --accent-red: #f87171;
-      --accent-yellow: #fbbf24;
+      --accent-yellow: #facc15;
       --accent-green: #34d399;
       --accent-purple: #c084fc;
-      --accent-orange: #fb923c;
+      --accent-cyan: #06b6d4;
     }
 
     body {
@@ -52,7 +52,7 @@
 
     .chart-title { font-size: 1.1rem; font-weight: 600; color: var(--text-main); margin: 0; }
 
-    /* 指標強迫單列 (Single Row) 排版 */
+    /* 指標單列 (Single Row) 排版 */
     .embedded-metrics-row {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -97,7 +97,7 @@
       <div class="update-time" id="updated-at">資料載入中...</div>
     </header>
 
-    <!-- 區塊 1: 利率指標 (同列排版) -->
+    <!-- 區塊 1: 利率指標 -->
     <div class="chart-card">
       <div class="chart-header">
         <h2 class="chart-title">聯準會利率 vs 美債殖利率 (2000-2026)</h2>
@@ -121,7 +121,7 @@
       </div>
     </div>
 
-    <!-- 區塊 2: 通膨與製造業指標 (同列排版 + 雙Y軸) -->
+    <!-- 區塊 2: 通膨與製造業指標 -->
     <div class="chart-card">
       <div class="chart-header">
         <h2 class="chart-title">CPI 物價指數 vs 製造業 PMI 走勢 (2000-2026)</h2>
@@ -152,7 +152,7 @@
         <div class="embedded-metrics-row-2">
           <div class="metric-badge">
             <span class="metric-label">美元 / 台幣</span>
-            <span class="metric-value" id="val-usdtwd" style="color: var(--accent-orange);">-</span>
+            <span class="metric-value" id="val-usdtwd" style="color: var(--accent-cyan);">-</span>
           </div>
           <div class="metric-badge">
             <span class="metric-label">WTI 原油</span>
@@ -173,6 +173,16 @@
   </div>
 
   <script>
+    const commonXScale = {
+      ticks: {
+        color: '#94a3b8',
+        maxRotation: 0,
+        autoSkip: true,
+        maxTicksLimit: 7
+      },
+      grid: { color: 'rgba(51, 65, 85, 0.4)' }
+    };
+
     async function loadDashboard() {
       try {
         const response = await fetch('data.json?t=' + new Date().getTime());
@@ -198,13 +208,13 @@
             datasets: [
               { label: '聯準會利率 (%)', data: data.history.fed_rate.values, borderColor: '#f87171', backgroundColor: '#f87171', fill: false, pointRadius: 0, borderWidth: 2 },
               { label: '10年美債 (%)', data: data.history.us10y_yield.values, borderColor: '#38bdf8', backgroundColor: '#38bdf8', fill: false, pointRadius: 0, borderWidth: 2 },
-              { label: '20年美債 (%)', data: data.history.us20y_yield.values, borderColor: '#fbbf24', backgroundColor: '#fbbf24', fill: false, pointRadius: 0, borderWidth: 2 }
+              { label: '20年美債 (%)', data: data.history.us20y_yield.values, borderColor: '#facc15', backgroundColor: '#facc15', fill: false, pointRadius: 0, borderWidth: 2 }
             ]
           },
-          options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } }, scales: { x: { ticks: { color: '#94a3b8' } }, y: { ticks: { color: '#94a3b8' } } } }
+          options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } }, scales: { x: commonXScale, y: { ticks: { color: '#94a3b8' } } } }
         });
 
-        // 2. CPI 與 PMI 走勢圖 (啟用雙 Y 軸解析度)
+        // 2. CPI 與 PMI 走勢圖
         new Chart(document.getElementById('cpiPmiChart'), {
           type: 'line',
           data: {
@@ -220,21 +230,21 @@
             maintainAspectRatio: false,
             plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
             scales: {
-              x: { ticks: { color: '#94a3b8' } },
+              x: commonXScale,
               y: { type: 'linear', display: true, position: 'left', ticks: { color: '#34d399' }, title: { display: true, text: 'CPI 指數', color: '#34d399' } },
               y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#38bdf8' }, grid: { drawOnChartArea: false }, title: { display: true, text: 'PMI 指數', color: '#38bdf8' } }
             }
           }
         });
 
-        // 3. 美元/台幣與原油價格圖 (雙 Y 軸)
+        // 3. 美元/台幣與原油價格圖
         new Chart(document.getElementById('forexOilChart'), {
           type: 'line',
           data: {
             labels: data.history.usdtwd.dates,
             datasets: [
-              { label: '美元/台幣 (左軸)', data: data.history.usdtwd.values, borderColor: '#fb923c', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
-              { label: 'WTI 原油美元 (右軸)', data: data.history.oil.values, borderColor: '#fbbf24', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
+              { label: '美元/台幣 (左軸)', data: data.history.usdtwd.values, borderColor: '#06b6d4', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: 'WTI 原油美元 (右軸)', data: data.history.oil.values, borderColor: '#facc15', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
             ]
           },
           options: {
@@ -242,9 +252,9 @@
             maintainAspectRatio: false,
             plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
             scales: {
-              x: { ticks: { color: '#94a3b8' } },
-              y: { type: 'linear', display: true, position: 'left', ticks: { color: '#fb923c' }, title: { display: true, text: '匯率 (TWD)', color: '#fb923c' } },
-              y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#fbbf24' }, grid: { drawOnChartArea: false }, title: { display: true, text: '原油 (USD)', color: '#fbbf24' } }
+              x: commonXScale,
+              y: { type: 'linear', display: true, position: 'left', ticks: { color: '#06b6d4' }, title: { display: true, text: '匯率 (TWD)', color: '#06b6d4' } },
+              y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#facc15' }, grid: { drawOnChartArea: false }, title: { display: true, text: '原油 (USD)', color: '#facc15' } }
             }
           }
         });
@@ -259,7 +269,7 @@
         `).join('');
 
       } catch (err) {
-        document.getElementById('updated-at').innerText = '數據載入中，請執行 Actions 產生數據。';
+        document.getElementById('updated-at').innerText = '數據載入中，請確認 data.json 狀態。';
       }
     }
 
