@@ -82,6 +82,80 @@
 
     .canvas-wrapper { position: relative; height: 320px; width: 100%; }
 
+    /* 新增：指標對照說明摺疊區塊 */
+    .info-collapse {
+      margin-top: 15px;
+      border-top: 1px dashed var(--border-color);
+      padding-top: 12px;
+    }
+
+    .info-collapse details {
+      background: rgba(15, 23, 42, 0.5);
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      padding: 10px 14px;
+    }
+
+    .info-collapse summary {
+      cursor: pointer;
+      color: var(--accent-blue);
+      font-size: 0.88rem;
+      font-weight: 600;
+      user-select: none;
+    }
+
+    .info-collapse summary:hover {
+      color: var(--text-main);
+    }
+
+    .info-content {
+      margin-top: 12px;
+      font-size: 0.83rem;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .info-box {
+      background: rgba(30, 41, 59, 0.8);
+      border-radius: 6px;
+      padding: 10px;
+      border-left: 3px solid var(--accent-blue);
+    }
+
+    .info-box.yellow { border-left-color: var(--accent-yellow); }
+    .info-box.red { border-left-color: var(--accent-red); }
+
+    .info-box h4 {
+      margin: 0 0 5px 0;
+      font-size: 0.9rem;
+      color: var(--text-main);
+    }
+
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 0.8rem;
+    }
+
+    .info-table th, .info-table td {
+      border: 1px solid var(--border-color);
+      padding: 6px 10px;
+      text-align: left;
+    }
+
+    .info-table th {
+      background: rgba(15, 23, 42, 0.8);
+      color: var(--accent-blue);
+    }
+
     .news-section { background: var(--card-bg); padding: 20px; border-radius: 12px; border: 1px solid var(--border-color); }
     .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
     .news-item { background: rgba(15, 23, 42, 0.4); padding: 12px; border-radius: 8px; border: 1px solid var(--border-color); }
@@ -97,7 +171,7 @@
       <div class="update-time" id="updated-at">資料載入中...</div>
     </header>
 
-    <!-- 區塊 1: 利率指標 -->
+    <!-- 區塊 1: 利率指標與美債對照說明 -->
     <div class="chart-card">
       <div class="chart-header">
         <h2 class="chart-title">聯準會利率 vs 美債殖利率 (2000-2026)</h2>
@@ -116,8 +190,55 @@
           </div>
         </div>
       </div>
+
       <div class="canvas-wrapper">
         <canvas id="ratesChart"></canvas>
+      </div>
+
+      <!-- 美債參考價值與儀表板對照說明 -->
+      <div class="info-collapse">
+        <details>
+          <summary>💡 點擊查看 10年/20年美債參考價值與儀表板對照說明</summary>
+          <div class="info-content">
+            <div class="info-grid">
+              <div class="info-box">
+                <h4>📌 10 年期美國公債（全球資產定價錨點）</h4>
+                <ul>
+                  <li><strong>無風險利率基準：</strong> 全球房貸、企業融資成本與股市估值的定價基礎。</li>
+                  <li><strong>景氣與通膨風向球：</strong> 殖利率上升代表預期經濟強勁或通膨升溫；下降代表避險需求增加或預期降息。</li>
+                </ul>
+              </div>
+
+              <div class="info-box yellow">
+                <h4>📌 20 年期美國公債（長端資金與 TLT 核心標的）</h4>
+                <ul>
+                  <li><strong>長天期債券 ETF 錨點：</strong> 為 TLT 等熱門美債 ETF 的核心追蹤標的，對「降息預期與價差收益」高度敏感。</li>
+                  <li><strong>發債與流動性壓力：</strong> 為財政部長端發債測試劑，市場供需若不佳會帶動長端殖利率飆升。</li>
+                </ul>
+              </div>
+            </div>
+
+            <h4 style="margin-top: 12px; margin-bottom: 5px; color: var(--accent-blue);">📊 儀表板組合觀察指南：</h4>
+            <table class="info-table">
+              <thead>
+                <tr>
+                  <th>對照組合</th>
+                  <th>市場觀察重點與總經含義</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>10年期 vs 20年期利差</strong></td>
+                  <td>觀察長端殖利率曲線。若 20 年期顯著高於 10 年期，代表市場要求長端風險補償（如財政赤字或長期通膨）；若利差收窄代表曲線平坦。</td>
+                </tr>
+                <tr>
+                  <td><strong>聯準會利率 vs 長天期美債</strong></td>
+                  <td>當聯準會維持高利率，但 10Y/20Y 美債殖利率率先回落時，代表市場超前部署預估未來經濟放緩、央行即將啟動降息循環。</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
       </div>
     </div>
 
