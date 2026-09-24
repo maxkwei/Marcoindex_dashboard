@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 15:57:19 (UTC)",
+  "updated_at": "2026-09-24 15:59:00 (UTC)",
   "market": {
     "us10y": {
       "current": 5.16,
@@ -7,9 +7,9 @@
       "change": 0.05
     },
     "oil": {
-      "current": 96.15,
+      "current": 96.2,
       "prev": 92.16,
-      "change": 3.99
+      "change": 4.04
     },
     "usdtwd": {
       "current": 31.82,
@@ -31,10 +31,10 @@
       "source": "news.cnyes.com"
     },
     {
-      "title": "美聯準官員立場分歧：鮑爾森暗示進一步升息，哈馬克警告通膨風險 - BigGo 財經",
+      "title": "美聯準官員立場分歧：鮑爾森暗示進一步升息，哈馬克警告通膨風險 - finance.biggo.com.tw",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrdlBnUTRFcG9PSVg4emJqY0xrUFB1MHBXaFQwUFNEbTYzSkNkTnFqaDVoMThLV05fME5rX2R0LVVPOWIzY2VsSGtBdWhQcGtNbzU5ckc1MHgxd1N1U1hsbWI1NmltMmdtWHFTaUFOUlFOVTlCT3Z4d3B3?oc=5",
       "published": "Thu, 24 Sep 2026 15:26:00 GMT",
-      "source": "BigGo 財經"
+      "source": "finance.biggo.com.tw"
     },
     {
       "title": "美債殖利率、油價回升 美股三大指數下跌 台指期夜盤持續維持48K高檔 - 工商時報",
