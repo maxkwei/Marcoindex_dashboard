@@ -11,6 +11,7 @@ def fetch_fred_and_market_data():
     """從 FRED 與 yfinance 抓取 2000-2026 的歷史走勢與最新報價"""
     print("正在抓取總經與市場數據...")
 
+    # FRED 基礎數據
     series_map = {
         "fed_rate": "DFF",
         "us10y_yield": "DGS10",
@@ -23,7 +24,6 @@ def fetch_fred_and_market_data():
     }
 
     start_date = "2000-01-01"
-    # 強制抓取至當前最新日期 (含 2026 年最新月份)
     end_date = datetime.now().strftime("%Y-%m-%d")
 
     history_data = {}
@@ -34,10 +34,8 @@ def fetch_fred_and_market_data():
             df = web.DataReader(code, "fred", start_date, end_date)
             df = df.dropna()
 
-            # 月度重採樣，並保留最新一筆日資料作為最新月份點
             df_resampled = df.resample("ME").last().dropna()
 
-            # 確保最後一筆最新的日資料有被包進去 (避免遺漏 2026 最新數據)
             if not df.empty and (
                 df_resampled.empty
                 or df.index[-1].strftime("%Y-%m")
@@ -48,20 +46,45 @@ def fetch_fred_and_market_data():
             dates = df_resampled.index.strftime("%Y-%m").tolist()
             values = [round(float(v), 2) for v in df_resampled[code].values]
 
-            # 若為 PMI 數據，轉換放大為標準 0-100 指數區間
+            # PMI 修正為 0-100 指數
             if name == "pmi":
                 values = [
-                    round(v * 100 + 50, 1) if v < 10 else v for v in values
+                    round(v * 100 + 50, 1) if v < 10 else round(v, 1)
+                    for v in values
                 ]
 
             history_data[name] = {"dates": dates, "values": values}
             latest_macro[name] = values[-1] if len(values) > 0 else "N/A"
         except Exception as e:
-            print(f"抓取 {code} 失敗: {e}")
+            print(f"抓取 FRED {code} 失敗: {e}")
             history_data[name] = {"dates": [], "values": []}
             latest_macro[name] = "N/A"
 
-    # 即時補齊最新市場價格 (yfinance)
+    # 使用 yfinance 抓取黃金 (GC=F) 歷史數據與即時價格（最穩定）
+    try:
+        gold_df = yf.download(
+            "GC=F", start=start_date, end=end_date, interval="1mo"
+        )
+        if not gold_df.empty:
+            gold_df = gold_df.dropna()
+            gold_dates = gold_df.index.strftime("%Y-%m").tolist()
+            gold_values = [
+                round(float(v), 1) for v in gold_df["Close"].values
+            ]
+            history_data["gold"] = {"dates": gold_dates, "values": gold_values}
+            latest_macro["gold"] = gold_values[-1]
+        else:
+            raise Exception("Gold df empty")
+    except Exception as e:
+        print(f"yfinance 黃金歷史抓取失敗: {e}")
+        # 備用機制
+        history_data["gold"] = {
+            "dates": history_data["oil"]["dates"],
+            "values": [],
+        }
+        latest_macro["gold"] = "N/A"
+
+    # 即時報價補齊
     try:
         twd_ticker = yf.Ticker("USDTWD=X").history(period="2d")
         if not twd_ticker.empty:
@@ -72,6 +95,12 @@ def fetch_fred_and_market_data():
         oil_ticker = yf.Ticker("CL=F").history(period="2d")
         if not oil_ticker.empty:
             latest_macro["oil"] = round(float(oil_ticker["Close"].iloc[-1]), 2)
+
+        gold_ticker = yf.Ticker("GC=F").history(period="2d")
+        if not gold_ticker.empty:
+            latest_macro["gold"] = round(
+                float(gold_ticker["Close"].iloc[-1]), 2
+            )
     except Exception as e:
         print(f"yfinance 即時更新失敗: {e}")
 
@@ -81,7 +110,7 @@ def fetch_fred_and_market_data():
 def fetch_macro_news():
     """抓取即時新聞"""
     print("正在抓取即時總經新聞...")
-    queries = ["聯準會 利率 美債", "通膨 CPI 油價", "美元 台幣 匯率"]
+    queries = ["聯準會 利率 美債", "通膨 CPI 油價 黃金", "美元 台幣 匯率"]
 
     news_list = []
     for q in queries:
@@ -123,7 +152,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("成功更新 data.json (含 2026 最新時間軸)！")
+    print("成功更新 data.json！")
 
 
 if __name__ == "__main__":
