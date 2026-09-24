@@ -8,10 +8,16 @@ import yfinance as yf
 
 
 def fetch_fred_and_market_data():
-    """從 FRED 與 yfinance 抓取 2000-2026 的歷史走勢與最新報價"""
+    """從 FRED 與 yfinance 抓取數據並對齊統一時間軸 (2000-2026)"""
     print("正在抓取總經與市場數據...")
 
-    # FRED 基礎數據
+    start_date = "2000-01-01"
+    end_date = datetime.now().strftime("%Y-%m-%d")
+
+    # 建立統一的月度時間序列基準 (2000-01 到 當前年月)
+    date_range = pd.date_range(start=start_date, end=end_date, freq="ME")
+    master_dates = date_range.strftime("%Y-%m").tolist()
+
     series_map = {
         "fed_rate": "DFF",
         "us10y_yield": "DGS10",
@@ -21,10 +27,8 @@ def fetch_fred_and_market_data():
         "pmi": "MANMM101USM657S",
         "usdtwd": "DEXTAUS",
         "oil": "DCOILWTICO",
+        "gold": "GOLDAMGBD228NLBM",
     }
-
-    start_date = "2000-01-01"
-    end_date = datetime.now().strftime("%Y-%m-%d")
 
     history_data = {}
     latest_macro = {}
@@ -33,74 +37,45 @@ def fetch_fred_and_market_data():
         try:
             df = web.DataReader(code, "fred", start_date, end_date)
             df = df.dropna()
+            df_resampled = df.resample("ME").last().ffill()
 
-            df_resampled = df.resample("ME").last().dropna()
+            # 將資料對齊主時間軸
+            df_resampled.index = df_resampled.index.strftime("%Y-%m")
+            aligned_s = df_resampled[code].reindex(master_dates).ffill().bfill()
 
-            if not df.empty and (
-                df_resampled.empty
-                or df.index[-1].strftime("%Y-%m")
-                != df_resampled.index[-1].strftime("%Y-%m")
-            ):
-                df_resampled = pd.concat([df_resampled, df.iloc[[-1]]])
+            values = [round(float(v), 2) for v in aligned_s.values]
 
-            dates = df_resampled.index.strftime("%Y-%m").tolist()
-            values = [round(float(v), 2) for v in df_resampled[code].values]
-
-            # PMI 修正為 0-100 指數
+            # PMI 轉為 0-100 指數
             if name == "pmi":
                 values = [
                     round(v * 100 + 50, 1) if v < 10 else round(v, 1)
                     for v in values
                 ]
 
-            history_data[name] = {"dates": dates, "values": values}
+            history_data[name] = {"dates": master_dates, "values": values}
             latest_macro[name] = values[-1] if len(values) > 0 else "N/A"
         except Exception as e:
             print(f"抓取 FRED {code} 失敗: {e}")
-            history_data[name] = {"dates": [], "values": []}
+            history_data[name] = {"dates": master_dates, "values": []}
             latest_macro[name] = "N/A"
 
-    # 使用 yfinance 抓取黃金 (GC=F) 歷史數據與即時價格（最穩定）
+    # 用 yfinance 補齊最新黃金價格，避免 FRED 延遲
     try:
-        gold_df = yf.download(
-            "GC=F", start=start_date, end=end_date, interval="1mo"
-        )
-        if not gold_df.empty:
-            gold_df = gold_df.dropna()
-            gold_dates = gold_df.index.strftime("%Y-%m").tolist()
-            gold_values = [
-                round(float(v), 1) for v in gold_df["Close"].values
-            ]
-            history_data["gold"] = {"dates": gold_dates, "values": gold_values}
-            latest_macro["gold"] = gold_values[-1]
-        else:
-            raise Exception("Gold df empty")
-    except Exception as e:
-        print(f"yfinance 黃金歷史抓取失敗: {e}")
-        # 備用機制
-        history_data["gold"] = {
-            "dates": history_data["oil"]["dates"],
-            "values": [],
-        }
-        latest_macro["gold"] = "N/A"
+        gold_ticker = yf.Ticker("GC=F").history(period="5d")
+        if not gold_ticker.empty:
+            latest_macro["gold"] = round(
+                float(gold_ticker["Close"].iloc[-1]), 1
+            )
 
-    # 即時報價補齊
-    try:
-        twd_ticker = yf.Ticker("USDTWD=X").history(period="2d")
+        twd_ticker = yf.Ticker("USDTWD=X").history(period="5d")
         if not twd_ticker.empty:
             latest_macro["usdtwd"] = round(
                 float(twd_ticker["Close"].iloc[-1]), 2
             )
 
-        oil_ticker = yf.Ticker("CL=F").history(period="2d")
+        oil_ticker = yf.Ticker("CL=F").history(period="5d")
         if not oil_ticker.empty:
             latest_macro["oil"] = round(float(oil_ticker["Close"].iloc[-1]), 2)
-
-        gold_ticker = yf.Ticker("GC=F").history(period="2d")
-        if not gold_ticker.empty:
-            latest_macro["gold"] = round(
-                float(gold_ticker["Close"].iloc[-1]), 2
-            )
     except Exception as e:
         print(f"yfinance 即時更新失敗: {e}")
 
@@ -152,8 +127,9 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("成功更新 data.json！")
+    print("成功更新數據，時間軸已完美對齊！")
 
 
 if __name__ == "__main__":
     main()
+
