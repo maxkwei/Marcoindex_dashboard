@@ -267,7 +267,7 @@
       </div>
     </div>
 
-    <!-- 區塊 3: 外匯、原油與黃金價格 (高對比鮮橘/亮金配色) -->
+    <!-- 區塊 3: 外匯、原油與黃金價格 -->
     <div class="chart-card">
       <div class="chart-header">
         <h2 class="chart-title">美元/台幣 vs 原油價格 vs 黃金價格 (2000-2026)</h2>
@@ -305,6 +305,7 @@
           color: '#94a3b8',
           maxRotation: 0,
           callback: function(value, index) {
+            if (!labels || labels.length === 0) return '';
             const label = labels[index];
             if (!label) return '';
             if (index === labels.length - 1) return label;
@@ -335,9 +336,10 @@
         document.getElementById('val-oil').innerText = (data.latest_macro.oil || '-') + ' $';
         document.getElementById('val-gold').innerText = (data.latest_macro.gold || '-') + ' $';
 
-        const rateDates = data.history.fed_rate.dates;
-        const cpiDates = data.history.cpi.dates;
-        const forexDates = data.history.usdtwd.dates;
+        const rateDates = (data.history.fed_rate && data.history.fed_rate.dates) || [];
+        const cpiDates = (data.history.cpi && data.history.cpi.dates) || [];
+        const forexDates = (data.history.usdtwd && data.history.usdtwd.dates) || [];
+        const goldDates = (data.history.gold && data.history.gold.dates) || forexDates;
 
         // 1. 利率走勢圖
         new Chart(document.getElementById('ratesChart'), {
@@ -376,15 +378,16 @@
           }
         });
 
-        // 3. 美元/台幣 vs 原油 vs 黃金走勢圖 (三色超高對比)
+        // 3. 美元/台幣 vs 原油 vs 黃金走勢圖
+        const goldValues = (data.history.gold && data.history.gold.values) || [];
         new Chart(document.getElementById('forexOilGoldChart'), {
           type: 'line',
           data: {
-            labels: forexDates,
+            labels: goldDates.length > 0 ? goldDates : forexDates,
             datasets: [
               { label: '美元/台幣 (左軸)', data: data.history.usdtwd.values, borderColor: '#06b6d4', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
               { label: 'WTI 原油美元 (右軸)', data: data.history.oil.values, borderColor: '#f97316', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 },
-              { label: '黃金價格美元 (右軸)', data: data.history.gold.values, borderColor: '#eab308', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2, borderDash: [2, 2] }
+              { label: '黃金價格美元 (右軸)', data: goldValues, borderColor: '#eab308', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2, borderDash: [2, 2] }
             ]
           },
           options: {
@@ -392,7 +395,7 @@
             maintainAspectRatio: false,
             plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
             scales: {
-              x: buildRightPrioritizedXScale(forexDates),
+              x: buildRightPrioritizedXScale(goldDates.length > 0 ? goldDates : forexDates),
               y: { type: 'linear', display: true, position: 'left', ticks: { color: '#06b6d4' }, title: { display: true, text: '匯率 (TWD)', color: '#06b6d4' } },
               y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#f97316' }, grid: { drawOnChartArea: false }, title: { display: true, text: '原油/黃金 (USD)', color: '#f97316' } }
             }
