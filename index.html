@@ -1,91 +1,118 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>總體經濟與聯準會動態自動追蹤面板</title>
-    <style>
-        body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #0f172a; padding: 24px; max-width: 1200px; margin: 0 auto; }
-        header { border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: baseline; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-bottom: 24px; }
-        .card { background: #ffffff; border: 1px solid #e2e8f0; padding: 18px; border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
-        .card-title { font-size: 0.9rem; color: #64748b; font-weight: 600; }
-        .card-value { font-size: 1.8rem; font-weight: 700; margin: 8px 0; color: #1e293b; }
-        .news-box { background: #ffffff; border: 1px solid #e2e8f0; padding: 20px; border-radius: 10px; }
-        .news-item { border-bottom: 1px solid #f1f5f9; padding: 10px 0; }
-        .news-item:last-child { border-bottom: none; }
-        .news-title { color: #2563eb; text-decoration: none; font-weight: 600; }
-        .news-title:hover { text-decoration: underline; }
-        .news-meta { font-size: 0.75rem; color: #94a3b8; margin-top: 4px; }
-        .status-tag { font-size: 0.8rem; background: #dbeafe; color: #1e40af; padding: 4px 8px; border-radius: 4px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全球總經與關鍵指標儀表板 (2000-2026)</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #0f172a; color: #f8fafc; margin: 0; padding: 20px; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    h1 { text-align: center; color: #38bdf8; margin-bottom: 5px; }
+    .update-time { text-align: center; color: #94a3b8; font-size: 0.9em; margin-bottom: 25px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-bottom: 30px; }
+    .card { background: #1e293b; padding: 15px; border-radius: 10px; border: 1px solid #334155; text-align: center; }
+    .card h3 { margin: 0 0 10px 0; color: #cbd5e1; font-size: 1em; }
+    .card .val { font-size: 1.6em; font-weight: bold; color: #f8fafc; }
+    .chart-container { background: #1e293b; border-radius: 12px; border: 1px solid #334155; padding: 20px; margin-bottom: 25px; }
+    .news-section { background: #1e293b; padding: 20px; border-radius: 12px; border: 1px solid #334155; }
+    .news-item { margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid #334155; }
+    .news-item a { color: #38bdf8; text-decoration: none; font-weight: 500; }
+    .news-item a:hover { text-decoration: underline; }
+    .news-meta { font-size: 0.8em; color: #64748b; margin-top: 4px; }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <h1>全球總體經濟與利率儀表板</h1>
+    <div class="update-time" id="updated-at">資料載入中...</div>
 
-<header>
-    <h1>📊 全球總經與美聯儲決策自動追蹤面板</h1>
-    <div id="update-time" style="font-size: 0.85rem; color: #64748b;">數據載入中...</div>
-</header>
-
-<div class="grid">
-    <div class="card">
-        <div class="card-title">🇺🇸 10年期美債殖利率 (US10Y)</div>
-        <div class="card-value" id="us10y-val">--%</div>
-        <span class="status-tag">影響房貸/企業借貸成本</span>
+    <!-- 頂部數據卡片 -->
+    <div class="grid">
+      <div class="card"><h3>聯準會基準利率</h3><div class="val" id="fed-rate">- %</div></div>
+      <div class="card"><h3>10年期美債殖利率</h3><div class="val" id="us10y">- %</div></div>
+      <div class="card"><h3>20年期美債殖利率</h3><div class="val" id="us20y">- %</div></div>
+      <div class="card"><h3>消費者物價指數 (CPI)</h3><div class="val" id="cpi">-</div></div>
+      <div class="card"><h3>核心 CPI</h3><div class="val" id="core-cpi">-</div></div>
+      <div class="card"><h3>製造業 PMI 指數</h3><div class="val" id="pmi">-</div></div>
     </div>
-    <div class="card">
-        <div class="card-title">🛢️ WTI 原油價格 (USD/桶)</div>
-        <div class="card-value" id="oil-val">$--</div>
-        <span class="status-tag">通膨與地緣政治核心因子</span>
+
+    <!-- 2000-2026 走勢圖表區塊 -->
+    <div class="chart-container">
+      <h2>聯準會利率 vs 10年/20年期美債殖利率走勢 (2000 - 2026)</h2>
+      <canvas id="ratesChart"></canvas>
     </div>
-    <div class="card">
-        <div class="card-title">💱 美元/台幣匯率 (USD/TWD)</div>
-        <div class="card-value" id="usdtwd-val">$--</div>
-        <span class="status-tag">利差與資本流向指標</span>
+
+    <div class="chart-container">
+      <h2>美國 CPI 與核心 CPI 物價指數走勢 (2000 - 2026)</h2>
+      <canvas id="cpiChart"></canvas>
     </div>
-</div>
 
-<div class="news-box">
-    <h3>📰 當日影響通膨、油價與聯準會決策之重點新聞</h3>
-    <div id="news-container">新聞加載中...</div>
-</div>
+    <!-- 即時新聞 -->
+    <div class="news-section">
+      <h2>最新總經與市場新聞</h2>
+      <div id="news-list">載入新聞中...</div>
+    </div>
+  </div>
 
-<script>
-    async function loadDashboardData() {
-        try {
-            // 讀取自動更新產生的 data.json
-            const response = await fetch('./data.json?t=' + new Date().getTime());
-            const data = await response.json();
+  <script>
+    async function loadDashboard() {
+      try {
+        const response = await fetch('data.json?t=' + new Date().getTime());
+        const data = await response.json();
 
-            document.getElementById('update-time').innerText = '最後自動更新時間：' + data.updated_at;
+        document.getElementById('updated-at').innerText = '最後更新時間：' + data.updated_at;
 
-            // 填入市場價格
-            document.getElementById('us10y-val').innerText = data.market.us10y.current + '%';
-            document.getElementById('oil-val').innerText = '$' + data.market.oil.current;
-            document.getElementById('usdtwd-val').innerText = data.market.usdtwd.current;
+        // 填入最新數值
+        document.getElementById('fed-rate').innerText = (data.latest_macro.fed_rate || '-') + ' %';
+        document.getElementById('us10y').innerText = (data.latest_macro.us10y_yield || '-') + ' %';
+        document.getElementById('us20y').innerText = (data.latest_macro.us20y_yield || '-') + ' %';
+        document.getElementById('cpi').innerText = data.latest_macro.cpi || '-';
+        document.getElementById('core-cpi').innerText = data.latest_macro.core_cpi || '-';
+        document.getElementById('pmi').innerText = data.latest_macro.pmi || '-';
 
-            // 渲染即時新聞清單
-            const newsContainer = document.getElementById('news-container');
-            newsContainer.innerHTML = '';
-            
-            data.news.forEach(item => {
-                const newsDiv = document.createElement('div');
-                newsDiv.className = 'news-item';
-                newsDiv.innerHTML = `
-                    <a class="news-title" href="${item.link}" target="_blank">${item.title}</a>
-                    <div class="news-meta">來源：${item.source} | 發布時間：${item.published}</div>
-                `;
-                newsContainer.appendChild(newsDiv);
-            });
+        // 渲染圖表 1: 利率與美債走勢
+        new Chart(document.getElementById('ratesChart'), {
+          type: 'line',
+          data: {
+            labels: data.history.fed_rate.dates,
+            datasets: [
+              { label: '聯準會利率 (%)', data: data.history.fed_rate.values, borderColor: '#ef4444', fill: false, pointRadius: 0 },
+              { label: '10年美債殖利率 (%)', data: data.history.us10y_yield.values, borderColor: '#38bdf8', fill: false, pointRadius: 0 },
+              { label: '20年美債殖利率 (%)', data: data.history.us20y_yield.values, borderColor: '#f59e0b', fill: false, pointRadius: 0 }
+            ]
+          },
+          options: { responsive: true, plugins: { legend: { labels: { color: '#f8fafc' } } }, scales: { x: { ticks: { color: '#94a3b8' } }, y: { ticks: { color: '#94a3b8' } } } }
+        });
 
-        } catch (error) {
-            console.error('數據讀取失敗:', error);
-            document.getElementById('update-time').innerText = '數據讀取失敗，請確認 data.json 是否已產生。';
-        }
+        // 渲染圖表 2: CPI 走勢
+        new Chart(document.getElementById('cpiChart'), {
+          type: 'line',
+          data: {
+            labels: data.history.cpi.dates,
+            datasets: [
+              { label: 'CPI 物價指數', data: data.history.cpi.values, borderColor: '#10b981', fill: false, pointRadius: 0 },
+              { label: '核心 CPI', data: data.history.core_cpi.values, borderColor: '#a855f7', fill: false, pointRadius: 0 }
+            ]
+          },
+          options: { responsive: true, plugins: { legend: { labels: { color: '#f8fafc' } } }, scales: { x: { ticks: { color: '#94a3b8' } }, y: { ticks: { color: '#94a3b8' } } } }
+        });
+
+        // 渲染新聞
+        const newsContainer = document.getElementById('news-list');
+        newsContainer.innerHTML = data.news.map(item => `
+          <div class="news-item">
+            <a href="${item.link}" target="_blank">${item.title}</a>
+            <div class="news-meta">${item.source} • ${item.published}</div>
+          </div>
+        `).join('');
+
+      } catch (err) {
+        document.getElementById('updated-at').innerText = '讀取失敗，請確認手動執行 Actions 產生最新數據。';
+      }
     }
 
-    loadDashboardData();
-</script>
-
+    loadDashboard();
+  </script>
 </body>
 </html>
