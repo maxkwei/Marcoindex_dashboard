@@ -1,92 +1,76 @@
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>總體經濟與聯準會動態自動追蹤面板</title>
-    <style>
-        body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #0f172a; padding: 24px; max-width: 1200px; margin: 0 auto; }
-        header { border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: baseline; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-bottom: 24px; }
-        .card { background: #ffffff; border: 1px solid #e2e8f0; padding: 18px; border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
-        .card-title { font-size: 0.9rem; color: #64748b; font-weight: 600; }
-        .card-value { font-size: 1.8rem; font-weight: 700; margin: 8px 0; color: #1e293b; }
-        .news-box { background: #ffffff; border: 1px solid #e2e8f0; padding: 20px; border-radius: 10px; }
-        .news-item { border-bottom: 1px solid #f1f5f9; padding: 10px 0; }
-        .news-item:last-child { border-bottom: none; }
-        .news-title { color: #2563eb; text-decoration: none; font-weight: 600; }
-        .news-title:hover { text-decoration: underline; }
-        .news-meta { font-size: 0.75rem; color: #94a3b8; margin-top: 4px; }
-        .status-tag { font-size: 0.8rem; background: #dbeafe; color: #1e40af; padding: 4px 8px; border-radius: 4px; }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>📊 全球總經與美聯儲決策自動追蹤面板</h1>
-    <div id="update-time" style="font-size: 0.85rem; color: #64748b;">數據載入中...</div>
-</header>
-
-<div class="grid">
-    <div class="card">
-        <div class="card-title">🇺🇸 10年期美債殖利率 (US10Y)</div>
-        <div class="card-value" id="us10y-val">--%</div>
-        <span class="status-tag">影響房貸/企業借貸成本</span>
-    </div>
-    <div class="card">
-        <div class="card-title">🛢️ WTI 原油價格 (USD/桶)</div>
-        <div class="card-value" id="oil-val">$--</div>
-        <span class="status-tag">通膨與地緣政治核心因子</span>
-    </div>
-    <div class="card">
-        <div class="card-title">💱 美元/台幣匯率 (USD/TWD)</div>
-        <div class="card-value" id="usdtwd-val">$--</div>
-        <span class="status-tag">利差與資本流向指標</span>
-    </div>
-</div>
-
-<div class="news-box">
-    <h3>📰 當日影響通膨、油價與聯準會決策之重點新聞</h3>
-    <div id="news-container">新聞加載中...</div>
-</div>
-
-<script>
-    async function loadDashboardData() {
-        try {
-            // 讀取自動更新產生的 data.json
-            const response = await fetch('./data.json?t=' + new Date().getTime());
-            const data = await response.json();
-
-            document.getElementById('update-time').innerText = '最後自動更新時間：' + data.updated_at;
-
-            // 填入市場價格
-            document.getElementById('us10y-val').innerText = data.market.us10y.current + '%';
-            document.getElementById('oil-val').innerText = '$' + data.market.oil.current;
-            document.getElementById('usdtwd-val').innerText = data.market.usdtwd.current;
-
-            // 渲染即時新聞清單
-            const newsContainer = document.getElementById('news-container');
-            newsContainer.innerHTML = '';
-            
-            data.news.forEach(item => {
-                const newsDiv = document.createElement('div');
-                newsDiv.className = 'news-item';
-                newsDiv.innerHTML = `
-                    <a class="news-title" href="${item.link}" target="_blank">${item.title}</a>
-                    <div class="news-meta">來源：${item.source} | 發布時間：${item.published}</div>
-                `;
-                newsContainer.appendChild(newsDiv);
-            });
-
-        } catch (error) {
-            console.error('數據讀取失敗:', error);
-            document.getElementById('update-time').innerText = '數據讀取失敗，請確認 data.json 是否已產生。';
-        }
+{
+  "updated_at": "2026-09-24 15:57:19 (UTC)",
+  "market": {
+    "us10y": {
+      "current": 5.16,
+      "prev": 5.11,
+      "change": 0.05
+    },
+    "oil": {
+      "current": 96.15,
+      "prev": 92.16,
+      "change": 3.99
+    },
+    "usdtwd": {
+      "current": 31.82,
+      "prev": 31.68,
+      "change": 0.14
     }
-
-    loadDashboardData();
-</script>
-
-</body>
-</html>
-
+  },
+  "news": [
+    {
+      "title": "通膨不失控，利率先放鷹：聯準會用實質利率慢火燉熬通膨？ - 今周刊",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSGxSSDVsQ2FSc2tLM1lVZzNRdGVBUTBEb2pobm1keXBzdmJJS2ZIbnQ0dTFwMEZsSDE5di1LRko5aDNIdEpzdVNFWDJFVFBlbjEzTkN6WFRleHZaRll0WFd4WEZVc1JoREhwb3hnd2xfMmRMVEdrMEhxZlV0dFBrNw?oc=5",
+      "published": "Thu, 24 Sep 2026 09:34:00 GMT",
+      "source": "今周刊"
+    },
+    {
+      "title": "白宮顧問哈塞特對Fed開砲！質疑通膨已降為何升息 痛批非川普派官員政治化 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KWUFtUEtZNHpKQW1nbmJXWlFXejh1eDBCYVMxd3hpOUdVOEZCTGI4YUFDNXZ2aXp0clBSNFdGUHh4LWxibmRtWVp0ZUFwRlU?oc=5",
+      "published": "Thu, 24 Sep 2026 11:30:04 GMT",
+      "source": "news.cnyes.com"
+    },
+    {
+      "title": "美聯準官員立場分歧：鮑爾森暗示進一步升息，哈馬克警告通膨風險 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrdlBnUTRFcG9PSVg4emJqY0xrUFB1MHBXaFQwUFNEbTYzSkNkTnFqaDVoMThLV05fME5rX2R0LVVPOWIzY2VsSGtBdWhQcGtNbzU5ckc1MHgxd1N1U1hsbWI1NmltMmdtWHFTaUFOUlFOVTlCT3Z4d3B3?oc=5",
+      "published": "Thu, 24 Sep 2026 15:26:00 GMT",
+      "source": "BigGo 財經"
+    },
+    {
+      "title": "美債殖利率、油價回升 美股三大指數下跌 台指期夜盤持續維持48K高檔 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oY0pxUGlQVXpFem9pbTVaeFZiS0dPX0lTNzc0VW90bW9ibFQ2U2ZEYThDYUlVR2FqZGhLYUNXTGp0dDN4SThqV1p2TkpNZVVWaWpwTUNjd1V5OGVzVndv?oc=5",
+      "published": "Wed, 23 Sep 2026 14:10:00 GMT",
+      "source": "工商時報"
+    },
+    {
+      "title": "油價、美債殖利率又漲！美股指數齊跌 - Yahoo新聞",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQOE9JWkktWG9BZlhHblp6YXlJVzFGOFEydVpIZTFad21sancwSzR3QVJ2N1BUbjZ6OHhZUmg2MFE0bjB3cl8zRjJrbnVodm8zNFF5TEQ2ekh3T1JTVS1weGoydFd2VFVDdFJwLVpVUUprLU1wQnRTRkdOLXFiNlZWelhiMFcwaEhSTFhHdmRwMHlueGRVZWZzSkRDWi13XzdFLTdndXFOMkZ4NXQ3N1NPQ0tfSFZNb1p3bHNyYVVPajAtckVCbmtqWC1Wa2xwUV9RYk5rMTI5dS1VUW1SbGZJaXpUTERwRl9zdWFEbjBxclhXWGFvd05uaFY0SjA3V0VJRmF3UV9SOUcyUQ?oc=5",
+      "published": "Wed, 23 Sep 2026 21:52:32 GMT",
+      "source": "Yahoo新聞"
+    },
+    {
+      "title": "〈美股早盤〉油價與美債殖利率攀升 主要指數開低 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KV044V3NiYnFXRE5nVVprd1NSVkw0RklwOFd0cWJhMk5OQlYzZWVodHZTTGhoVzQ5RUR4X0ZfLVk1TVg4MlNPRkpuazdmODQ?oc=5",
+      "published": "Wed, 23 Sep 2026 13:54:05 GMT",
+      "source": "news.cnyes.com"
+    },
+    {
+      "title": "歐亞集團：亞洲面臨「地緣政治衰退」 長期政經不穩是危機| 國際焦點 - 太報 TaiSounds",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yWkpNaGVJeGZ0UUtKdWlZYTgzR1J5a2RPajVLN21FVWhWT1BoTUp5MGRTWWlpTV9iMlM5X1BOQl9pYUhuanJBVDRCUHlPZkxPaHlFZmNMZlFqS1k2?oc=5",
+      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "source": "太報 TaiSounds"
+    },
+    {
+      "title": "川普又要課台晶片200%關稅 龔明鑫說話了 - 三立新聞",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9uNkRxUzdxaUxoV1dRZjk0d2EzeHZta0FFel95VWs5NHY0OENsb1dEclZkT1pVbENMNUxvZlNMXzBqLUE4eTYyTVRWWQ?oc=5",
+      "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "source": "三立新聞"
+    },
+    {
+      "title": "加拿大「準會員」加入歐盟引來川普關稅威脅 法國稱美國無權干預 - 自由時報",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qNGlGaU1nUzNfTW43VnJWWUNVTHV1dDNPamxBV0xVS2NENFk5V1F3TE1idUMzWERrcmNVSmFvWDJvR3BlS3NGb0ZPbk15RDN3VzBOb3c2T1BQcl94RmhFTzBlTFYwUdIBa0FVX3lxTFB1UFlQUjFxemRLR2hPNEF1TDhBb29DT1pESk96dk9NLXVRTUwybkVVVkZMeEV2YmtrYi0xdWhJeTFhdDJadnoxamZZbmwycWhvMnZIQmpENTZzY3EyVDI4OWN0VWwzUm9RZFVn?oc=5",
+      "published": "Thu, 17 Sep 2026 14:11:52 GMT",
+      "source": "自由時報"
+    }
+  ]
+}
