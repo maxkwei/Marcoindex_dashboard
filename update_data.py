@@ -1,5 +1,6 @@
 import json
 from datetime import datetime
+import urllib.parse
 import feedparser
 import yfinance as yf
 
@@ -42,7 +43,6 @@ def fetch_macro_news():
     """抓取影響總經、通膨與利率的最新即時新聞 RSS"""
     print("正在抓取即時總經新聞...")
 
-    # Google News RSS 搜尋關鍵字：聯準會、美債、通膨、原油、關稅
     queries = [
         "聯準會 利率 通膨",
         "美債殖利率 油價",
@@ -51,20 +51,27 @@ def fetch_macro_news():
 
     news_list = []
     for q in queries:
-        url = f"https://news.google.com/rss/search?q={q}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
-        feed = feedparser.parse(url)
+        try:
+            # 使用 urllib.parse.quote 將中文與空白安全轉碼，避免 InvalidURL 錯誤
+            encoded_query = urllib.parse.quote(q)
+            url = f"https://news.google.com/rss/search?q={encoded_query}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+            feed = feedparser.parse(url)
 
-        for entry in feed.entries[:3]:  # 每個關鍵字取前 3 條最新新聞
-            news_list.append(
-                {
-                    "title": entry.title,
-                    "link": entry.link,
-                    "published": entry.published,
-                    "source": entry.source.title
-                    if hasattr(entry, "source")
-                    else "Google News",
-                }
-            )
+            for entry in feed.entries[:3]:
+                news_list.append(
+                    {
+                        "title": entry.title,
+                        "link": entry.link,
+                        "published": getattr(entry, "published", "最新新聞"),
+                        "source": (
+                            entry.source.title
+                            if hasattr(entry, "source")
+                            else "Google News"
+                        ),
+                    }
+                )
+        except Exception as e:
+            print(f"抓取關鍵字 '{q}' 新聞失敗: {e}")
 
     return news_list
 
@@ -79,7 +86,6 @@ def main():
         "news": news,
     }
 
-    # 寫入 data.json 供前端讀取
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
