@@ -11,10 +11,6 @@ def fetch_fred_and_market_data():
     """從 FRED 與 yfinance 抓取 2000-2026 的歷史走勢與最新報價"""
     print("正在抓取總經與市場數據...")
 
-    # FRED 數據源：
-    # DFF: 聯準會利率, DGS10: 10年美債, DGS20: 20年美債
-    # CPIAUCSL: CPI, CPILFESL: 核心CPI, MANMM101USM657S: PMI趨勢
-    # DEXTAUS: USD/TWD 歷史, DCOILWTICO: WTI 原油歷史
     series_map = {
         "fed_rate": "DFF",
         "us10y_yield": "DGS10",
@@ -27,6 +23,7 @@ def fetch_fred_and_market_data():
     }
 
     start_date = "2000-01-01"
+    # 強制抓取至當前最新日期 (含 2026 年最新月份)
     end_date = datetime.now().strftime("%Y-%m-%d")
 
     history_data = {}
@@ -37,8 +34,16 @@ def fetch_fred_and_market_data():
             df = web.DataReader(code, "fred", start_date, end_date)
             df = df.dropna()
 
-            # 月度重採樣以平滑圖表並降低資料量
+            # 月度重採樣，並保留最新一筆日資料作為最新月份點
             df_resampled = df.resample("ME").last().dropna()
+
+            # 確保最後一筆最新的日資料有被包進去 (避免遺漏 2026 最新數據)
+            if not df.empty and (
+                df_resampled.empty
+                or df.index[-1].strftime("%Y-%m")
+                != df_resampled.index[-1].strftime("%Y-%m")
+            ):
+                df_resampled = pd.concat([df_resampled, df.iloc[[-1]]])
 
             dates = df_resampled.index.strftime("%Y-%m").tolist()
             values = [round(float(v), 2) for v in df_resampled[code].values]
@@ -118,7 +123,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("成功更新 data.json！")
+    print("成功更新 data.json (含 2026 最新時間軸)！")
 
 
 if __name__ == "__main__":
