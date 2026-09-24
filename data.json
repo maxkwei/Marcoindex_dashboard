@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-09-24 16:20:45 (UTC)",
+  "updated_at": "2026-09-24 16:57:14 (UTC)",
   "market": {
     "us10y": {
-      "current": 5.16,
+      "current": 5.13,
       "prev": 5.11,
-      "change": 0.05
+      "change": 0.02
     },
     "us20y": {
-      "current": 79.98,
+      "current": 79.93,
       "prev": 80.46,
-      "change": -0.48
+      "change": -0.53
     },
     "oil": {
-      "current": 96.7,
+      "current": 93.75,
       "prev": 92.16,
-      "change": 4.54
+      "change": 1.59
     },
     "usdtwd": {
-      "current": 31.78,
+      "current": 31.79,
       "prev": 31.68,
-      "change": 0.1
+      "change": 0.11
     }
   },
   "latest_macro": {
@@ -3934,10 +3934,10 @@
       "source": "news.cnyes.com"
     },
     {
-      "title": "美PMI強勁添升息疑慮　10年期美債殖利率創19年新高 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kUGNLbmMzcDZ5Y29QdWV5YXEweFVSeDB6RmRJaVpUMHBPZjVMSnMyalZZeDZuNVF3UnlkTWNsWk1YQjBYMVc5NzNCMEJhVU9zSlhqT1dpWVNfVXc2LU530gFkQVVfeXFMUHhPUXczTUJQLTJ6OWhtVEQtX0NFaV9qWGR2VE53eTZ3WGxFUHRYV1F2Q21ubTUwdXBXN0J1TWlLWW9XUHhHbVZOX2NPUVpVRm9zYWdKeGJROVA0bGxfdV9aR3F4SQ?oc=5",
-      "published": "Wed, 23 Sep 2026 18:45:06 GMT",
-      "source": "自由財經"
+      "title": "美PMI強勁添升息疑慮　10年期美債殖利率創19年新高 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hT1l2d1d4anJoaFdEbm1Yekc3Si1XVkJJUVhRQnZ4eXdBNXAxeXlWTVdHeFlkNU9nSlJZcU92RTA0Ti1OMTB2NmdydlRWVkc3bHpjbUktRkZYQdIBX0FVX3lxTFBoMFVlVmNtREJQRkFockhmRklicGhxcVVZNi1RNEhMaEkyN202MjNNMktib3Fnd0JGUkN5akFZX0lkM0VpZ1hMb0VvVWN1YzM4Ymo3RlVrX3FNWXBiSWRZ?oc=5",
+      "published": "Wed, 23 Sep 2026 18:45:36 GMT",
+      "source": "經濟日報"
     },
     {
       "title": "4打擊成美債「完美風暴」！10月升息聲起 - 鏡週刊Mirror Media",
