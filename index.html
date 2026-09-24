@@ -54,16 +54,8 @@
 
     .chart-title { font-size: 1.1rem; font-weight: 600; color: var(--text-main); margin: 0; }
 
-    /* 指標單列 (Single Row) 排版 */
+    /* 指標單列排版 */
     .embedded-metrics-row {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      width: 100%;
-      max-width: 550px;
-    }
-
-    .embedded-metrics-row-2 {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 10px;
@@ -82,7 +74,7 @@
     .metric-label { font-size: 0.75rem; color: var(--text-sub); display: block; margin-bottom: 2px; }
     .metric-value { font-size: 1.1rem; font-weight: bold; }
 
-    .canvas-wrapper { position: relative; height: 320px; width: 100%; }
+    .canvas-wrapper { position: relative; height: 340px; width: 100%; }
 
     /* 指標對照說明摺疊區塊 */
     .info-collapse {
@@ -104,10 +96,6 @@
       font-size: 0.88rem;
       font-weight: 600;
       user-select: none;
-    }
-
-    .info-collapse summary:hover {
-      color: var(--text-main);
     }
 
     .info-content {
@@ -133,12 +121,6 @@
 
     .info-box.yellow { border-left-color: var(--accent-yellow); }
 
-    .info-box h4 {
-      margin: 0 0 5px 0;
-      font-size: 0.9rem;
-      color: var(--text-main);
-    }
-
     .info-table {
       width: 100%;
       border-collapse: collapse;
@@ -152,10 +134,7 @@
       text-align: left;
     }
 
-    .info-table th {
-      background: rgba(15, 23, 42, 0.8);
-      color: var(--accent-blue);
-    }
+    .info-table th { background: rgba(15, 23, 42, 0.8); color: var(--accent-blue); }
 
     .news-section { background: var(--card-bg); padding: 20px; border-radius: 12px; border: 1px solid var(--border-color); }
     .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
@@ -196,7 +175,6 @@
         <canvas id="ratesChart"></canvas>
       </div>
 
-      <!-- 美債參考價值與儀表板對照說明 -->
       <div class="info-collapse">
         <details>
           <summary>💡 點擊查看 10年/20年美債參考價值與儀表板對照說明</summary>
@@ -267,11 +245,11 @@
       </div>
     </div>
 
-    <!-- 區塊 3: 外匯、原油與黃金價格 -->
+    <!-- 區塊 3: 外匯、原油與黃金價格 (啟用獨立 3 條 Y 軸) -->
     <div class="chart-card">
       <div class="chart-header">
         <h2 class="chart-title">美元/台幣 vs 原油價格 vs 黃金價格 (2000-2026)</h2>
-        <div class="embedded-metrics-row-2">
+        <div class="embedded-metrics-row">
           <div class="metric-badge">
             <span class="metric-label">美元 / 台幣</span>
             <span class="metric-value" id="val-usdtwd" style="color: var(--accent-cyan);">-</span>
@@ -308,8 +286,8 @@
             if (!labels || labels.length === 0) return '';
             const label = labels[index];
             if (!label) return '';
-            if (index === labels.length - 1) return label;
-            const step = 48;
+            if (index === labels.length - 1) return label; // 強制顯示 2026 最新
+            const step = 48; // 約每 4 年刻度一次
             if ((labels.length - 1 - index) % step === 0) return label;
             return null;
           }
@@ -325,7 +303,7 @@
 
         document.getElementById('updated-at').innerText = '最後更新時間：' + data.updated_at;
 
-        // 填入同列卡片數值
+        // 填入數值
         document.getElementById('val-fed-rate').innerText = (data.latest_macro.fed_rate || '-') + ' %';
         document.getElementById('val-us10y').innerText = (data.latest_macro.us10y_yield || '-') + ' %';
         document.getElementById('val-us20y').innerText = (data.latest_macro.us20y_yield || '-') + ' %';
@@ -336,30 +314,27 @@
         document.getElementById('val-oil').innerText = (data.latest_macro.oil || '-') + ' $';
         document.getElementById('val-gold').innerText = (data.latest_macro.gold || '-') + ' $';
 
-        const rateDates = (data.history.fed_rate && data.history.fed_rate.dates) || [];
-        const cpiDates = (data.history.cpi && data.history.cpi.dates) || [];
-        const forexDates = (data.history.usdtwd && data.history.usdtwd.dates) || [];
-        const goldDates = (data.history.gold && data.history.gold.dates) || forexDates;
+        const masterDates = data.history.fed_rate.dates;
 
         // 1. 利率走勢圖
         new Chart(document.getElementById('ratesChart'), {
           type: 'line',
           data: {
-            labels: rateDates,
+            labels: masterDates,
             datasets: [
               { label: '聯準會利率 (%)', data: data.history.fed_rate.values, borderColor: '#f87171', backgroundColor: '#f87171', fill: false, pointRadius: 0, borderWidth: 2 },
               { label: '10年美債 (%)', data: data.history.us10y_yield.values, borderColor: '#38bdf8', backgroundColor: '#38bdf8', fill: false, pointRadius: 0, borderWidth: 2 },
               { label: '20年美債 (%)', data: data.history.us20y_yield.values, borderColor: '#facc15', backgroundColor: '#facc15', fill: false, pointRadius: 0, borderWidth: 2 }
             ]
           },
-          options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } }, scales: { x: buildRightPrioritizedXScale(rateDates), y: { ticks: { color: '#94a3b8' } } } }
+          options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } }, scales: { x: buildRightPrioritizedXScale(masterDates), y: { ticks: { color: '#94a3b8' } } } }
         });
 
         // 2. CPI 與 PMI 走勢圖
         new Chart(document.getElementById('cpiPmiChart'), {
           type: 'line',
           data: {
-            labels: cpiDates,
+            labels: masterDates,
             datasets: [
               { label: 'CPI 物價', data: data.history.cpi.values, borderColor: '#34d399', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
               { label: '核心 CPI', data: data.history.core_cpi.values, borderColor: '#c084fc', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
@@ -371,23 +346,22 @@
             maintainAspectRatio: false,
             plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
             scales: {
-              x: buildRightPrioritizedXScale(cpiDates),
+              x: buildRightPrioritizedXScale(masterDates),
               y: { type: 'linear', display: true, position: 'left', ticks: { color: '#34d399' }, title: { display: true, text: 'CPI 指數', color: '#34d399' } },
               y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#38bdf8' }, grid: { drawOnChartArea: false }, title: { display: true, text: 'PMI 指數', color: '#38bdf8' } }
             }
           }
         });
 
-        // 3. 美元/台幣 vs 原油 vs 黃金走勢圖
-        const goldValues = (data.history.gold && data.history.gold.values) || [];
+        // 3. 美元/台幣 vs 原油 vs 黃金走勢圖 (獨立 3 條 Y 軸)
         new Chart(document.getElementById('forexOilGoldChart'), {
           type: 'line',
           data: {
-            labels: goldDates.length > 0 ? goldDates : forexDates,
+            labels: masterDates,
             datasets: [
               { label: '美元/台幣 (左軸)', data: data.history.usdtwd.values, borderColor: '#06b6d4', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
-              { label: 'WTI 原油美元 (右軸)', data: data.history.oil.values, borderColor: '#f97316', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 },
-              { label: '黃金價格美元 (右軸)', data: goldValues, borderColor: '#eab308', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2, borderDash: [2, 2] }
+              { label: 'WTI 原油美元 (右軸1)', data: data.history.oil.values, borderColor: '#f97316', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: '黃金價格美元 (右軸2)', data: data.history.gold.values, borderColor: '#eab308', yAxisID: 'y2', fill: false, pointRadius: 0, borderWidth: 2, borderDash: [3, 3] }
             ]
           },
           options: {
@@ -395,9 +369,10 @@
             maintainAspectRatio: false,
             plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
             scales: {
-              x: buildRightPrioritizedXScale(goldDates.length > 0 ? goldDates : forexDates),
+              x: buildRightPrioritizedXScale(masterDates),
               y: { type: 'linear', display: true, position: 'left', ticks: { color: '#06b6d4' }, title: { display: true, text: '匯率 (TWD)', color: '#06b6d4' } },
-              y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#f97316' }, grid: { drawOnChartArea: false }, title: { display: true, text: '原油/黃金 (USD)', color: '#f97316' } }
+              y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#f97316' }, grid: { drawOnChartArea: false }, title: { display: true, text: '原油 (USD)', color: '#f97316' } },
+              y2: { type: 'linear', display: true, position: 'right', ticks: { color: '#eab308' }, grid: { drawOnChartArea: false }, title: { display: true, text: '黃金 (USD)', color: '#eab308' } }
             }
           }
         });
