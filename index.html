@@ -3,320 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>美國重點經濟數據指標(2000-2026 長期走勢整合版)</title>
-    <!-- 引入 Chart.js 圖表庫 -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>總體經濟與聯準會動態自動追蹤面板</title>
     <style>
-        :root {
-            --bg-color: #f4f6f9;
-            --card-bg: #ffffff;
-            --text-main: #1f2937;
-            --text-sub: #6b7280;
-            --border-color: #e5e7eb;
-            --primary: #2563eb;
-            --up-color: #dc2626;
-            --down-color: #16a34a;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            margin: 0;
-            padding: 24px;
-        }
-        .container {
-            max-width: 1300px;
-            margin: 0 auto;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 24px;
-            padding-bottom: 12px;
-            border-bottom: 2px solid var(--border-color);
-        }
-        h1 { margin: 0; font-size: 1.5rem; }
-        .timestamp { font-size: 0.875rem; color: var(--text-sub); }
-
-        /* 主網格：兩欄佈局（手機自動單欄） */
-        .dashboard-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
-            gap: 24px;
-        }
-        @media (max-width: 650px) {
-            .dashboard-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* 整合型卡片 */
-        .integrated-card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 20px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-            border: 1px solid var(--border-color);
-            display: flex;
-            flex-direction: column;
-        }
-        .card-header-group {
-            border-bottom: 1px dashed var(--border-color);
-            padding-bottom: 12px;
-            margin-bottom: 16px;
-        }
-        .card-title {
-            font-size: 0.95rem;
-            color: var(--text-sub);
-            font-weight: 600;
-            margin-bottom: 6px;
-        }
-        .card-value-row {
-            display: flex;
-            align-items: baseline;
-            gap: 12px;
-            margin-bottom: 6px;
-        }
-        .card-value {
-            font-size: 1.8rem;
-            font-weight: 700;
-        }
-        .card-detail {
-            font-size: 0.85rem;
-            color: var(--text-sub);
-            line-height: 1.4;
-        }
-        .tag {
-            display: inline-block;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 600;
-        }
-        .tag-up { background-color: #fee2e2; color: var(--up-color); }
-
-        /* 圖表容器高度 */
-        .chart-container {
-            position: relative;
-            height: 300px;
-            width: 100%;
-            margin-top: auto;
-        }
+        body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #0f172a; padding: 24px; max-width: 1200px; margin: 0 auto; }
+        header { border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: baseline; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-bottom: 24px; }
+        .card { background: #ffffff; border: 1px solid #e2e8f0; padding: 18px; border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .card-title { font-size: 0.9rem; color: #64748b; font-weight: 600; }
+        .card-value { font-size: 1.8rem; font-weight: 700; margin: 8px 0; color: #1e293b; }
+        .news-box { background: #ffffff; border: 1px solid #e2e8f0; padding: 20px; border-radius: 10px; }
+        .news-item { border-bottom: 1px solid #f1f5f9; padding: 10px 0; }
+        .news-item:last-child { border-bottom: none; }
+        .news-title { color: #2563eb; text-decoration: none; font-weight: 600; }
+        .news-title:hover { text-decoration: underline; }
+        .news-meta { font-size: 0.75rem; color: #94a3b8; margin-top: 4px; }
+        .status-tag { font-size: 0.8rem; background: #dbeafe; color: #1e40af; padding: 4px 8px; border-radius: 4px; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <header>
-        <h1>📊 美國重點經濟數據指標(2000 - 2026 長期歷史整合版)</h1>
-        <div class="timestamp">最後更新時間：2026-09-24</div>
-    </header>
+<header>
+    <h1>📊 全球總經與美聯儲決策自動追蹤面板</h1>
+    <div id="update-time" style="font-size: 0.85rem; color: #64748b;">數據載入中...</div>
+</header>
 
-    <div class="dashboard-grid">
-
-        <!-- 1. 美債殖利率 (數據 + 走勢圖) -->
-        <div class="integrated-card">
-            <div class="card-header-group">
-                <div class="card-title">📈 美國公債殖利率 (10年期 vs 20年期)</div>
-                <div class="card-value-row">
-                    <span class="card-value">5.15% / 5.45%</span>
-                    <span class="tag tag-up">高檔震盪</span>
-                </div>
-                <div class="card-detail">10年期5.15%、20年期5.45%。涵蓋科技泡沫、次貸危機、零利率時代至升息循環之完整27年歷史軌跡。</div>
-            </div>
-            <div class="chart-container">
-                <canvas id="yieldChart"></canvas>
-            </div>
-        </div>
-
-        <!-- 2. CPI 通膨數據 (數據 + 走勢圖) -->
-        <div class="integrated-card">
-            <div class="card-header-group">
-                <div class="card-title">🏷️ 美國 CPI 消費者物價指數 (整體 vs 核心)</div>
-                <div class="card-value-row">
-                    <span class="card-value">3.35% / 4.45%</span>
-                    <span class="tag tag-up">高於目標</span>
-                </div>
-                <div class="card-detail">整體 CPI 年增 3.35%、核心 CPI 年增 4.45%。對比 2008 年高油價通膨、2009 年通縮及 2022 年 40 年新高通膨峰值。</div>
-            </div>
-            <div class="chart-container">
-                <canvas id="cpiChart"></canvas>
-            </div>
-        </div>
-
-        <!-- 3. 外匯與原油 (數據 + 走勢圖) -->
-        <div class="integrated-card">
-            <div class="card-header-group">
-                <div class="card-title">💱 美元/台幣匯率 vs WTI 原油價格</div>
-                <div class="card-value-row">
-                    <span class="card-value">31.82 / $102.48</span>
-                    <span class="tag tag-up">油價破百</span>
-                </div>
-                <div class="card-detail">USD/TWD 31.82 受利差影響台幣偏弱；WTI 原油每桶 $102.48。包含 2008 年原油天價 $140 及 2020 年負油價歷史波動。</div>
-            </div>
-            <div class="chart-container">
-                <canvas id="macroChart"></canvas>
-            </div>
-        </div>
-
-        <!-- 4. PMI 與就業 (數據 + 走勢圖) -->
-        <div class="integrated-card">
-            <div class="card-header-group">
-                <div class="card-title">🏭 美國製造業 PMI 與非農就業</div>
-                <div class="card-value-row">
-                    <span class="card-value">57.0 / 16.2萬人</span>
-                    <span class="tag tag-up">強勁擴張</span>
-                </div>
-                <div class="card-detail">製造業 PMI 57.0 處於擴張區間（>50）；呈現 2001 科技泡沫、2008 金融危機及 2020 疫情爆發時的經濟衰退谷底。</div>
-            </div>
-            <div class="chart-container">
-                <canvas id="pmiChart"></canvas>
-            </div>
-        </div>
-
+<div class="grid">
+    <div class="card">
+        <div class="card-title">🇺🇸 10年期美債殖利率 (US10Y)</div>
+        <div class="card-value" id="us10y-val">--%</div>
+        <span class="status-tag">影響房貸/企業借貸成本</span>
+    </div>
+    <div class="card">
+        <div class="card-title">🛢️ WTI 原油價格 (USD/桶)</div>
+        <div class="card-value" id="oil-val">$--</div>
+        <span class="status-tag">通膨與地緣政治核心因子</span>
+    </div>
+    <div class="card">
+        <div class="card-title">💱 美元/台幣匯率 (USD/TWD)</div>
+        <div class="card-value" id="usdtwd-val">$--</div>
+        <span class="status-tag">利差與資本流向指標</span>
     </div>
 </div>
 
+<div class="news-box">
+    <h3>📰 當日影響通膨、油價與聯準會決策之重點新聞</h3>
+    <div id="news-container">新聞加載中...</div>
+</div>
+
 <script>
-    // 2000 年至 2026 年 (27 個年份數據點)
-    const years2000_2026 = [
-        '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009',
-        '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019',
-        '2020', '2021', '2022', '2023', '2024', '2025', '2026'
-    ];
+    async function loadDashboardData() {
+        try {
+            // 讀取自動更新產生的 data.json
+            const response = await fetch('./data.json?t=' + new Date().getTime());
+            const data = await response.json();
 
-    // 1. 公債殖利率圖表
-    new Chart(document.getElementById('yieldChart').getContext('2d'), {
-        type: 'line',
-        data: {
-            labels: years2000_2026,
-            datasets: [
-                { 
-                    label: '10年期殖利率(%)', 
-                    data: [6.03, 5.02, 4.61, 4.01, 4.27, 4.29, 4.80, 4.63, 3.66, 3.26, 3.22, 2.78, 1.80, 2.35, 2.54, 2.14, 1.84, 2.40, 2.68, 1.92, 0.91, 1.45, 3.88, 3.88, 4.25, 4.60, 5.15], 
-                    borderColor: '#2563eb', 
-                    borderWidth: 2,
-                    pointRadius: 1.5,
-                    tension: 0.2, 
-                    fill: false 
-                },
-                { 
-                    label: '20年期殖利率(%)', 
-                    data: [6.23, 5.49, 5.25, 4.83, 5.02, 4.56, 4.98, 4.84, 4.23, 4.08, 3.98, 3.53, 2.54, 3.12, 3.10, 2.55, 2.25, 2.70, 2.95, 2.25, 1.45, 1.95, 4.14, 4.18, 4.55, 4.90, 5.45], 
-                    borderColor: '#dc2626', 
-                    borderWidth: 2,
-                    pointRadius: 1.5,
-                    tension: 0.2, 
-                    fill: false 
-                }
-            ]
-        },
-        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top' } } }
-    });
+            document.getElementById('update-time').innerText = '最後自動更新時間：' + data.updated_at;
 
-    // 2. CPI 圖表 (已更新高對比顏色)
-    new Chart(document.getElementById('cpiChart').getContext('2d'), {
-        type: 'line',
-        data: {
-            labels: years2000_2026,
-            datasets: [
-                { 
-                    label: '整體 CPI (%)', 
-                    data: [3.4, 2.8, 1.6, 2.3, 2.7, 3.4, 3.2, 2.8, 3.8, -0.4, 1.6, 3.2, 2.1, 1.5, 1.6, 0.1, 1.3, 2.1, 2.4, 1.8, 1.2, 4.7, 8.0, 4.1, 2.9, 3.1, 3.35], 
-                    borderColor: '#dc2626', // 鮮紅色
-                    backgroundColor: 'rgba(220,38,38,0.08)', 
-                    borderWidth: 2,
-                    pointRadius: 1.5,
-                    tension: 0.2, 
-                    fill: true 
-                },
-                { 
-                    label: '核心 CPI (%)', 
-                    data: [2.4, 2.7, 2.3, 1.5, 1.8, 2.2, 2.5, 2.3, 2.3, 1.7, 1.0, 1.7, 2.1, 1.8, 1.7, 1.8, 2.2, 1.8, 2.1, 2.2, 1.7, 3.6, 6.2, 4.8, 3.3, 3.8, 4.45], 
-                    borderColor: '#0284c7', // 湛藍色 (高度對比)
-                    borderWidth: 2,
-                    pointRadius: 1.5,
-                    tension: 0.2, 
-                    fill: false 
-                },
-                { 
-                    label: 'Fed 目標 (2%)', 
-                    data: Array(27).fill(2.0), 
-                    borderColor: '#9ca3af', 
-                    borderDash: [4, 4], 
-                    pointRadius: 0, 
-                    fill: false 
-                }
-            ]
-        },
-        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top' } } }
-    });
+            // 填入市場價格
+            document.getElementById('us10y-val').innerText = data.market.us10y.current + '%';
+            document.getElementById('oil-val').innerText = '$' + data.market.oil.current;
+            document.getElementById('usdtwd-val').innerText = data.market.usdtwd.current;
 
-    // 3. 外匯與原油圖表
-    new Chart(document.getElementById('macroChart').getContext('2d'), {
-        type: 'line',
-        data: {
-            labels: years2000_2026,
-            datasets: [
-                { 
-                    label: 'USD/TWD', 
-                    data: [31.2, 33.8, 34.5, 34.4, 33.4, 32.1, 32.5, 32.8, 31.5, 33.0, 31.6, 29.5, 29.6, 29.7, 30.3, 31.9, 32.3, 29.8, 30.7, 30.1, 28.5, 27.6, 30.7, 30.7, 32.2, 32.5, 31.82], 
-                    borderColor: '#16a34a', 
-                    borderWidth: 2,
-                    pointRadius: 1.5,
-                    yAxisID: 'y1', 
-                    tension: 0.2 
-                },
-                { 
-                    label: 'WTI原油 ($)', 
-                    data: [30.4, 25.9, 26.1, 31.1, 41.4, 56.5, 66.0, 72.3, 99.7, 61.9, 79.5, 95.1, 94.1, 98.0, 93.2, 48.7, 43.3, 60.4, 45.3, 61.1, 48.5, 75.2, 80.5, 71.3, 78.0, 85.0, 102.48], 
-                    borderColor: '#d97706', 
-                    borderWidth: 2,
-                    pointRadius: 1.5,
-                    yAxisID: 'y2', 
-                    tension: 0.2 
-                }
-            ]
-        },
-        options: {
-            responsive: true, maintainAspectRatio: false,
-            plugins: { legend: { position: 'top' } },
-            scales: {
-                y1: { type: 'linear', position: 'left', title: { display: true, text: 'USD/TWD' } },
-                y2: { type: 'linear', position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: '原油 ($)' } }
-            }
+            // 渲染即時新聞清單
+            const newsContainer = document.getElementById('news-container');
+            newsContainer.innerHTML = '';
+            
+            data.news.forEach(item => {
+                const newsDiv = document.createElement('div');
+                newsDiv.className = 'news-item';
+                newsDiv.innerHTML = `
+                    <a class="news-title" href="${item.link}" target="_blank">${item.title}</a>
+                    <div class="news-meta">來源：${item.source} | 發布時間：${item.published}</div>
+                `;
+                newsContainer.appendChild(newsDiv);
+            });
+
+        } catch (error) {
+            console.error('數據讀取失敗:', error);
+            document.getElementById('update-time').innerText = '數據讀取失敗，請確認 data.json 是否已產生。';
         }
-    });
+    }
 
-    // 4. PMI 圖表
-    new Chart(document.getElementById('pmiChart').getContext('2d'), {
-        type: 'line',
-        data: {
-            labels: years2000_2026,
-            datasets: [
-                { 
-                    label: '製造業 PMI', 
-                    data: [51.7, 43.4, 50.8, 51.7, 60.5, 54.5, 53.1, 52.3, 45.5, 46.3, 57.3, 53.7, 51.7, 53.9, 55.5, 51.3, 51.5, 59.7, 54.1, 47.2, 60.7, 60.7, 48.4, 47.1, 50.3, 53.9, 57.0], 
-                    borderColor: '#8b5cf6', 
-                    backgroundColor: 'rgba(139,92,246,0.08)', 
-                    borderWidth: 2,
-                    pointRadius: 1.5,
-                    tension: 0.2, 
-                    fill: true 
-                },
-                { 
-                    label: '榮枯線 (50)', 
-                    data: Array(27).fill(50), 
-                    borderColor: '#9ca3af', 
-                    borderDash: [4, 4], 
-                    pointRadius: 0, 
-                    fill: false 
-                }
-            ]
-        },
-        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top' } } }
-    });
+    loadDashboardData();
 </script>
 
 </body>
