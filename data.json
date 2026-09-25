@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 18:12:45 (UTC)",
+  "updated_at": "2026-09-25 03:55:09 (UTC)",
   "latest_macro": {
     "fed_rate": 3.63,
     "us10y_yield": 4.75,
@@ -7,9 +7,9 @@
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 31.84,
-    "oil": 95.09,
-    "gold": 4293.7
+    "usdtwd": 31.75,
+    "oil": 93.09,
+    "gold": 4308.8
   },
   "history": {
     "fed_rate": {
@@ -5508,16 +5508,16 @@
   },
   "news": [
     {
-      "title": "Fed理事\"放鷹\" 10年期美債殖利率飆19年新高 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQSmZ3SUJVWlBaMzZQTVhOZTZMeG5hdGtXVmZuTDlXR1IwellnUTB6WkVrZ0c3bGNIbXY2c0dVQUg5QXYycE8xejctLUVBTFZTTHFEVU9oU2tkNlRiM29oODRHaU9nWVZmRTJsbmJ1ODNLQVhPNDlYWUVyTG5QLU5yQWRvdVpJUlFvTml2Tk45UzNONFEtdlZ6ZmhScDVUTXNDU3RzOVJWV2oxel9FbVlLbUdGdDZBMURlQzM4WmNzc0lFN3VQdkpxaFFxUXhYeWFmMTlaYzd0ejlaYWgtVUNXVVRXeWZOMXJKVDZoVS1jRmFlQ2lfel96WmEzYkVtYjNqZi1yOHAzdDVSU0l6aU5fNnJJdHNzbmd0V3pV?oc=5",
-      "published": "Thu, 24 Sep 2026 08:13:09 GMT",
-      "source": "Yahoo股市"
+      "title": "Fed接連「放鷹」美債賣壓延燒全球 30年期升破5.5% 觸2004年新高 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5CRWUwNkJQWG9nUUFCOG0xOElsNEpGU18xTy1WU2hBMUtxMmZlTmVPRlk5eGIyaDlFNlVpWFdaNDhicG40RFBDaFpMTQ?oc=5",
+      "published": "Thu, 24 Sep 2026 22:37:38 GMT",
+      "source": "鉅亨網"
     },
     {
-      "title": "美債殖利率飆升 勾起投資人對金融海嘯的痛苦回憶 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hNzFpcXM0MWd3QzJGQXlxOUtvRjZBVWxNOVFzMDMtTjEwcHd4SkFKUW1vb3BDWDIyVTdzc0ZhSUtUZUs4Qk5hSWozdV9iUTg?oc=5",
-      "published": "Thu, 24 Sep 2026 14:37:18 GMT",
-      "source": "news.cnyes.com"
+      "title": "股民最怕！　美30年期國債殖利率飆逾22年新高 - ETtoday財經雲",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0X2s2TzU0TGxUZ0FYSXVBSUVkUXdNQXFrNjQxaWZkRnM3ZWpOZDkzQkpjUG5xWXZDZE9MU3Fsb2J4YXN2NFB6TnNzNGRwZi1VZXfSAVBBVV95cUxNN2JkelFHaWlraGk3UzJIeVZrUi1MbF9feUZJNVppWk1hZVVJQmtwaUVGd0g5ZXVTMi1xLXROQnpUa1RaOWhuOTBnWGNmMVBXRg?oc=5",
+      "published": "Fri, 25 Sep 2026 02:04:00 GMT",
+      "source": "ETtoday財經雲"
     },
     {
       "title": "〈貴金屬盤後〉油價上揚、CPI將發布 黃金收黑 - news.cnyes.com",
@@ -5538,10 +5538,10 @@
       "source": "富聯網"
     },
     {
-      "title": "台幣貶至31.835 金價跌破4000美元 - 自由時報",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oYkVsUTVpQmhORmExcWdPb2pSSWJmcjdVMWV0dTZRSGNCU2liN0pGZ3Y4UWpvWUhGVVlncHhzbWc2NW1hc1A5c25lS1dmOUdIVHY1QjF4UmU?oc=5",
-      "published": "Mon, 21 Sep 2026 01:15:37 GMT",
-      "source": "自由時報"
+      "title": "新台幣匯市今封關 延續升值走勢 - 公視新聞網PNN",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91bng4NGtZRDFmUWk5MkRUb1UyUTVZZ2lDdGotNEYxa0pKbHVCcEN0MW4zSW91dHE0eW1ZOVlvNUUyU09GWTZHQ0ZFcnQyYTg?oc=5",
+      "published": "Mon, 14 Sep 2026 07:00:00 GMT",
+      "source": "公視新聞網PNN"
     }
   ]
 }
