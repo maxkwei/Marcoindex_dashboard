@@ -30,6 +30,7 @@ def fetch_fred_and_market_data():
         "usdcny": "DEXCHUS",     # 美元/人民幣
         "oil": "DCOILWTICO",     # WTI 原油
         "gold": "GOLDAMGBD228NLBM", # 黃金價格
+        "dxy": "DTWEXAFEGS",    # 美元加權指數 (DXY 代表)
     }
 
     history_data = {}
@@ -60,7 +61,7 @@ def fetch_fred_and_market_data():
             history_data[name] = {"dates": master_dates, "values": []}
             latest_macro[name] = "N/A"
 
-    # 用 yfinance 補齊最新即時報價，確保當前數字準確
+    # 用 yfinance 補齊最新即時報價
     try:
         yf_tickers = {
             "usdtwd": "USDTWD=X",
@@ -68,6 +69,7 @@ def fetch_fred_and_market_data():
             "usdcny": "CNY=X",
             "oil": "CL=F",
             "gold": "GC=F",
+            "dxy": "DX-Y.NYB",
         }
         for key, ticker in yf_tickers.items():
             t = yf.Ticker(ticker).history(period="5d")
@@ -82,7 +84,7 @@ def fetch_fred_and_market_data():
 def fetch_macro_news():
     """抓取即時新聞"""
     print("正在抓取即時總經新聞...")
-    queries = ["聯準會 利率 美債", "美元 台幣 日元 人民幣 匯率", "原油 黃金 價格"]
+    queries = ["聯準會 利率 美債", "美元指數 匯率", "原油 黃金 價格"]
 
     news_list = []
     for q in queries:
@@ -124,7 +126,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("成功更新數據，時間軸已完美對齊！")
+    print("成功更新數據，已納入美元指數 DXY！")
 
 
 if __name__ == "__main__":
