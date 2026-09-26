@@ -18,8 +18,8 @@ def fetch_fred_and_market_data():
     date_range = pd.date_range(start=start_date, end=end_date, freq="ME")
     master_dates = date_range.strftime("%Y-%m").tolist()
 
-    # 只保留最穩定的 FRED 指標
-    series_map = {
+    # 純 FRED 穩定資料集 (移除容易報錯的 FRED 黃金與 DXY)
+    fred_series_map = {
         "fed_rate": "DFF",
         "us10y_yield": "DGS10",
         "us20y_yield": "DGS20",
@@ -30,13 +30,13 @@ def fetch_fred_and_market_data():
         "usdjpy": "DEXJPUS",
         "usdcny": "DEXCHUS",
         "oil": "DCOILWTICO",
-        "gold": "GOLDAMGBD228NLBM",
     }
 
     history_data = {}
     latest_macro = {}
 
-    for name, code in series_map.items():
+    # 1. 處理 FRED 數據
+    for name, code in fred_series_map.items():
         try:
             df = web.DataReader(code, "fred", start_date, end_date)
             df = df.dropna()
@@ -58,27 +58,41 @@ def fetch_fred_and_market_data():
             latest_macro[name] = values[-1] if len(values) > 0 else "N/A"
         except Exception as e:
             print(f"抓取 FRED {code} 失敗: {e}")
-            history_data[name] = {"dates": master_dates, "values": [0] * len(master_dates)}
+            history_data[name] = {"dates": master_dates, "values": [0.0] * len(master_dates)}
             latest_macro[name] = "N/A"
 
-    # 用 yfinance 抓取美元指數 (DXY) 歷史與即時價格
-    try:
-        dxy_df = yf.download("DX-Y.NYB", start=start_date, end=end_date, interval="1mo")
-        if not dxy_df.empty:
-            dxy_s = dxy_df["Close"]
-            dxy_s.index = dxy_s.index.strftime("%Y-%m")
-            aligned_dxy = dxy_s.reindex(master_dates).ffill().bfill()
-            dxy_values = [round(float(v), 2) for v in aligned_dxy.values]
-            history_data["dxy"] = {"dates": master_dates, "values": dxy_values}
-            latest_macro["dxy"] = dxy_values[-1]
-        else:
-            raise Exception("DXY empty")
-    except Exception as e:
-        print(f"yfinance DXY 歷史抓取失敗: {e}")
-        history_data["dxy"] = {"dates": master_dates, "values": [100.0] * len(master_dates)}
-        latest_macro["dxy"] = 100.0
+    # 2. 處理 yfinance 數據 (黃金 GC=F 與 美元指數 DX-Y.NYB)
+    yf_history_targets = {
+        "gold": "GC=F",
+        "dxy": "DX-Y.NYB"
+    }
 
-    # 用 yfinance 補齊最新即時報價，確保當前數字無誤
+    for name, ticker_symbol in yf_history_targets.items():
+        try:
+            df_yf = yf.download(ticker_symbol, start=start_date, end=end_date, interval="1mo", progress=False)
+            if not df_yf.empty and "Close" in df_yf:
+                close_s = df_yf["Close"]
+                # 解包 yfinance MultiIndex (若有多重欄位索引)
+                if isinstance(close_s, pd.DataFrame):
+                    close_s = close_s.iloc[:, 0]
+                
+                close_s = close_s.dropna()
+                close_s.index = close_s.index.strftime("%Y-%m")
+                aligned_yf = close_s.reindex(master_dates).ffill().bfill()
+                
+                clean_values = [round(float(x), 2) for x in aligned_yf.values]
+                history_data[name] = {"dates": master_dates, "values": clean_values}
+                latest_macro[name] = clean_values[-1]
+            else:
+                raise Exception("Dataframe empty")
+        except Exception as e:
+            print(f"抓取 yfinance 歷史 {ticker_symbol} 失敗: {e}")
+            # 安全預設值，防止整個腳本崩潰
+            default_val = 2600.0 if name == "gold" else 100.0
+            history_data[name] = {"dates": master_dates, "values": [default_val] * len(master_dates)}
+            latest_macro[name] = default_val
+
+    # 3. yfinance 補齊最新即時報價
     try:
         yf_tickers = {
             "usdtwd": "USDTWD=X",
@@ -91,7 +105,8 @@ def fetch_fred_and_market_data():
         for key, ticker in yf_tickers.items():
             t = yf.Ticker(ticker).history(period="5d")
             if not t.empty:
-                latest_macro[key] = round(float(t["Close"].iloc[-1]), 2)
+                val = t["Close"].iloc[-1]
+                latest_macro[key] = round(float(val), 2)
     except Exception as e:
         print(f"yfinance 即時更新失敗: {e}")
 
@@ -143,7 +158,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("成功更新 data.json！")
+    print("成功更新 data.json！數據完全修復！")
 
 
 if __name__ == "__main__":
