@@ -55,7 +55,6 @@
 
     .chart-title { font-size: 1.1rem; font-weight: 600; color: var(--text-main); margin: 0; }
 
-    /* 指標單列排版 */
     .embedded-metrics-row {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -85,7 +84,6 @@
 
     .canvas-wrapper { position: relative; height: 320px; width: 100%; }
 
-    /* 指標對照說明摺疊區塊 */
     .info-collapse {
       margin-top: 15px;
       border-top: 1px dashed var(--border-color);
@@ -326,7 +324,6 @@
   </div>
 
   <script>
-    // 格式化為 "YY-MM" (例如 "00-01", "26-09")
     function formatShortDate(dateStr) {
       if (!dateStr || typeof dateStr !== 'string') return dateStr;
       const parts = dateStr.split('-');
@@ -347,8 +344,8 @@
             if (!rawLabel) return '';
             const shortLabel = formatShortDate(rawLabel);
 
-            if (index === labels.length - 1) return shortLabel; // 強制顯示 2026 最新年份
-            const step = 48; // 每隔約 4 年
+            if (index === labels.length - 1) return shortLabel;
+            const step = 48;
             if ((labels.length - 1 - index) % step === 0) return shortLabel;
             return null;
           }
@@ -364,25 +361,29 @@
 
         document.getElementById('updated-at').innerText = '最後更新時間：' + data.updated_at;
 
-        // 填入卡片數值
-        document.getElementById('val-usdtwd').innerText = data.latest_macro.usdtwd || '-';
-        document.getElementById('val-usdjpy').innerText = data.latest_macro.usdjpy || '-';
-        document.getElementById('val-usdcny').innerText = data.latest_macro.usdcny || '-';
+        const lm = data.latest_macro || {};
+        const getVal = (k) => lm[k] !== undefined && lm[k] !== null ? lm[k] : '-';
 
-        document.getElementById('val-gold').innerText = (data.latest_macro.gold || '-') + ' $';
-        document.getElementById('val-dxy-gold').innerText = data.latest_macro.dxy || '-';
+        document.getElementById('val-usdtwd').innerText = getVal('usdtwd');
+        document.getElementById('val-usdjpy').innerText = getVal('usdjpy');
+        document.getElementById('val-usdcny').innerText = getVal('usdcny');
 
-        document.getElementById('val-oil').innerText = (data.latest_macro.oil || '-') + ' $';
-        document.getElementById('val-dxy-oil').innerText = data.latest_macro.dxy || '-';
+        document.getElementById('val-gold').innerText = getVal('gold') + ' $';
+        document.getElementById('val-dxy-gold').innerText = getVal('dxy');
 
-        document.getElementById('val-fed-rate').innerText = (data.latest_macro.fed_rate || '-') + ' %';
-        document.getElementById('val-us10y').innerText = (data.latest_macro.us10y_yield || '-') + ' %';
-        document.getElementById('val-us20y').innerText = (data.latest_macro.us20y_yield || '-') + ' %';
-        document.getElementById('val-cpi').innerText = data.latest_macro.cpi || '-';
-        document.getElementById('val-core-cpi').innerText = data.latest_macro.core_cpi || '-';
-        document.getElementById('val-pmi').innerText = data.latest_macro.pmi || '-';
+        document.getElementById('val-oil').innerText = getVal('oil') + ' $';
+        document.getElementById('val-dxy-oil').innerText = getVal('dxy');
 
-        const masterDates = data.history.fed_rate.dates;
+        document.getElementById('val-fed-rate').innerText = getVal('fed_rate') + ' %';
+        document.getElementById('val-us10y').innerText = getVal('us10y_yield') + ' %';
+        document.getElementById('val-us20y').innerText = getVal('us20y_yield') + ' %';
+        document.getElementById('val-cpi').innerText = getVal('cpi');
+        document.getElementById('val-core-cpi').innerText = getVal('core_cpi');
+        document.getElementById('val-pmi').innerText = getVal('pmi');
+
+        const history = data.history || {};
+        const getH = (k) => (history[k] && history[k].values) ? history[k].values : [];
+        const masterDates = (history.fed_rate && history.fed_rate.dates) ? history.fed_rate.dates : [];
 
         // 1. 主要外匯匯率走勢圖
         new Chart(document.getElementById('forexChart'), {
@@ -390,9 +391,9 @@
           data: {
             labels: masterDates,
             datasets: [
-              { label: '美元/台幣 (左軸)', data: data.history.usdtwd.values, borderColor: '#06b6d4', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
-              { label: '美元/人民幣 (左軸)', data: data.history.usdcny.values, borderColor: '#34d399', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
-              { label: '美元/日元 (右軸)', data: data.history.usdjpy.values, borderColor: '#ec4899', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
+              { label: '美元/台幣 (左軸)', data: getH('usdtwd'), borderColor: '#06b6d4', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: '美元/人民幣 (左軸)', data: getH('usdcny'), borderColor: '#34d399', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: '美元/日元 (右軸)', data: getH('usdjpy'), borderColor: '#ec4899', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
             ]
           },
           options: {
@@ -413,8 +414,8 @@
           data: {
             labels: masterDates,
             datasets: [
-              { label: '黃金價格 (左軸)', data: data.history.gold.values, borderColor: '#eab308', backgroundColor: 'rgba(234, 179, 8, 0.1)', yAxisID: 'y', fill: true, pointRadius: 0, borderWidth: 2 },
-              { label: '美元指數 DXY (右軸)', data: data.history.dxy.values, borderColor: '#06b6d4', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
+              { label: '黃金價格 (左軸)', data: getH('gold'), borderColor: '#eab308', backgroundColor: 'rgba(234, 179, 8, 0.1)', yAxisID: 'y', fill: true, pointRadius: 0, borderWidth: 2 },
+              { label: '美元指數 DXY (右軸)', data: getH('dxy'), borderColor: '#06b6d4', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
             ]
           },
           options: {
@@ -435,8 +436,8 @@
           data: {
             labels: masterDates,
             datasets: [
-              { label: 'WTI 原油 (左軸)', data: data.history.oil.values, borderColor: '#f97316', backgroundColor: 'rgba(249, 115, 22, 0.1)', yAxisID: 'y', fill: true, pointRadius: 0, borderWidth: 2 },
-              { label: '美元指數 DXY (右軸)', data: data.history.dxy.values, borderColor: '#06b6d4', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
+              { label: 'WTI 原油 (左軸)', data: getH('oil'), borderColor: '#f97316', backgroundColor: 'rgba(249, 115, 22, 0.1)', yAxisID: 'y', fill: true, pointRadius: 0, borderWidth: 2 },
+              { label: '美元指數 DXY (右軸)', data: getH('dxy'), borderColor: '#06b6d4', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
             ]
           },
           options: {
@@ -457,9 +458,9 @@
           data: {
             labels: masterDates,
             datasets: [
-              { label: '聯準會利率 (%)', data: data.history.fed_rate.values, borderColor: '#f87171', backgroundColor: '#f87171', fill: false, pointRadius: 0, borderWidth: 2 },
-              { label: '10年美債 (%)', data: data.history.us10y_yield.values, borderColor: '#38bdf8', backgroundColor: '#38bdf8', fill: false, pointRadius: 0, borderWidth: 2 },
-              { label: '20年美債 (%)', data: data.history.us20y_yield.values, borderColor: '#facc15', backgroundColor: '#facc15', fill: false, pointRadius: 0, borderWidth: 2 }
+              { label: '聯準會利率 (%)', data: getH('fed_rate'), borderColor: '#f87171', backgroundColor: '#f87171', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: '10年美債 (%)', data: getH('us10y_yield'), borderColor: '#38bdf8', backgroundColor: '#38bdf8', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: '20年美債 (%)', data: getH('us20y_yield'), borderColor: '#facc15', backgroundColor: '#facc15', fill: false, pointRadius: 0, borderWidth: 2 }
             ]
           },
           options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } }, scales: { x: buildRightPrioritizedXScale(masterDates), y: { ticks: { color: '#94a3b8' } } } }
@@ -471,9 +472,9 @@
           data: {
             labels: masterDates,
             datasets: [
-              { label: 'CPI 物價', data: data.history.cpi.values, borderColor: '#34d399', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
-              { label: '核心 CPI', data: data.history.core_cpi.values, borderColor: '#c084fc', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
-              { label: 'PMI 指數 (右軸)', data: data.history.pmi.values, borderColor: '#38bdf8', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2, borderDash: [4, 4] }
+              { label: 'CPI 物價', data: getH('cpi'), borderColor: '#34d399', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: '核心 CPI', data: getH('core_cpi'), borderColor: '#c084fc', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: 'PMI 指數 (右軸)', data: getH('pmi'), borderColor: '#38bdf8', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2, borderDash: [4, 4] }
             ]
           },
           options: {
@@ -490,12 +491,21 @@
 
         // 渲染新聞
         const newsContainer = document.getElementById('news-list');
-        newsContainer.innerHTML = data.news.map(item => `
-          <div class="news-item">
-            <a href="${item.link}" target="_blank">${item.title}</a>
-            <div class="news-meta">${item.source} • ${item.published}</div>
-          </div>
-        `).join('');
+        if (data.news && Array.isArray(data.news)) {
+          newsContainer.innerHTML = data.news.map(item => `
+            <div class="news-item">
+              <a href="${item.link}" target="_blank">${item.title}</a>
+              <div class="news-meta">${item.source} • ${item.published}</div>
+            </div>
+          `).join('');
+        }
 
       } catch (err) {
-     
+        document.getElementById('updated-at').innerText = '數據載入中，請確認 data.json 狀態。';
+      }
+    }
+
+    loadDashboard();
+  </script>
+</body>
+</html>
