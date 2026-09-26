@@ -18,6 +18,7 @@ def fetch_fred_and_market_data():
     date_range = pd.date_range(start=start_date, end=end_date, freq="ME")
     master_dates = date_range.strftime("%Y-%m").tolist()
 
+    # 只保留最穩定的 FRED 指標
     series_map = {
         "fed_rate": "DFF",
         "us10y_yield": "DGS10",
@@ -25,12 +26,11 @@ def fetch_fred_and_market_data():
         "cpi": "CPIAUCSL",
         "core_cpi": "CPILFESL",
         "pmi": "MANMM101USM657S",
-        "usdtwd": "DEXTAUS",     # 美元/台幣
-        "usdjpy": "DEXJPUS",     # 美元/日元
-        "usdcny": "DEXCHUS",     # 美元/人民幣
-        "oil": "DCOILWTICO",     # WTI 原油
-        "gold": "GOLDAMGBD228NLBM", # 黃金價格
-        "dxy": "DTWEXAFEGS",    # 美元加權指數 (DXY 代表)
+        "usdtwd": "DEXTAUS",
+        "usdjpy": "DEXJPUS",
+        "usdcny": "DEXCHUS",
+        "oil": "DCOILWTICO",
+        "gold": "GOLDAMGBD228NLBM",
     }
 
     history_data = {}
@@ -58,10 +58,27 @@ def fetch_fred_and_market_data():
             latest_macro[name] = values[-1] if len(values) > 0 else "N/A"
         except Exception as e:
             print(f"抓取 FRED {code} 失敗: {e}")
-            history_data[name] = {"dates": master_dates, "values": []}
+            history_data[name] = {"dates": master_dates, "values": [0] * len(master_dates)}
             latest_macro[name] = "N/A"
 
-    # 用 yfinance 補齊最新即時報價
+    # 用 yfinance 抓取美元指數 (DXY) 歷史與即時價格
+    try:
+        dxy_df = yf.download("DX-Y.NYB", start=start_date, end=end_date, interval="1mo")
+        if not dxy_df.empty:
+            dxy_s = dxy_df["Close"]
+            dxy_s.index = dxy_s.index.strftime("%Y-%m")
+            aligned_dxy = dxy_s.reindex(master_dates).ffill().bfill()
+            dxy_values = [round(float(v), 2) for v in aligned_dxy.values]
+            history_data["dxy"] = {"dates": master_dates, "values": dxy_values}
+            latest_macro["dxy"] = dxy_values[-1]
+        else:
+            raise Exception("DXY empty")
+    except Exception as e:
+        print(f"yfinance DXY 歷史抓取失敗: {e}")
+        history_data["dxy"] = {"dates": master_dates, "values": [100.0] * len(master_dates)}
+        latest_macro["dxy"] = 100.0
+
+    # 用 yfinance 補齊最新即時報價，確保當前數字無誤
     try:
         yf_tickers = {
             "usdtwd": "USDTWD=X",
@@ -126,7 +143,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    print("成功更新數據，已納入美元指數 DXY！")
+    print("成功更新 data.json！")
 
 
 if __name__ == "__main__":
