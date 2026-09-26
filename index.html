@@ -64,12 +64,12 @@
       max-width: 550px;
     }
 
-    .embedded-metrics-single {
+    .embedded-metrics-double {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, 1fr);
       gap: 10px;
       width: 100%;
-      max-width: 200px;
+      max-width: 380px;
     }
 
     .metric-badge {
@@ -160,10 +160,10 @@
       <div class="update-time" id="updated-at">資料載入中...</div>
     </header>
 
-    <!-- 區塊 1: 美元對主要貨幣匯率 (置頂) -->
+    <!-- 區塊 1: 美元對主要貨幣匯率 -->
     <div class="chart-card">
       <div class="chart-header">
-        <h2 class="chart-title">美元 / 新台幣 / 日元 / 人民幣 匯率走勢 (2000-2026)</h2>
+        <h2 class="chart-title">美元 vs 新台幣 vs 日元 vs 人民幣 匯率走勢 (2000-2026)</h2>
         <div class="embedded-metrics-row">
           <div class="metric-badge">
             <span class="metric-label">台幣</span>
@@ -184,14 +184,18 @@
       </div>
     </div>
 
-    <!-- 區塊 2: 獨立美元/黃金價格 (置頂) -->
+    <!-- 區塊 2: 黃金價格 vs 美元指數 DXY -->
     <div class="chart-card">
       <div class="chart-header">
-        <h2 class="chart-title">黃金價格 歷史走勢 (USD/XAU) (2000-2026)</h2>
-        <div class="embedded-metrics-single">
+        <h2 class="chart-title">國際黃金價格 vs 美元指數 (DXY) 走勢對照 (2000-2026)</h2>
+        <div class="embedded-metrics-double">
           <div class="metric-badge">
             <span class="metric-label">國際金價</span>
             <span class="metric-value" id="val-gold" style="color: var(--accent-gold);">- 美元</span>
+          </div>
+          <div class="metric-badge">
+            <span class="metric-label">美元指數 (DXY)</span>
+            <span class="metric-value" id="val-dxy-gold" style="color: var(--accent-cyan);">-</span>
           </div>
         </div>
       </div>
@@ -200,14 +204,18 @@
       </div>
     </div>
 
-    <!-- 區塊 3: 獨立美元/WTI 原油價格 (置頂) -->
+    <!-- 區塊 3: WTI 原油價格 vs 美元指數 DXY -->
     <div class="chart-card">
       <div class="chart-header">
-        <h2 class="chart-title">WTI 原油價格 歷史走勢 (USD/OIL) (2000-2026)</h2>
-        <div class="embedded-metrics-single">
+        <h2 class="chart-title">WTI 原油價格 vs 美元指數 (DXY) 走勢對照 (2000-2026)</h2>
+        <div class="embedded-metrics-double">
           <div class="metric-badge">
             <span class="metric-label">WTI 原油</span>
             <span class="metric-value" id="val-oil" style="color: var(--accent-orange);">- 美元</span>
+          </div>
+          <div class="metric-badge">
+            <span class="metric-label">美元指數 (DXY)</span>
+            <span class="metric-value" id="val-dxy-oil" style="color: var(--accent-cyan);">-</span>
           </div>
         </div>
       </div>
@@ -216,7 +224,7 @@
       </div>
     </div>
 
-    <!-- 區塊 4: 利率指標與美債對照說明 (接續置下) -->
+    <!-- 區塊 4: 利率指標與美債對照說明 -->
     <div class="chart-card">
       <div class="chart-header">
         <h2 class="chart-title">聯準會利率 vs 美債殖利率 (2000-2026)</h2>
@@ -318,6 +326,16 @@
   </div>
 
   <script>
+    // 格式化為 "YY-MM" (例如 "00-01", "26-09")
+    function formatShortDate(dateStr) {
+      if (!dateStr || typeof dateStr !== 'string') return dateStr;
+      const parts = dateStr.split('-');
+      if (parts.length >= 2) {
+        return parts[0].slice(-2) + '-' + parts[1];
+      }
+      return dateStr;
+    }
+
     function buildRightPrioritizedXScale(labels) {
       return {
         ticks: {
@@ -325,11 +343,13 @@
           maxRotation: 0,
           callback: function(value, index) {
             if (!labels || labels.length === 0) return '';
-            const label = labels[index];
-            if (!label) return '';
-            if (index === labels.length - 1) return label; // 強制顯示最右側 2026 最新年份
-            const step = 48; // 每隔約 4 年顯示一個年份刻度
-            if ((labels.length - 1 - index) % step === 0) return label;
+            const rawLabel = labels[index];
+            if (!rawLabel) return '';
+            const shortLabel = formatShortDate(rawLabel);
+
+            if (index === labels.length - 1) return shortLabel; // 強制顯示 2026 最新年份
+            const step = 48; // 每隔約 4 年
+            if ((labels.length - 1 - index) % step === 0) return shortLabel;
             return null;
           }
         },
@@ -344,12 +364,16 @@
 
         document.getElementById('updated-at').innerText = '最後更新時間：' + data.updated_at;
 
-        // 填入數值
+        // 填入卡片數值
         document.getElementById('val-usdtwd').innerText = data.latest_macro.usdtwd || '-';
         document.getElementById('val-usdjpy').innerText = data.latest_macro.usdjpy || '-';
         document.getElementById('val-usdcny').innerText = data.latest_macro.usdcny || '-';
+
         document.getElementById('val-gold').innerText = (data.latest_macro.gold || '-') + ' $';
+        document.getElementById('val-dxy-gold').innerText = data.latest_macro.dxy || '-';
+
         document.getElementById('val-oil').innerText = (data.latest_macro.oil || '-') + ' $';
+        document.getElementById('val-dxy-oil').innerText = data.latest_macro.dxy || '-';
 
         document.getElementById('val-fed-rate').innerText = (data.latest_macro.fed_rate || '-') + ' %';
         document.getElementById('val-us10y').innerText = (data.latest_macro.us10y_yield || '-') + ' %';
@@ -360,7 +384,7 @@
 
         const masterDates = data.history.fed_rate.dates;
 
-        // 1. 主要外匯匯率走勢圖 (台幣/日元/人民幣 雙Y軸)
+        // 1. 主要外匯匯率走勢圖
         new Chart(document.getElementById('forexChart'), {
           type: 'line',
           data: {
@@ -383,13 +407,14 @@
           }
         });
 
-        // 2. 獨立黃金走勢圖
+        // 2. 黃金價格 vs 美元指數 DXY
         new Chart(document.getElementById('goldChart'), {
           type: 'line',
           data: {
             labels: masterDates,
             datasets: [
-              { label: '國際黃金價格 (USD)', data: data.history.gold.values, borderColor: '#eab308', backgroundColor: 'rgba(234, 179, 8, 0.1)', fill: true, pointRadius: 0, borderWidth: 2 }
+              { label: '黃金價格 (左軸)', data: data.history.gold.values, borderColor: '#eab308', backgroundColor: 'rgba(234, 179, 8, 0.1)', yAxisID: 'y', fill: true, pointRadius: 0, borderWidth: 2 },
+              { label: '美元指數 DXY (右軸)', data: data.history.dxy.values, borderColor: '#06b6d4', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
             ]
           },
           options: {
@@ -398,18 +423,20 @@
             plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
             scales: {
               x: buildRightPrioritizedXScale(masterDates),
-              y: { ticks: { color: '#eab308' }, title: { display: true, text: '美元 (USD)', color: '#eab308' } }
+              y: { type: 'linear', display: true, position: 'left', ticks: { color: '#eab308' }, title: { display: true, text: '黃金 (USD)', color: '#eab308' } },
+              y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#06b6d4' }, grid: { drawOnChartArea: false }, title: { display: true, text: '美元指數 (DXY)', color: '#06b6d4' } }
             }
           }
         });
 
-        // 3. 獨立 WTI 原油走勢圖
+        // 3. WTI 原油價格 vs 美元指數 DXY
         new Chart(document.getElementById('oilChart'), {
           type: 'line',
           data: {
             labels: masterDates,
             datasets: [
-              { label: 'WTI 原油價格 (USD)', data: data.history.oil.values, borderColor: '#f97316', backgroundColor: 'rgba(249, 115, 22, 0.1)', fill: true, pointRadius: 0, borderWidth: 2 }
+              { label: 'WTI 原油 (左軸)', data: data.history.oil.values, borderColor: '#f97316', backgroundColor: 'rgba(249, 115, 22, 0.1)', yAxisID: 'y', fill: true, pointRadius: 0, borderWidth: 2 },
+              { label: '美元指數 DXY (右軸)', data: data.history.dxy.values, borderColor: '#06b6d4', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
             ]
           },
           options: {
@@ -418,7 +445,8 @@
             plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
             scales: {
               x: buildRightPrioritizedXScale(masterDates),
-              y: { ticks: { color: '#f97316' }, title: { display: true, text: '美元 (USD)', color: '#f97316' } }
+              y: { type: 'linear', display: true, position: 'left', ticks: { color: '#f97316' }, title: { display: true, text: '原油 (USD)', color: '#f97316' } },
+              y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#06b6d4' }, grid: { drawOnChartArea: false }, title: { display: true, text: '美元指數 (DXY)', color: '#06b6d4' } }
             }
           }
         });
@@ -470,11 +498,4 @@
         `).join('');
 
       } catch (err) {
-        document.getElementById('updated-at').innerText = '數據載入中，請確認 data.json 狀態。';
-      }
-    }
-
-    loadDashboard();
-  </script>
-</body>
-</html>
+     
