@@ -25,9 +25,11 @@ def fetch_fred_and_market_data():
         "cpi": "CPIAUCSL",
         "core_cpi": "CPILFESL",
         "pmi": "MANMM101USM657S",
-        "usdtwd": "DEXTAUS",
-        "oil": "DCOILWTICO",
-        "gold": "GOLDAMGBD228NLBM",
+        "usdtwd": "DEXTAUS",     # 美元/台幣
+        "usdjpy": "DEXJPUS",     # 美元/日元
+        "usdcny": "DEXCHUS",     # 美元/人民幣
+        "oil": "DCOILWTICO",     # WTI 原油
+        "gold": "GOLDAMGBD228NLBM", # 黃金價格
     }
 
     history_data = {}
@@ -39,13 +41,12 @@ def fetch_fred_and_market_data():
             df = df.dropna()
             df_resampled = df.resample("ME").last().ffill()
 
-            # 將資料對齊主時間軸
             df_resampled.index = df_resampled.index.strftime("%Y-%m")
             aligned_s = df_resampled[code].reindex(master_dates).ffill().bfill()
 
             values = [round(float(v), 2) for v in aligned_s.values]
 
-            # PMI 轉為 0-100 指數
+            # PMI 轉為 0-100 標準指數
             if name == "pmi":
                 values = [
                     round(v * 100 + 50, 1) if v < 10 else round(v, 1)
@@ -59,23 +60,19 @@ def fetch_fred_and_market_data():
             history_data[name] = {"dates": master_dates, "values": []}
             latest_macro[name] = "N/A"
 
-    # 用 yfinance 補齊最新黃金價格，避免 FRED 延遲
+    # 用 yfinance 補齊最新即時報價，確保當前數字準確
     try:
-        gold_ticker = yf.Ticker("GC=F").history(period="5d")
-        if not gold_ticker.empty:
-            latest_macro["gold"] = round(
-                float(gold_ticker["Close"].iloc[-1]), 1
-            )
-
-        twd_ticker = yf.Ticker("USDTWD=X").history(period="5d")
-        if not twd_ticker.empty:
-            latest_macro["usdtwd"] = round(
-                float(twd_ticker["Close"].iloc[-1]), 2
-            )
-
-        oil_ticker = yf.Ticker("CL=F").history(period="5d")
-        if not oil_ticker.empty:
-            latest_macro["oil"] = round(float(oil_ticker["Close"].iloc[-1]), 2)
+        yf_tickers = {
+            "usdtwd": "USDTWD=X",
+            "usdjpy": "JPY=X",
+            "usdcny": "CNY=X",
+            "oil": "CL=F",
+            "gold": "GC=F",
+        }
+        for key, ticker in yf_tickers.items():
+            t = yf.Ticker(ticker).history(period="5d")
+            if not t.empty:
+                latest_macro[key] = round(float(t["Close"].iloc[-1]), 2)
     except Exception as e:
         print(f"yfinance 即時更新失敗: {e}")
 
@@ -85,7 +82,7 @@ def fetch_fred_and_market_data():
 def fetch_macro_news():
     """抓取即時新聞"""
     print("正在抓取即時總經新聞...")
-    queries = ["聯準會 利率 美債", "通膨 CPI 油價 黃金", "美元 台幣 匯率"]
+    queries = ["聯準會 利率 美債", "美元 台幣 日元 人民幣 匯率", "原油 黃金 價格"]
 
     news_list = []
     for q in queries:
@@ -132,4 +129,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
