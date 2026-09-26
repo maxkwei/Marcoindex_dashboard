@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25 03:55:09 (UTC)",
+  "updated_at": "2026-09-26 03:59:45 (UTC)",
   "latest_macro": {
     "fed_rate": 3.63,
     "us10y_yield": 4.75,
@@ -7,9 +7,9 @@
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 31.75,
-    "oil": 93.09,
-    "gold": 4308.8
+    "usdtwd": 31.69,
+    "oil": 92.44,
+    "gold": 4320.5
   },
   "history": {
     "fed_rate": {
@@ -5508,16 +5508,16 @@
   },
   "news": [
     {
-      "title": "Fed接連「放鷹」美債賣壓延燒全球 30年期升破5.5% 觸2004年新高 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5CRWUwNkJQWG9nUUFCOG0xOElsNEpGU18xTy1WU2hBMUtxMmZlTmVPRlk5eGIyaDlFNlVpWFdaNDhicG40RFBDaFpMTQ?oc=5",
-      "published": "Thu, 24 Sep 2026 22:37:38 GMT",
+      "title": "〈貴金屬盤後〉Fed官員聯手放鷹、美債殖利率挺升 金價周線收黑 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1MMFRlTF9SVUhLbG5TenFtRkp4ZkZiNThMeEpOUkRScFRWTC01STh2ZXhDS216bTZJVmJFVUFfNUVjZTVlcUVXUVRFMA?oc=5",
+      "published": "Fri, 25 Sep 2026 22:54:33 GMT",
       "source": "鉅亨網"
     },
     {
-      "title": "股民最怕！　美30年期國債殖利率飆逾22年新高 - ETtoday財經雲",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0X2s2TzU0TGxUZ0FYSXVBSUVkUXdNQXFrNjQxaWZkRnM3ZWpOZDkzQkpjUG5xWXZDZE9MU3Fsb2J4YXN2NFB6TnNzNGRwZi1VZXfSAVBBVV95cUxNN2JkelFHaWlraGk3UzJIeVZrUi1MbF9feUZJNVppWk1hZVVJQmtwaUVGd0g5ZXVTMi1xLXROQnpUa1RaOWhuOTBnWGNmMVBXRg?oc=5",
-      "published": "Fri, 25 Sep 2026 02:04:00 GMT",
-      "source": "ETtoday財經雲"
+      "title": "美債殖利率狂飆！30年期衝破5.5% 創22年新高 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPRm5ES3lmVzRyTFgtMFRnQnlsWmZQOFc1NU5uVFZpM01nR25IVmpENnYyNHdkOHQzb1dUcnhoWU9LcUNsYV9ieFpUMDdoR1d2M2NEU2JmUUN1X0Rwa2dQOUFnQVlRR0RkUG5GcVBFcWxwbnRReGh4UXpHRTFpdm1xQ29sVV82MTJDMlk5UEpteTdGWUdDZkVlZ0pZN0pCdlZ6SWY1Y3pWdFYyZFRMdmJUcFpTeVAxejN2U05oeTF6bXQ3c3kwblBEZFRTSWNRNE5wRDFSNDhiV3FlUDJ6SUFqT0ZNNS01MVhhMC1NdmV0dmNuYUNmT01fcmtfc1RrMUk5Qlc5blhDRmRmRXNERU1zaEtUX0hhUThYMHVj?oc=5",
+      "published": "Sat, 26 Sep 2026 03:00:00 GMT",
+      "source": "Yahoo股市"
     },
     {
       "title": "〈貴金屬盤後〉油價上揚、CPI將發布 黃金收黑 - news.cnyes.com",
@@ -5526,22 +5526,22 @@
       "source": "news.cnyes.com"
     },
     {
-      "title": "黃金承壓：油價、通膨數據與聯準會動向牽動金價走勢 - PChome Online 股市",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUDVNWW56bWVsYzE0aHNmaG9nYXlGSUpKRDJNckQtWEJGMHdHR1V6TlAwcWdINWRXeU9KbmsxRnRWQmZWVEJLeWtlc3V5UXpOalBaMFptQWF4ZW9ld215OGdxQmV3Q3czSlY0NmIwMTVPUC15ZmpiSEtCeGpsU1pybw?oc=5",
+      "title": "黃金承壓：油價、通膨數據與聯準會動向牽動金價走勢 - 理財周刊",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93MUxITU9aWUVxd3BMa0hrcjN2UjB1WmRic1FFR2NWaHNzTDd0Mnp1RXFnNTE1TTZIUHQyYmUwSWpHeEswUVZJeXF3VWZmR1Y2bHZWZHlYQVR5MjFUcEY1SXlwcUZYa1NMSFl3ZEdVVQ?oc=5",
       "published": "Tue, 08 Sep 2026 07:00:00 GMT",
-      "source": "PChome Online 股市"
+      "source": "理財周刊"
     },
     {
-      "title": "《新台幣匯率》今日美元兌新台幣最低為31.710元 - 富聯網",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUzVTZ2NDWFk5cFZFM0ZEWWx5M3M5cEVYbklJRG4yU3NrOU9sSEhBX1k5ci1DSS15NlV6b0lmVGVVaVhxZUUzTGJ4Smx5WUNkMjZtd0hWWEdQNGJkY1NYM3R4dTVLcHVZNUJoVnY1eGN0VGNIR3NHNlQxRGxpdEM4OHdWVEZ3Vnlx?oc=5",
-      "published": "Thu, 24 Sep 2026 08:07:00 GMT",
-      "source": "富聯網"
+      "title": "出口商滿手美元 台幣承壓 前七月未結售金額衝2,982億美元新高 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xWDhHcGZBUXVCeGNRRWZYdTJSV3BoQjI1YWJiZzRQZ2o2eVVxYlVwcHBHWDBJcEtKNllvVGo3OWU3Sm84NjNXSFNReURhR05qRmNWdWQwb1JCUdIBX0FVX3lxTFBVdkFUdTZyWENNd2JldXdYRTBjbkxXaWFGcVBkcXNNN3c0Q2c4cGZJR3R2M193VGxfUXk1bXNmMU5abUNPQWpxYV9zNlByQ3VnTXRGbGtpX2FVcEd3MFpJ?oc=5",
+      "published": "Mon, 07 Sep 2026 07:00:00 GMT",
+      "source": "經濟日報"
     },
     {
-      "title": "新台幣匯市今封關 延續升值走勢 - 公視新聞網PNN",
+      "title": "新台幣匯市今封關 延續升值走勢 - news.pts.org.tw",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91bng4NGtZRDFmUWk5MkRUb1UyUTVZZ2lDdGotNEYxa0pKbHVCcEN0MW4zSW91dHE0eW1ZOVlvNUUyU09GWTZHQ0ZFcnQyYTg?oc=5",
       "published": "Mon, 14 Sep 2026 07:00:00 GMT",
-      "source": "公視新聞網PNN"
+      "source": "news.pts.org.tw"
     }
   ]
 }
