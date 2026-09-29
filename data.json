@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 04:45:25 (UTC)",
+  "updated_at": "2026-09-29 14:48:40 (UTC)",
   "latest_macro": {
     "fed_rate": 3.63,
     "us10y_yield": 4.75,
@@ -7,12 +7,12 @@
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 31.83,
-    "usdjpy": 157.53,
+    "usdtwd": 31.81,
+    "usdjpy": 157.4,
     "usdcny": 6.7,
-    "oil": 94.3,
-    "gold": 4157.8,
-    "dxy": 101.28
+    "oil": 91.35,
+    "gold": 4196.0,
+    "dxy": 101.39
   },
   "history": {
     "fed_rate": {
@@ -7770,28 +7770,28 @@
   },
   "news": [
     {
-      "title": "美債殖利率曲線瀕臨倒掛 聯準會升息加劇經濟衰退風險 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxPcnZIdUN6dkhEdXphTGMxT3d4cXFVZHpWWkxNb3ZwOGFMLVF4dVlHbTQtRWNvUFd5dF9rUGVXMmpqanJrUTFuZWVibXVIN1F3M1UyaWlfSUZmVElHUGxybjN0YUlXa0FOZGMwQlBlY2hZVzhBaW1SMVF2dUhocGRzZDVLNVY4MjNwWVpFcVg3NWV4a25Oel9HNEZXZHd6eG80LWpQYTVjZHlzSzVVZWJuQUtMNjZ6d3dhb0ZzUm16WlRsTlhfQVF3ZUpQY2ZWemdXNFZVUUlEbEhMdlkxMDFVOGZLekhDckNYLWx6S1Zab05YZFB5QTVBQW5aaDJIb1lDbzJtRk8ybUY1ZXBFVUlhTW1Ya3BQSDNoNUtfck5DcFNaOHR5dXcxcDhETVVodHB1dG1WQTZDQlgtTkwycUIydnIwVXJaekYwNkZidVVLdEZIdEk0bGlrWDJ4RFpSMWh5Mjk2bUpKXzd2TFFoOXE5R01hN0VPUUdBZUdjRQ?oc=5",
-      "published": "Mon, 28 Sep 2026 07:02:33 GMT",
+      "title": "美債殖利率飆升再探 2008 前高 市場憂重演大衰退模式 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOTHhMbTg1ZUpyVkFock1pVFV0VjdIWlpjaDNoZF9rMzFBeTUydW1jdjR5ZVFQMUExck5QZ3p4YzBRUlduaVMwcVE5QmlhbUYyNnhXZjFWYzNKVGxRSG9QTk1XcTJXLXh2YzNraHViY1F0aFZVRS1sN3g0dEhidXhQeXhZa2dDZ0dKbnJLWlJVM2J3dHUxd2E2SF9sMWJhZEZMLUR0M0szNlJ3SF9jZDMzVE5qMl9BbHpRM1ZXNk16bzdsTERXQTJoV1R0WUh4WURwWldpU3ZjbmlXUUFqZlJYM0I5cUJWbUozQ1AydFlsOHlRLU1XTWdZWE9jdFNuOUF5TGZnLVp0SjFlUjkySWVIQTF4cXZYcXJyaVlWNWUwRktxckJGUm1yWUl6OFFXNklCSk9CbV9vVTBvQ2JHaFotY3ZrT2VERjRpNTZ3aEp5REpQV1J5VXRvcFk1U2V0cjN3?oc=5",
+      "published": "Tue, 29 Sep 2026 12:47:55 GMT",
       "source": "Yahoo股市"
     },
     {
-      "title": "美債遭遇歷史性拋售 為何賣壓持續加劇？ - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9GdmkzX1NtX1BxU1VsWHNHbS00MFVIcDhNS0l5aHlZSWVLWWxiWW0xYmRFZVhpRUY3b3Q3UlAwRFpaNUZWWTRkeWo5OA?oc=5",
-      "published": "Mon, 28 Sep 2026 22:11:40 GMT",
-      "source": "鉅亨網"
+      "title": "〈美股早盤〉油價、美債殖利率終於降溫！標普、那指開高喘口氣 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xenhWNjZuRTZBMUhWMDhCa0UwWGNzRjVUR2tRMlJGc3k3SDFkbWw1VG9mdWwtaTdmOWVDTnV6ZjZRR2szRFU1Z3ZZRlk4MnM?oc=5",
+      "published": "Tue, 29 Sep 2026 13:39:34 GMT",
+      "source": "news.cnyes.com"
+    },
+    {
+      "title": "股匯雙挫 新台幣盤中貶近1.5角收31.876元 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBodWYxdVlBV1RpUm94UzRJc2RvdVNIYnpyX19ab2o5ZmRfSWQ4QTFzNS1KLUhESnVUVlZGZ0JvaG5SMU1SY3o1eF9CYW5xQ0FmN0J0SF9aVTRqZ9IBX0FVX3lxTE1JRUZaVlQ2UlRCS3I3YUhIUDB4Rnh1NXVRLWRrTFdpWjItSGN2R0NrX3RwcGZlR3V3OTZja2ZNZ1RGa1FNUW8zcmpWbUxrd3NrZEtnNUN6UFZMOXo4M2pJ?oc=5",
+      "published": "Tue, 29 Sep 2026 10:21:29 GMT",
+      "source": "經濟日報"
     },
     {
       "title": "美元走勢承壓新台幣Q4看升- 日報 - 工商時報",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03UDVyM3M0TGZsZUtFaUhSWDNoeTVHOE5sdlVtWVJXMU16bkF5M3JqbHl6cmNPd2JpSzR5TjlyQXFMYlBOa18zVjc4TkZZZnllXzZ1c2ExQ09ESnN2S2Y0?oc=5",
       "published": "Mon, 28 Sep 2026 19:00:00 GMT",
       "source": "工商時報"
-    },
-    {
-      "title": "新台幣季線有望轉強 市場關注季底外資動向 月線仍是偏弱格局 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5HRkpmVGZZeGVlOFZZUGxzMWEtZWtHM2FQMEQ3ZWdGLW4xbThnNklxWGNmTktnMWM5ZDRjRFhYSmxTUHBfWDBuSDVkb2xkWDJCNmtRSEo1M1E0d9IBX0FVX3lxTE1TWnBfdjRmdmY1c2dEbzBMZ2xtRXo5LWFFMFpJLS1tdjUwNWpTTWpmXzJqd3JqdWtfdTRpNVo0UDhFLXRfaHFkYzJUam90VmpIZk5fWnRHMHN5RS1PLTg0?oc=5",
-      "published": "Sat, 26 Sep 2026 18:44:33 GMT",
-      "source": "經濟日報"
     },
     {
       "title": "【今日要聞】黃金、白銀大跌！布蘭特原油重返100美元，日幣匯率巨震 - Mitrade",
