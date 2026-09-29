@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全球總經外匯原油黃金與利率儀表板 (2000-2026)</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --border-color: #334155;
+      --text-main: #f8fafc;
+      --text-sub: #94a3b8;
+      --accent-blue: #38bdf8;
+      --accent-red: #f87171;
+      --accent-yellow: #facc15;
+      --accent-green: #34d399;
+      --accent-purple: #c084fc;
+      --accent-cyan: #06b6d4;
+      --accent-orange: #f97316;
+      --accent-gold: #eab308;
+      --accent-pink: #ec4899;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container { max-width: 1400px; margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 15px; flex-wrap: wrap; gap: 10px; }
+    h1 { margin: 0; color: var(--accent-blue); font-size: 1.5rem; }
+    .update-time { color: var(--text-sub); font-size: 0.85rem; }
+
+    .chart-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .chart-title { font-size: 1.1rem; font-weight: 600; color: var(--text-main); margin: 0; }
+
+    /* 指標排版系統 */
+    .embedded-metrics-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      width: 100%;
+      max-width: 680px;
+    }
+
+    .embedded-metrics-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      width: 100%;
+      max-width: 550px;
+    }
+
+    .embedded-metrics-double {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      width: 100%;
+      max-width: 380px;
+    }
+
+    .metric-badge {
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 8px 12px;
+      text-align: center;
+    }
+
+    .metric-label { font-size: 0.75rem; color: var(--text-sub); display: block; margin-bottom: 2px; }
+    .metric-value { font-size: 1.1rem; font-weight: bold; }
+
+    .canvas-wrapper { position: relative; height: 320px; width: 100%; }
+
+    .info-collapse {
+      margin-top: 15px;
+      border-top: 1px dashed var(--border-color);
+      padding-top: 12px;
+    }
+
+    .info-collapse details {
+      background: rgba(15, 23, 42, 0.5);
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      padding: 10px 14px;
+    }
+
+    .info-collapse summary {
+      cursor: pointer;
+      color: var(--accent-blue);
+      font-size: 0.88rem;
+      font-weight: 600;
+      user-select: none;
+    }
+
+    .info-content {
+      margin-top: 12px;
+      font-size: 0.83rem;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .info-box {
+      background: rgba(30, 41, 59, 0.8);
+      border-radius: 6px;
+      padding: 10px;
+      border-left: 3px solid var(--accent-blue);
+    }
+
+    .info-box.yellow { border-left-color: var(--accent-yellow); }
+
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 0.8rem;
+    }
+
+    .info-table th, .info-table td {
+      border: 1px solid var(--border-color);
+      padding: 6px 10px;
+      text-align: left;
+    }
+
+    .info-table th { background: rgba(15, 23, 42, 0.8); color: var(--accent-blue); }
+
+    .news-section { background: var(--card-bg); padding: 20px; border-radius: 12px; border: 1px solid var(--border-color); }
+    .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
+    .news-item { background: rgba(15, 23, 42, 0.4); padding: 12px; border-radius: 8px; border: 1px solid var(--border-color); }
+    .news-item a { color: var(--text-main); text-decoration: none; font-size: 0.9rem; font-weight: 500; display: block; margin-bottom: 6px; }
+    .news-item a:hover { color: var(--accent-blue); }
+    .news-meta { font-size: 0.75rem; color: var(--text-sub); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>全球總體經濟、外匯原油黃金與利率儀表板</h1>
+      <div class="update-time" id="updated-at">資料載入中...</div>
+    </header>
+
+    <!-- 區塊 1: 美元指數 vs 美元對主要貨幣匯率 -->
+    <div class="chart-card">
+      <div class="chart-header">
+        <h2 class="chart-title">美元指數 (DXY) vs 美元對台幣/日元/人民幣 匯率走勢 (2000-2026)</h2>
+        <div class="embedded-metrics-4">
+          <div class="metric-badge">
+            <span class="metric-label">美元指數 (DXY)</span>
+            <span class="metric-value" id="val-dxy" style="color: var(--accent-purple);">-</span>
+          </div>
+          <div class="metric-badge">
+            <span class="metric-label">美元 / 台幣</span>
+            <span class="metric-value" id="val-usdtwd" style="color: var(--accent-cyan);">-</span>
+          </div>
+          <div class="metric-badge">
+            <span class="metric-label">美元 / 日元</span>
+            <span class="metric-value" id="val-usdjpy" style="color: var(--accent-pink);">-</span>
+          </div>
+          <div class="metric-badge">
+            <span class="metric-label">美元 / 人民幣</span>
+            <span class="metric-value" id="val-usdcny" style="color: var(--accent-green);">-</span>
+          </div>
+        </div>
+      </div>
+      <div class="canvas-wrapper">
+        <canvas id="forexChart"></canvas>
+      </div>
+    </div>
+
+    <!-- 區塊 2: 黃金價格 vs 美元指數 DXY -->
+    <div class="chart-card">
+      <div class="chart-header">
+        <h2 class="chart-title">國際黃金價格 vs 美元指數 (DXY) 走勢對照 (2000-2026)</h2>
+        <div class="embedded-metrics-double">
+          <div class="metric-badge">
+            <span class="metric-label">國際金價</span>
+            <span class="metric-value" id="val-gold" style="color: var(--accent-gold);">- 美元</span>
+          </div>
+          <div class="metric-badge">
+            <span class="metric-label">美元指數 (DXY)</span>
+            <span class="metric-value" id="val-dxy-gold" style="color: var(--accent-purple);">-</span>
+          </div>
+        </div>
+      </div>
+      <div class="canvas-wrapper">
+        <canvas id="goldChart"></canvas>
+      </div>
+    </div>
+
+    <!-- 區塊 3: WTI 原油價格 vs 美元指數 DXY -->
+    <div class="chart-card">
+      <div class="chart-header">
+        <h2 class="chart-title">WTI 原油價格 vs 美元指數 (DXY) 走勢對照 (2000-2026)</h2>
+        <div class="embedded-metrics-double">
+          <div class="metric-badge">
+            <span class="metric-label">WTI 原油</span>
+            <span class="metric-value" id="val-oil" style="color: var(--accent-orange);">- 美元</span>
+          </div>
+          <div class="metric-badge">
+            <span class="metric-label">美元指數 (DXY)</span>
+            <span class="metric-value" id="val-dxy-oil" style="color: var(--accent-purple);">-</span>
+          </div>
+        </div>
+      </div>
+      <div class="canvas-wrapper">
+        <canvas id="oilChart"></canvas>
+      </div>
+    </div>
+
+    <!-- 區塊 4: 利率指標與美債對照說明 -->
+    <div class="chart-card">
+      <div class="chart-header">
+        <h2 class="chart-title">聯準會利率 vs 美債殖利率 (2000-2026)</h2>
+        <div class="embedded-metrics-row">
+          <div class="metric-badge">
+            <span class="metric-label">聯準會利率</span>
+            <span class="metric-value" id="val-fed-rate" style="color: var(--accent-red);">- %</span>
+          </div>
+          <div class="metric-badge">
+            <span class="metric-label">10年期美債</span>
+            <span class="metric-value" id="val-us10y" style="color: var(--accent-blue);">- %</span>
+          </div>
+          <div class="metric-badge">
+            <span class="metric-label">20年期美債</span>
+            <span class="metric-value" id="val-us20y" style="color: var(--accent-yellow);">- %</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="canvas-wrapper">
+        <canvas id="ratesChart"></canvas>
+      </div>
+
+      <div class="info-collapse">
+        <details>
+          <summary>💡 點擊查看 10年/20年美債參考價值與儀表板對照說明</summary>
+          <div class="info-content">
+            <div class="info-grid">
+              <div class="info-box">
+                <h4>📌 10 年期美國公債（全球資產定價錨點）</h4>
+                <ul>
+                  <li><strong>無風險利率基準：</strong> 全球房貸、企業融資成本與股市估值的定價基礎。</li>
+                  <li><strong>景氣與通膨風向球：</strong> 殖利率上升代表預期經濟強勁或通膨升溫；下降代表避險需求增加或預期降息。</li>
+                </ul>
+              </div>
+
+              <div class="info-box yellow">
+                <h4>📌 20 年期美國公債（長端資金與 TLT 核心標的）</h4>
+                <ul>
+                  <li><strong>長天期債券 ETF 錨點：</strong> 為 TLT 等熱門美債 ETF 的核心追蹤標的，對「降息預期與價差收益」高度敏感。</li>
+                  <li><strong>發債與流動性壓力：</strong> 為財政部長端發債測試劑，市場供需若不佳會帶動長端殖利率飆升。</li>
+                </ul>
+              </div>
+            </div>
+
+            <h4 style="margin-top: 12px; margin-bottom: 5px; color: var(--accent-blue);">📊 儀表板組合觀察指南：</h4>
+            <table class="info-table">
+              <thead>
+                <tr>
+                  <th>對照組合</th>
+                  <th>市場觀察重點與總經含義</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>10年期 vs 20年期利差</strong></td>
+                  <td>觀察長端殖利率曲線。若 20 年期顯著高於 10 年期，代表市場要求長端風險補償；若利差收窄代表曲線平坦。</td>
+                </tr>
+                <tr>
+                  <td><strong>聯準會利率 vs 長天期美債</strong></td>
+                  <td>當聯準會維持高利率，但 10Y/20Y 美債殖利率率先回落時，代表市場超前部署預估未來經濟放緩、央行即將啟動降息循環。</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <!-- 區塊 5: 通膨與製造業指標 -->
+    <div class="chart-card">
+      <div class="chart-header">
+        <h2 class="chart-title">CPI 物價指數 vs 製造業 PMI 走勢 (2000-2026)</h2>
+        <div class="embedded-metrics-row">
+          <div class="metric-badge">
+            <span class="metric-label">CPI 物價</span>
+            <span class="metric-value" id="val-cpi" style="color: var(--accent-green);">-</span>
+          </div>
+          <div class="metric-badge">
+            <span class="metric-label">核心 CPI</span>
+            <span class="metric-value" id="val-core-cpi" style="color: var(--accent-purple);">-</span>
+          </div>
+          <div class="metric-badge">
+            <span class="metric-label">PMI 指數</span>
+            <span class="metric-value" id="val-pmi" style="color: var(--accent-blue);">-</span>
+          </div>
+        </div>
+      </div>
+      <div class="canvas-wrapper">
+        <canvas id="cpiPmiChart"></canvas>
+      </div>
+    </div>
+
+    <!-- 即時新聞區域 -->
+    <div class="news-section">
+      <h2 style="margin-top:0; color:var(--accent-blue); font-size:1.1rem;">最新總經市場新聞焦點</h2>
+      <div class="news-grid" id="news-list">載入新聞中...</div>
+    </div>
+  </div>
+
+  <script>
+    function formatShortDate(dateStr) {
+      if (!dateStr || typeof dateStr !== 'string') return dateStr;
+      const parts = dateStr.split('-');
+      if (parts.length >= 2) {
+        return parts[0].slice(-2) + '-' + parts[1];
+      }
+      return dateStr;
+    }
+
+    function buildRightPrioritizedXScale(labels) {
+      return {
+        ticks: {
+          color: '#94a3b8',
+          maxRotation: 0,
+          callback: function(value, index) {
+            if (!labels || labels.length === 0) return '';
+            const rawLabel = labels[index];
+            if (!rawLabel) return '';
+            const shortLabel = formatShortDate(rawLabel);
+
+            if (index === labels.length - 1) return shortLabel;
+            const step = 48;
+            if ((labels.length - 1 - index) % step === 0) return shortLabel;
+            return null;
+          }
+        },
+        grid: { color: 'rgba(51, 65, 85, 0.4)' }
+      };
+    }
+
+    async function loadDashboard() {
+      try {
+        const response = await fetch('data.json?t=' + new Date().getTime());
+        const data = await response.json();
+
+        document.getElementById('updated-at').innerText = '最後更新時間：' + data.updated_at;
+
+        const lm = data.latest_macro || {};
+        const getVal = (k) => lm[k] !== undefined && lm[k] !== null ? lm[k] : '-';
+
+        document.getElementById('val-dxy').innerText = getVal('dxy');
+        document.getElementById('val-usdtwd').innerText = getVal('usdtwd');
+        document.getElementById('val-usdjpy').innerText = getVal('usdjpy');
+        document.getElementById('val-usdcny').innerText = getVal('usdcny');
+
+        document.getElementById('val-gold').innerText = getVal('gold') + ' $';
+        document.getElementById('val-dxy-gold').innerText = getVal('dxy');
+
+        document.getElementById('val-oil').innerText = getVal('oil') + ' $';
+        document.getElementById('val-dxy-oil').innerText = getVal('dxy');
+
+        document.getElementById('val-fed-rate').innerText = getVal('fed_rate') + ' %';
+        document.getElementById('val-us10y').innerText = getVal('us10y_yield') + ' %';
+        document.getElementById('val-us20y').innerText = getVal('us20y_yield') + ' %';
+        document.getElementById('val-cpi').innerText = getVal('cpi');
+        document.getElementById('val-core-cpi').innerText = getVal('core_cpi');
+        document.getElementById('val-pmi').innerText = getVal('pmi');
+
+        const history = data.history || {};
+        const getH = (k) => (history[k] && history[k].values) ? history[k].values : [];
+        const masterDates = (history.fed_rate && history.fed_rate.dates) ? history.fed_rate.dates : [];
+
+        // 1. 美元指數 DXY vs 主要外匯匯率走勢圖
+        new Chart(document.getElementById('forexChart'), {
+          type: 'line',
+          data: {
+            labels: masterDates,
+            datasets: [
+              { label: '美元指數 DXY (左軸)', data: getH('dxy'), borderColor: '#c084fc', backgroundColor: 'rgba(192, 132, 252, 0.1)', yAxisID: 'y', fill: true, pointRadius: 0, borderWidth: 2 },
+              { label: '美元/台幣 (右軸)', data: getH('usdtwd'), borderColor: '#06b6d4', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: '美元/人民幣 (右軸)', data: getH('usdcny'), borderColor: '#34d399', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: '美元/日元 (右軸)', data: getH('usdjpy'), borderColor: '#ec4899', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 1.5, borderDash: [3, 3] }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
+            scales: {
+              x: buildRightPrioritizedXScale(masterDates),
+              y: { type: 'linear', display: true, position: 'left', ticks: { color: '#c084fc' }, title: { display: true, text: '美元指數 (DXY)', color: '#c084fc' } },
+              y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#06b6d4' }, grid: { drawOnChartArea: false }, title: { display: true, text: '匯率 (TWD/CNY/JPY)', color: '#06b6d4' } }
+            }
+          }
+        });
+
+        // 2. 黃金價格 vs 美元指數 DXY
+        new Chart(document.getElementById('goldChart'), {
+          type: 'line',
+          data: {
+            labels: masterDates,
+            datasets: [
+              { label: '黃金價格 (左軸)', data: getH('gold'), borderColor: '#eab308', backgroundColor: 'rgba(234, 179, 8, 0.1)', yAxisID: 'y', fill: true, pointRadius: 0, borderWidth: 2 },
+              { label: '美元指數 DXY (右軸)', data: getH('dxy'), borderColor: '#c084fc', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
+            scales: {
+              x: buildRightPrioritizedXScale(masterDates),
+              y: { type: 'linear', display: true, position: 'left', ticks: { color: '#eab308' }, title: { display: true, text: '黃金 (USD)', color: '#eab308' } },
+              y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#c084fc' }, grid: { drawOnChartArea: false }, title: { display: true, text: '美元指數 (DXY)', color: '#c084fc' } }
+            }
+          }
+        });
+
+        // 3. WTI 原油價格 vs 美元指數 DXY
+        new Chart(document.getElementById('oilChart'), {
+          type: 'line',
+          data: {
+            labels: masterDates,
+            datasets: [
+              { label: 'WTI 原油 (左軸)', data: getH('oil'), borderColor: '#f97316', backgroundColor: 'rgba(249, 115, 22, 0.1)', yAxisID: 'y', fill: true, pointRadius: 0, borderWidth: 2 },
+              { label: '美元指數 DXY (右軸)', data: getH('dxy'), borderColor: '#c084fc', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2 }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
+            scales: {
+              x: buildRightPrioritizedXScale(masterDates),
+              y: { type: 'linear', display: true, position: 'left', ticks: { color: '#f97316' }, title: { display: true, text: '原油 (USD)', color: '#f97316' } },
+              y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#c084fc' }, grid: { drawOnChartArea: false }, title: { display: true, text: '美元指數 (DXY)', color: '#c084fc' } }
+            }
+          }
+        });
+
+        // 4. 利率走勢圖
+        new Chart(document.getElementById('ratesChart'), {
+          type: 'line',
+          data: {
+            labels: masterDates,
+            datasets: [
+              { label: '聯準會利率 (%)', data: getH('fed_rate'), borderColor: '#f87171', backgroundColor: '#f87171', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: '10年美債 (%)', data: getH('us10y_yield'), borderColor: '#38bdf8', backgroundColor: '#38bdf8', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: '20年美債 (%)', data: getH('us20y_yield'), borderColor: '#facc15', backgroundColor: '#facc15', fill: false, pointRadius: 0, borderWidth: 2 }
+            ]
+          },
+          options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } }, scales: { x: buildRightPrioritizedXScale(masterDates), y: { ticks: { color: '#94a3b8' } } } }
+        });
+
+        // 5. CPI 與 PMI 走勢圖
+        new Chart(document.getElementById('cpiPmiChart'), {
+          type: 'line',
+          data: {
+            labels: masterDates,
+            datasets: [
+              { label: 'CPI 物價', data: getH('cpi'), borderColor: '#34d399', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: '核心 CPI', data: getH('core_cpi'), borderColor: '#c084fc', yAxisID: 'y', fill: false, pointRadius: 0, borderWidth: 2 },
+              { label: 'PMI 指數 (右軸)', data: getH('pmi'), borderColor: '#38bdf8', yAxisID: 'y1', fill: false, pointRadius: 0, borderWidth: 2, borderDash: [4, 4] }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
+            scales: {
+              x: buildRightPrioritizedXScale(masterDates),
+              y: { type: 'linear', display: true, position: 'left', ticks: { color: '#34d399' }, title: { display: true, text: 'CPI 指數', color: '#34d399' } },
+              y1: { type: 'linear', display: true, position: 'right', ticks: { color: '#38bdf
