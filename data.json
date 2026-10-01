@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-09-30 04:30:29 (UTC)",
+  "updated_at": "2026-10-01 04:41:54 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
-    "us10y_yield": 5.24,
-    "us20y_yield": 5.6,
+    "us10y_yield": 5.26,
+    "us20y_yield": 5.64,
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 31.88,
-    "usdjpy": 156.98,
+    "usdtwd": 31.93,
+    "usdjpy": 158.24,
     "usdcny": 6.7,
-    "oil": 89.58,
-    "gold": 4208.9,
-    "dxy": 101.42
+    "oil": 89.13,
+    "gold": 4203.9,
+    "dxy": 101.62
   },
   "history": {
     "fed_rate": {
@@ -1308,7 +1308,7 @@
         4.44,
         4.75,
         4.75,
-        5.24
+        5.26
       ]
     },
     "us20y_yield": {
@@ -1956,7 +1956,7 @@
         4.93,
         5.28,
         5.24,
-        5.6
+        5.64
       ]
     },
     "cpi": {
@@ -6492,7 +6492,7 @@
         70.56,
         86.16,
         87.03,
-        96.41
+        96.16
       ]
     },
     "gold": {
@@ -7140,7 +7140,7 @@
         4038.5,
         4107.0,
         4481.5,
-        4298.0
+        4179.7
       ]
     },
     "dxy": {
@@ -7788,34 +7788,34 @@
         101.19,
         99.8,
         99.43,
-        101.29
+        101.37
       ]
     }
   },
   "news": [
     {
-      "title": "美債殖利率高位然隨Fed官員放鴿 股市跌幅收斂 - esunbank.com",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBvUWw3Zm1rZnNvVDhVT1ZfMmVlLVFvZ290aE5sWk1ac3AyS3BvSFctaW1ZUWZIR29kOFM5bUs5TnJkeGp2YldpalVoV3Vub21PQ3hrSERFTDlhMHNac0ZDRGlvVDhERXFtNEVaMDM2bVZZemVvZk82bVUzcw?oc=5",
-      "published": "Wed, 30 Sep 2026 01:06:55 GMT",
-      "source": "esunbank.com"
+      "title": "《美債》PCE較預期溫和 10年債殖利率仍續揚 - 台視全球資訊網",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0lnTUplT2xsZ2R0MzMyMUtCYktkWHY4TzRJbVk3VFVHZFhXd1prcUZZOVJxSU9vR1pTODd6V0NUbkFERXhCaUQtVzY2OVB5QmhpRDlVLXdXWUhuV1REZ19CRFFWRmd0alZBZWdLazhVMjBxLUpfNkJlN3dHQUQ4Wkc5OTRGZmNDb0tGZElWc1dOTVZQX19sYVE2OWg?oc=5",
+      "published": "Thu, 01 Oct 2026 01:32:06 GMT",
+      "source": "台視全球資訊網"
     },
     {
-      "title": "Fed三把手喊「不急」 美10月升息機率摔回五成 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQV2xvaGRVdWt4Ym9SOV9lZ3dsckpGMEdoUHQ2VkRJclV0SUNNbkZkQVV2Qjdpd0RpQTZNdk9BQkhvUGNWMS1hVWNDMlRpOGs?oc=5",
-      "published": "Tue, 29 Sep 2026 23:50:55 GMT",
+      "title": "美債殖利率上升「不用擔心」？分析：美國經濟夠強 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FeW1XYzY1eUVucFUweU1paDNuQzVIeVRocUFQV1FCQnl6MUVUX1Juay1aQXpYU1VQZ01oeVhYMFBCNkRlYV9fTnNfek01Tk0?oc=5",
+      "published": "Wed, 30 Sep 2026 23:11:59 GMT",
       "source": "news.cnyes.com"
     },
     {
-      "title": "股匯雙挫 新台幣盤中貶近1.5角收31.876元 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBodWYxdVlBV1RpUm94UzRJc2RvdVNIYnpyX19ab2o5ZmRfSWQ4QTFzNS1KLUhESnVUVlZGZ0JvaG5SMU1SY3o1eF9CYW5xQ0FmN0J0SF9aVTRqZ9IBX0FVX3lxTE1JRUZaVlQ2UlRCS3I3YUhIUDB4Rnh1NXVRLWRrTFdpWjItSGN2R0NrX3RwcGZlR3V3OTZja2ZNZ1RGa1FNUW8zcmpWbUxrd3NrZEtnNUN6UFZMOXo4M2pJ?oc=5",
-      "published": "Tue, 29 Sep 2026 10:21:29 GMT",
+      "title": "美元續強、新台幣開貶 荷莫茲海峽風波未定 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56S1JqMUhwTmczbTZiVVdoX0JZWGl1bW9tYk9XOHpaMGNBc09zQld3YXR3WjBodDJ4d2lPR0xXXzFiR3lTZktPQkYzTU15MzIwODNPckhjX0lUQdIBX0FVX3lxTE9rcEw2OUlSS2s1Yktudm9KNUdVdDVfWDFDV3FOTWxla3VtdVNPMGpXSDZEaWlHWUpfeGFWXzRxbnBwUHZzaWxmdzVuLXE5NGpzdEpvY2s2bjE0WVg0ZHJj?oc=5",
+      "published": "Thu, 01 Oct 2026 02:13:41 GMT",
       "source": "經濟日報"
     },
     {
-      "title": "美元走勢承壓新台幣Q4看升- 日報 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03UDVyM3M0TGZsZUtFaUhSWDNoeTVHOE5sdlVtWVJXMU16bkF5M3JqbHl6cmNPd2JpSzR5TjlyQXFMYlBOa18zVjc4TkZZZnllXzZ1c2ExQ09ESnN2S2Y0?oc=5",
-      "published": "Mon, 28 Sep 2026 19:00:00 GMT",
-      "source": "工商時報"
+      "title": "《匯市》美元指數站高檔 新台幣貶落31.9元 - 富聯網",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWW9UeXZRTm8zbVMxN3FsUmZvQ0pQcmhMLWFjV0Y0WDQwZU9jOU1qSngzNmRucUhWN3FUYVpoaTN4b1cyWnppQzh5UGNlRXRNbnNHVFNiWFl0QXBkZnJEdi03dnk4Zktsck5reWhMNXNITmhfbHdJWVZrWW9KLXlQWF9FbU01RGZP?oc=5",
+      "published": "Thu, 01 Oct 2026 03:27:00 GMT",
+      "source": "富聯網"
     },
     {
       "title": "【今日要聞】黃金、白銀大跌！布蘭特原油重返100美元，日幣匯率巨震 - Mitrade",
@@ -7824,10 +7824,10 @@
       "source": "Mitrade"
     },
     {
-      "title": "黃金價格反彈：霍爾木茲外交緩和原油價格，美債收益率仍處高位 - moomoo.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLTJYUExXZTJHWlNnLTRraVAxOW1nel9ram9nbWtaRXA3eFVaZzF2MnVfYksyeTZqcWhuR2hqRS1DRFY0dEpHOVkyMENiRU52WmFnZ0RJWVdmZEYybGl0eTFMSUFEdTg0YmlzZFowQzBmOXdvUE05TS1DVnRZSFl4eHdOdjFVOGxHdEpYaU1PUDBxaU1ibnl0UDRBMTgzTUhZUG8yOWUxbVpXd3U2V0Yw?oc=5",
-      "published": "Fri, 25 Sep 2026 13:29:06 GMT",
-      "source": "moomoo.com"
+      "title": "隨著原油跌勢緩解通膨壓力，黃金自 4,110 美元反彈 - tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUlUySUEzYkxlcHMyenZqLTJaX2dSMk5hZGlSV3BaUV8xSjRrMVp4ZmhlTm5Zdmp0Y0RRbDh6Q0hPdVdobXFSQ0YxazdTRmRDSWhyZ3FBUTNFMU5uV3VPWGNiMEw3eEgtR2lJWmpVY0RDbWZxNk1ZaHo5dEJkWXNxSDVHOW9lbjZEZnVPRkhka3Y4VmdYNm4wUjlQZkp4SjR0V3JSdUJlRnNBVEIzUkw5OXpuYkVRU2t6VkRPbWRBMkk?oc=5",
+      "published": "Tue, 29 Sep 2026 20:16:21 GMT",
+      "source": "tmgm.com"
     }
   ]
 }
