@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-01 04:41:54 (UTC)",
+  "updated_at": "2026-10-02 04:33:30 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
-    "us10y_yield": 5.26,
-    "us20y_yield": 5.64,
+    "us10y_yield": 5.29,
+    "us20y_yield": 5.68,
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 31.93,
-    "usdjpy": 158.24,
+    "usdtwd": 31.91,
+    "usdjpy": 157.83,
     "usdcny": 6.7,
-    "oil": 89.13,
-    "gold": 4203.9,
-    "dxy": 101.62
+    "oil": 92.58,
+    "gold": 4217.1,
+    "dxy": 101.93
   },
   "history": {
     "fed_rate": {
@@ -1308,7 +1308,7 @@
         4.44,
         4.75,
         4.75,
-        5.26
+        5.29
       ]
     },
     "us20y_yield": {
@@ -1956,7 +1956,7 @@
         4.93,
         5.28,
         5.24,
-        5.64
+        5.68
       ]
     },
     "cpi": {
@@ -7140,7 +7140,7 @@
         4038.5,
         4107.0,
         4481.5,
-        4179.7
+        4186.7
       ]
     },
     "dxy": {
@@ -7788,34 +7788,34 @@
         101.19,
         99.8,
         99.43,
-        101.37
+        101.45
       ]
     }
   },
   "news": [
     {
-      "title": "《美債》PCE較預期溫和 10年債殖利率仍續揚 - 台視全球資訊網",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0lnTUplT2xsZ2R0MzMyMUtCYktkWHY4TzRJbVk3VFVHZFhXd1prcUZZOVJxSU9vR1pTODd6V0NUbkFERXhCaUQtVzY2OVB5QmhpRDlVLXdXWUhuV1REZ19CRFFWRmd0alZBZWdLazhVMjBxLUpfNkJlN3dHQUQ4Wkc5OTRGZmNDb0tGZElWc1dOTVZQX19sYVE2OWg?oc=5",
-      "published": "Thu, 01 Oct 2026 01:32:06 GMT",
-      "source": "台視全球資訊網"
-    },
-    {
-      "title": "美債殖利率上升「不用擔心」？分析：美國經濟夠強 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FeW1XYzY1eUVucFUweU1paDNuQzVIeVRocUFQV1FCQnl6MUVUX1Juay1aQXpYU1VQZ01oeVhYMFBCNkRlYV9fTnNfek01Tk0?oc=5",
-      "published": "Wed, 30 Sep 2026 23:11:59 GMT",
+      "title": "〈貴金屬盤後〉黃金小漲 Fed升息預期降溫但美債殖利率仍高 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pVVUtVk5hV0l3d3haS0h3ejRCR1BDTFZNdlVRV3VtZzVBYmladllNNUhlLVg3VDM5bW90emlzcUFDYkotNVc4RVZiU29YOGM?oc=5",
+      "published": "Thu, 01 Oct 2026 22:47:00 GMT",
       "source": "news.cnyes.com"
     },
     {
-      "title": "美元續強、新台幣開貶 荷莫茲海峽風波未定 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56S1JqMUhwTmczbTZiVVdoX0JZWGl1bW9tYk9XOHpaMGNBc09zQld3YXR3WjBodDJ4d2lPR0xXXzFiR3lTZktPQkYzTU15MzIwODNPckhjX0lUQdIBX0FVX3lxTE9rcEw2OUlSS2s1Yktudm9KNUdVdDVfWDFDV3FOTWxla3VtdVNPMGpXSDZEaWlHWUpfeGFWXzRxbnBwUHZzaWxmdzVuLXE5NGpzdEpvY2s2bjE0WVg0ZHJj?oc=5",
-      "published": "Thu, 01 Oct 2026 02:13:41 GMT",
-      "source": "經濟日報"
+      "title": "聯準會兩高層釋鴿10月升息機率大減| 全球財經| 全球 - udn.com",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UcGg2XzRSaTFjS2RDNHpza1o1N05ZcHZZbkNzcTRuN2NCUmhzdk5oOWNjSEVIWXc4VndmNV81b3VnTnV6QzcyY1hyZVJnekJl?oc=5",
+      "published": "Fri, 02 Oct 2026 03:39:06 GMT",
+      "source": "udn.com"
     },
     {
-      "title": "《匯市》美元指數站高檔 新台幣貶落31.9元 - 富聯網",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWW9UeXZRTm8zbVMxN3FsUmZvQ0pQcmhMLWFjV0Y0WDQwZU9jOU1qSngzNmRucUhWN3FUYVpoaTN4b1cyWnppQzh5UGNlRXRNbnNHVFNiWFl0QXBkZnJEdi03dnk4Zktsck5reWhMNXNITmhfbHdJWVZrWW9KLXlQWF9FbU01RGZP?oc=5",
-      "published": "Thu, 01 Oct 2026 03:27:00 GMT",
-      "source": "富聯網"
+      "title": "高油價支撐美元續強 新台幣開貶走貶、再貶破31.9元 - udn.com",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13OUo3WW5aMWRaMFktNEFOTU10cjhXcUdsTmJhQVJDZmVSVUt3Unduem0yQjJvRDNHN2ZveEdXVjAxa2xkWU1mU204VDVKX2420gFWQVVfeXFMT3dmX3FiYWdfc0diZzFwV2x2LVNGZ3JQclVqeWpiU3p6TWpQMXRkZ0xXdWNObDdTRE53TURUXzRLbHZwdUJlcFhKSURrQUJKVnY3T1FhaXc?oc=5",
+      "published": "Fri, 02 Oct 2026 02:06:33 GMT",
+      "source": "udn.com"
+    },
+    {
+      "title": "〈台幣〉Q4開門紅！大盤創新高 貶轉升收31.842元 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9DQlNKX2pZM2JTTnhLNWEyWmNMY1pWNHBwY2VNOV9FWTdTREVKYWpYTEJTWnhzSXdRTlBrMWtXb3hNQlo3aHN5NVZIdw?oc=5",
+      "published": "Thu, 01 Oct 2026 11:55:59 GMT",
+      "source": "鉅亨網"
     },
     {
       "title": "【今日要聞】黃金、白銀大跌！布蘭特原油重返100美元，日幣匯率巨震 - Mitrade",
