@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02 04:33:30 (UTC)",
+  "updated_at": "2026-10-03 04:16:12 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,11 +7,11 @@
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 31.91,
+    "usdtwd": 31.8,
     "usdjpy": 157.83,
     "usdcny": 6.7,
-    "oil": 92.58,
-    "gold": 4217.1,
+    "oil": 91.11,
+    "gold": 4162.3,
     "dxy": 101.93
   },
   "history": {
@@ -7794,40 +7794,40 @@
   },
   "news": [
     {
-      "title": "〈貴金屬盤後〉黃金小漲 Fed升息預期降溫但美債殖利率仍高 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pVVUtVk5hV0l3d3haS0h3ejRCR1BDTFZNdlVRV3VtZzVBYmladllNNUhlLVg3VDM5bW90emlzcUFDYkotNVc4RVZiU29YOGM?oc=5",
-      "published": "Thu, 01 Oct 2026 22:47:00 GMT",
+      "title": "非農爆冷救美債！2年期美債殖利率跳水 Fed本月不升息機率破8成 - news.cnyes.com",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLSXNVX0wxdXBZeUtUZENYRjNxZVlyMlNwZjlPTndBOFhYT1ZLZHd1T1RRWW1iV2FvWjVfaFhkdHFKUXZndU5UOWdNbTNiUXc?oc=5",
+      "published": "Fri, 02 Oct 2026 14:00:06 GMT",
       "source": "news.cnyes.com"
     },
     {
-      "title": "聯準會兩高層釋鴿10月升息機率大減| 全球財經| 全球 - udn.com",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UcGg2XzRSaTFjS2RDNHpza1o1N05ZcHZZbkNzcTRuN2NCUmhzdk5oOWNjSEVIWXc4VndmNV81b3VnTnV6QzcyY1hyZVJnekJl?oc=5",
-      "published": "Fri, 02 Oct 2026 03:39:06 GMT",
-      "source": "udn.com"
+      "title": "聯準會升息如何影響美股？聯準會升息影響邏輯詳解 - TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVWxibkFLYmRBNGdGNWg5aDdpRktSVzFwR2xTWGI4UXVoazdGWWNLMV93NVFIRGZuXzVJNDBTVjVmRW5pc2RYQTNnTzdua3k4aFVEMVZYbng5QWpTWGdXM2lNa0tqRFdpRGN3cTlrWlZvTlo4czNTaW9JeHlIY2xIRFVsanJ1ZGFIdFppS2hYVEFKcnhMMlVtc3QyMHA3UjZhUnRmZU1NZFNLSDA2NUNKWUJUdktBcnRLaXhEazRoUmw?oc=5",
+      "published": "Sat, 03 Oct 2026 02:07:52 GMT",
+      "source": "TradingKey"
     },
     {
-      "title": "高油價支撐美元續強 新台幣開貶走貶、再貶破31.9元 - udn.com",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13OUo3WW5aMWRaMFktNEFOTU10cjhXcUdsTmJhQVJDZmVSVUt3Unduem0yQjJvRDNHN2ZveEdXVjAxa2xkWU1mU204VDVKX2420gFWQVVfeXFMT3dmX3FiYWdfc0diZzFwV2x2LVNGZ3JQclVqeWpiU3p6TWpQMXRkZ0xXdWNObDdTRE53TURUXzRLbHZwdUJlcFhKSURrQUJKVnY3T1FhaXc?oc=5",
-      "published": "Fri, 02 Oct 2026 02:06:33 GMT",
-      "source": "udn.com"
+      "title": "美元強勢攻高 新台幣周線翻黑、回測32元壓力大- 金融 - ctee.com.tw",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1NeDkzYjVfd3ctZGJlS01Yc3Z6a1gwcTVMdmhRU2xiQVhlVmkzandpY1JRb2pqVE9HTVNvaFo3YnA4M3lJeHlxUkNySlcwY2VXN1d4WVpJa1VEMDJzNGQ4?oc=5",
+      "published": "Fri, 02 Oct 2026 09:27:00 GMT",
+      "source": "ctee.com.tw"
     },
     {
-      "title": "〈台幣〉Q4開門紅！大盤創新高 貶轉升收31.842元 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9DQlNKX2pZM2JTTnhLNWEyWmNMY1pWNHBwY2VNOV9FWTdTREVKYWpYTEJTWnhzSXdRTlBrMWtXb3hNQlo3aHN5NVZIdw?oc=5",
-      "published": "Thu, 01 Oct 2026 11:55:59 GMT",
-      "source": "鉅亨網"
-    },
-    {
-      "title": "【今日要聞】黃金、白銀大跌！布蘭特原油重返100美元，日幣匯率巨震 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fTkVYOW80OVQxOUI5Q01hZUhGaUlkZEpxdU1TbTYxZlliWjlyMk9QRXJaWG1qR3JTa3NVTkR0ZnVNbURQTG5rUm5FZy1nOXB6VEctUEl0YVQ0SzNBVkRHWjF1MzliWDUtNVlaS2k0bjVOV0tKUW93?oc=5",
-      "published": "Mon, 28 Sep 2026 10:27:24 GMT",
-      "source": "Mitrade"
+      "title": "《各報要聞》力挺傳產出口 台幣緊盯日圓 - 富聯網",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYmpLbXBCaUVYZVVOOWZHWlgyOExkaHZQUWdoQ1VCUXZTNmNLdzhqOFpKYUJTdUZWRkFlQkw3aV8ycWlKeGFwVTdQQXJNUWlmMVU1MXRHTE5Zcy1YU2NKYzhxYnZWbTBUcU9rTllhUldtdkRYZWpEZ25Obi00MG9udVRhVnJYT0t0?oc=5",
+      "published": "Sat, 03 Oct 2026 01:15:00 GMT",
+      "source": "富聯網"
     },
     {
       "title": "隨著原油跌勢緩解通膨壓力，黃金自 4,110 美元反彈 - tmgm.com",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUlUySUEzYkxlcHMyenZqLTJaX2dSMk5hZGlSV3BaUV8xSjRrMVp4ZmhlTm5Zdmp0Y0RRbDh6Q0hPdVdobXFSQ0YxazdTRmRDSWhyZ3FBUTNFMU5uV3VPWGNiMEw3eEgtR2lJWmpVY0RDbWZxNk1ZaHo5dEJkWXNxSDVHOW9lbjZEZnVPRkhka3Y4VmdYNm4wUjlQZkp4SjR0V3JSdUJlRnNBVEIzUkw5OXpuYkVRU2t6VkRPbWRBMkk?oc=5",
       "published": "Tue, 29 Sep 2026 20:16:21 GMT",
       "source": "tmgm.com"
+    },
+    {
+      "title": "【今日要聞】黃金、白銀大跌！布蘭特原油重返100美元，日幣匯率巨震 - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fTkVYOW80OVQxOUI5Q01hZUhGaUlkZEpxdU1TbTYxZlliWjlyMk9QRXJaWG1qR3JTa3NVTkR0ZnVNbURQTG5rUm5FZy1nOXB6VEctUEl0YVQ0SzNBVkRHWjF1MzliWDUtNVlaS2k0bjVOV0tKUW93?oc=5",
+      "published": "Mon, 28 Sep 2026 10:27:24 GMT",
+      "source": "Mitrade"
     }
   ]
 }
