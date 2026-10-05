@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04 04:48:07 (UTC)",
+  "updated_at": "2026-10-05 04:35:51 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 31.8,
-    "usdjpy": 157.83,
+    "usdtwd": 31.77,
+    "usdjpy": 158.16,
     "usdcny": 6.7,
-    "oil": 91.11,
-    "gold": 4162.3,
-    "dxy": 101.93
+    "oil": 89.75,
+    "gold": 4160.6,
+    "dxy": 102.5
   },
   "history": {
     "fed_rate": {
@@ -7794,22 +7794,22 @@
   },
   "news": [
     {
-      "title": "非農爆冷救美債！2年期美債殖利率跳水 Fed本月不升息機率破8成 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLSXNVX0wxdXBZeUtUZENYRjNxZVlyMlNwZjlPTndBOFhYT1ZLZHd1T1RRWW1iV2FvWjVfaFhkdHFKUXZndU5UOWdNbTNiUXc?oc=5",
-      "published": "Fri, 02 Oct 2026 14:00:06 GMT",
-      "source": "news.cnyes.com"
+      "title": "《美債》9月非農轉弱止不住賣壓 殖利率仍走高 - 頭條新聞 - 新聞 - MoneyDJ理財網",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS0h5MS1NbmlGSWxncnNZRlBtaDJLLWdkZ2FndkFJNHpjbTVtWHRfaVZRbkxCWmhfVUE4Z2tpSm81ZUwzRkpRNDVpOFJrS3NDQ2FtMlFCNkpvWWt5Um4tZHlxcXlSbG1DcUt3X1ZXR0cyeVZJZDJMVXFjblYzOFFWaXNfaGQ5V1k?oc=5",
+      "published": "Sun, 04 Oct 2026 22:42:00 GMT",
+      "source": "MoneyDJ理財網"
     },
     {
-      "title": "美債殖利率高位然隨Fed官員放鴿 股市跌幅收斂 - esunbank.com",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBvUWw3Zm1rZnNvVDhVT1ZfMmVlLVFvZ290aE5sWk1ac3AyS3BvSFctaW1ZUWZIR29kOFM5bUs5TnJkeGp2YldpalVoV3Vub21PQ3hrSERFTDlhMHNac0ZDRGlvVDhERXFtNEVaMDM2bVZZemVvZk82bVUzcw?oc=5",
-      "published": "Wed, 30 Sep 2026 01:06:55 GMT",
-      "source": "esunbank.com"
+      "title": "疲軟非農報告弱化聯準會短期內升息的可能 美債殖利率顯著走低 | 國際焦點 | 國際 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xU1gwNE00NXg3SVROTVJsSHdXdFQtYV9sdnFRdEJuRml2ellNc3lUd1ptX3AwNUIzQVVUSUZkZ1lXbm5yVk1VTV9LM1p6aHhDTFlsVDRkVVhIUQ?oc=5",
+      "published": "Mon, 05 Oct 2026 04:29:48 GMT",
+      "source": "經濟日報"
     },
     {
-      "title": "上月外資賣超台股、美元走強 外匯存底可能小幅減少 - UDN",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1BUDlsV20td3NHWHVvNzdhNkxaOFhPTEtKYndQWllsZjhrbTY4Z0RRQ3ZlbHVSZ1ZadDRuSXI2Qk5KZ0FDWGowdHN1SmNOX0o50gFWQVVfeXFMTjJzUVFyM1kzamJxZkkybUZRc0trell0ZjRUWF81Qk5tRTlSNkFqNzdmNWFxc2U1VVhwVk1aWmJrUU1TS2laNV90MW8teWp5dDk4NlVENXc?oc=5",
-      "published": "Sat, 03 Oct 2026 19:50:20 GMT",
-      "source": "UDN"
+      "title": "上月外資賣超台股、美元走強 外匯存底可能小幅減少 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tRTRiZEN5U0paRWZlTm5jRHFjZXgzVjBsYUMySWcwWUp0cmtHOWtpOXVNQmlncDBwVFZZTVdjQlJTcUxPY2JIOVFFMHUxMGc5RzRDNFZia3hTUdIBX0FVX3lxTFBZSzNIQzk2RVlGM3AySUtrUWFDbC1HaFhSMDJ4cmM3cmtQdENJOFNhalNJeFNnYU1sWVA0OEVBNTgtckE3eHlWdVhfYUc5ZUNhal92MU5aVTBXMERPTlEw?oc=5",
+      "published": "Sat, 03 Oct 2026 16:53:00 GMT",
+      "source": "經濟日報"
     },
     {
       "title": "熱錢續匯出》台幣淪最弱亞幣 下週恐測32元大關 - 自由時報",
@@ -7818,16 +7818,16 @@
       "source": "自由時報"
     },
     {
-      "title": "隨著原油跌勢緩解通膨壓力，黃金自 4,110 美元反彈 - tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUlUySUEzYkxlcHMyenZqLTJaX2dSMk5hZGlSV3BaUV8xSjRrMVp4ZmhlTm5Zdmp0Y0RRbDh6Q0hPdVdobXFSQ0YxazdTRmRDSWhyZ3FBUTNFMU5uV3VPWGNiMEw3eEgtR2lJWmpVY0RDbWZxNk1ZaHo5dEJkWXNxSDVHOW9lbjZEZnVPRkhka3Y4VmdYNm4wUjlQZkp4SjR0V3JSdUJlRnNBVEIzUkw5OXpuYkVRU2t6VkRPbWRBMkk?oc=5",
-      "published": "Tue, 29 Sep 2026 20:16:21 GMT",
-      "source": "tmgm.com"
+      "title": "《商情》BDI續漲；期金、原油轉跌；玉米跌近6周低價；銅價微揚 - ww2.money-link.com.tw",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUUcwYWZwelNvaUo0b2tqWGJTX1phLWpHVzRPV2xYS3RVWUxBaTZfNGhqbDVZMVZwdEFNNVc3RWhIN2EwZGJhaF9UQmVlUk9YWTk2cWZKZEZuV3l1d1ByTDUwQkpQajFMbUl0ejUyZDJYYjNCVkVKbHIwOWtqaV9ZeXhTX0JheDNm?oc=5",
+      "published": "Mon, 05 Oct 2026 00:56:00 GMT",
+      "source": "ww2.money-link.com.tw"
     },
     {
-      "title": "中東局勢迎轉機？川普「大決定」將至， 原油、黃金行情一觸即發 - mitrade.com",
+      "title": "中東局勢迎轉機？川普「大決定」將至， 原油、黃金行情一觸即發 - Mitrade",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBZLUlDNkhWRFA5MFdfdldaMDFobjBZY1YwUFBkWHF1Uk11N2V1LUYzUVVxcGZzVjlwRUhYcFRYVTRGckluYkI3Vk9va1htdnBIdkJ1eHByb24tZGhtam1IbF9rWGVXU1FrSklkcDBkeldCNmRmc1VrQnZn?oc=5",
       "published": "Mon, 21 Sep 2026 07:00:00 GMT",
-      "source": "mitrade.com"
+      "source": "Mitrade"
     }
   ]
 }
