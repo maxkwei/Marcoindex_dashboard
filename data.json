@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06 05:22:01 (UTC)",
+  "updated_at": "2026-10-07 04:50:35 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 31.77,
-    "usdjpy": 158.16,
-    "usdcny": 6.7,
-    "oil": 89.93,
-    "gold": 4147.4,
-    "dxy": 102.18
+    "usdtwd": 31.86,
+    "usdjpy": 158.41,
+    "usdcny": 6.69,
+    "oil": 90.21,
+    "gold": 4165.0,
+    "dxy": 102.07
   },
   "history": {
     "fed_rate": {
@@ -7794,28 +7794,28 @@
   },
   "news": [
     {
-      "title": "〈貴金屬盤後〉美元和美債殖利率雙重壓力 黃金遊走平盤 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOcGNUcktod3BudTVtZ29PQVo1Zi1OWnlaLVlGNzZ6MnZiR2tWQTVXcmlaWWtTRXVYYlBGTXQ3alBNb2FNeHhLdTBWY3JqTmlKMFlBX2ZCaEstYkJsbFZHVXQ3RmpETmhXQ3o1SlZTTkFOLXcxamdYUEVvT3RSWDZGVFVQd3E2bGMzcUNkOXpReWpiMzBWd0hDbmZ0RFo3QnppMGhycU85M2dJcEJOdUJDc0dVT1g5UFR5X0ZhbFptWGd2M0RaX3duelB5R2Y1UmdNR09xa1EwUUhoa01GYWhqTXJ3T0Y3LWx5QU5EdzVxdDh1U29tZWdOLXhETWJLbHRBYjJ4Y2RORWdaaFlWM2VoNFQ0cWYzVVBzcS1ma05DZnUyNGdoUEVpbDVmWWY5SlNycUVlajRJcElMV2xWQXFLb3psbFhPb1hfcVZGdXN0V2dyOXowSHdMTWw3YjJubHN2bmR3cWR4TjlhSHdiX1NaQ3V3?oc=5",
-      "published": "Mon, 05 Oct 2026 23:48:50 GMT",
-      "source": "Yahoo股市"
+      "title": "《美債》債市賣壓喘口氣 殖利率自24年高點回落 - 頭條新聞 - 新聞 - MoneyDJ理財網",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd21jT01Mb1Q4XzVUNjVSZWVkME1zNVF1ZmJvckJ3Y0tpNlFaUGpwaUVybTRUbnE1QVNYd2dCRnQzc1BhRUhmTFV5X1hMa1hneFZMaVU3NUxEOEpLMUZsZllobmVSSDBRWXZHNTZlQ1hyOUg2TUFIUjBEQnM5MnFwa0dXaTUyLXc?oc=5",
+      "published": "Tue, 06 Oct 2026 23:13:00 GMT",
+      "source": "MoneyDJ理財網"
     },
     {
-      "title": "美債利息一年燒掉1兆美元 壓低利率恐讓債民更痛 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE43c0JlTnBZbWRId0VvbEFHSDdYUDNkRnlzRHpHYWphbFVfcWRuMzFtNmpqcURHeWlvaUNFQjk2aGpUbVlSQUNPUWdJTmx2ZTQ?oc=5",
-      "published": "Mon, 05 Oct 2026 16:21:40 GMT",
-      "source": "news.cnyes.com"
+      "title": "〈貴金屬盤後〉美債殖利率升勢暫停、美元疲軟 黃金攀漲 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0ybzZoeXhYdXBNUzRZQVh2Q0VicldRcl9IQkNueU9uOVo2Mlp1amdZZHNoMHY1eGtJcTJISjNIYl80elJTTlAtejA1Q1ZNVVU?oc=5",
+      "published": "Tue, 06 Oct 2026 22:35:19 GMT",
+      "source": "鉅亨網"
     },
     {
       "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQZ0xxVnBsM1VsaUg2OXJvN1JrVzFmTVVUYmtLRDlUclJ0REJUd0NmankwdkVIMEZwNHdnVlllcHdQeUFSelRKaEJmVkRPZjFfclpmNTk5LXJtaHVsUDlDSlRFeTFfaTFlTFlXWUlIbHRRVjRGTU0ycjN1NHRBSE5xRmZJeUwxa19PelRwMTdfUkNUUFM0Qjl6c3ZYRURLM0s3UzV6S2NMTVBmdkhlcms3UzMySjItcUFoeEJPWVZXNFVmZk5YR1NpOFZKOXJSTWI2T3dSNTAwdFJxQUdTcEg4SVkyS084U05UbDZGMnlkM09WOFF1Tm9jRzBRUlg1b3kwZ0VTVmJtOHdUVXljSWJIX2txNV8tWlptWGxUX21kTFNnYzJod05LZWpkRmpGaGlYcjlUcQ?oc=5",
-      "published": "Mon, 05 Oct 2026 12:21:25 GMT",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQSXFJZ1MwNEZmQjVVNWdacUFKd0dzRmxVRXZLb0hHYjNkZ3RoTDZ1Q2ZjN3hGVm1IRnVpMHFiNnN3R25Fa0I5ZE44ZDhhRmszdFdYbzRydFN2QW9fempNaThLTllsU0p5Sl9EbV8tTXU5b2hHWWFHM1JtZS00VmhBWnNEdzNvMi1md3FvU0lzYWV2UWRtcVNUbnFCNFdVNjVLVWFiSW56UW03VU1ZbUV0c3BiUTNzRWZtb2h0QnlJWnZ1anVPZnlRR0llX2tSa1NSbGlBUUxsMWlVWmNXX1JMSFFLTk1oWl9NWWZoOE9RMlV5TXlIS0NmZkthTnlaMC1PSkdhdTk4Wkgwcm1RUkRid2JuY0xmS21qbVpJeUx2QkRZZXBWM211ZG0zUGdNWWJWYm5ZV1FiRjhVeUpxMmtiMXEwQnA?oc=5",
+      "published": "Tue, 06 Oct 2026 13:32:40 GMT",
       "source": "Moomoo"
     },
     {
-      "title": "歐元重挫至17個月新低 美元走強引發全球匯市波動 - news.cnyes.com",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PUWhEV3BLbU9uelZOSDBtOG9QYXliR09tME11NlRfd1RPdkxEbkhYaTFUcy14R3lvcnlwa09uSmgwazkxRXNGQUtBeFl2dkk?oc=5",
-      "published": "Mon, 05 Oct 2026 05:30:06 GMT",
-      "source": "news.cnyes.com"
+      "title": "考驗傳產有效匯率指數走升- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0TGtfTm9iTjIwQWNUODN3WWNLS1JoOTV4bjA0QnV4d0JHYW9NWXRNWUxOckJJbm11NzZRNmZjQkVGdG1VVUVjemV0cWpFS2hTeHRaQUc1eVYtYlFzdEFr?oc=5",
+      "published": "Tue, 06 Oct 2026 19:00:00 GMT",
+      "source": "工商時報"
     },
     {
       "title": "黃金價格走勢分析：非農意外疲弱 美債殖利率高企壓抑金價反彈 - 鉅亨號",
