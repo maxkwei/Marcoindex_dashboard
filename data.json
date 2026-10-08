@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07 04:50:35 (UTC)",
+  "updated_at": "2026-10-08 05:00:38 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 31.86,
-    "usdjpy": 158.41,
-    "usdcny": 6.69,
-    "oil": 90.21,
-    "gold": 4165.0,
-    "dxy": 102.07
+    "usdtwd": 31.91,
+    "usdjpy": 158.23,
+    "usdcny": 6.7,
+    "oil": 89.85,
+    "gold": 4158.6,
+    "dxy": 102.24
   },
   "history": {
     "fed_rate": {
@@ -6492,7 +6492,7 @@
         70.56,
         86.16,
         87.03,
-        96.16
+        97.18
       ]
     },
     "gold": {
@@ -7794,27 +7794,27 @@
   },
   "news": [
     {
-      "title": "《美債》債市賣壓喘口氣 殖利率自24年高點回落 - 頭條新聞 - 新聞 - MoneyDJ理財網",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd21jT01Mb1Q4XzVUNjVSZWVkME1zNVF1ZmJvckJ3Y0tpNlFaUGpwaUVybTRUbnE1QVNYd2dCRnQzc1BhRUhmTFV5X1hMa1hneFZMaVU3NUxEOEpLMUZsZllobmVSSDBRWXZHNTZlQ1hyOUg2TUFIUjBEQnM5MnFwa0dXaTUyLXc?oc=5",
-      "published": "Tue, 06 Oct 2026 23:13:00 GMT",
-      "source": "MoneyDJ理財網"
+      "title": "美債殖利率與油價齊升 美股自歷史高點回落 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNUDJhd2R6alNpXzBOYVFtVUdObG1TSWwtQ095WFBIcHNuVC1MZU1UZW5hMzBrRU92UkQtU1JxSWluQVptRDJLeE9DVnNLaHRxT19pNGFCanNaaW96ZEU0MC1sRXVuVUpTdmlQamZrdDNrM3FRSUMxMkZSQVlMbXhLdnFySkxkX3o1bFdNTW5EdHVqVzJRTlQ5Tm1PV3lDYngtNFUwbEgzMFpFOXVfZnI2WmRpLU1yMEFBVW55X1lrZXBXQ2ticDZkWjhKZkVaODg3T1lFUTRmbDM3V3pkTFpNZmlla0pRWnRrR1B3bUtNaXZ4aWtvQjNxR1Vpb1Y2Nmptc0VGWFh4ZWRiUzUzQXZnTWJOZGpYMFhyU0ZjRHRhbmdqU0FWTWVlejJWT3c1OF83YW1LVGp0SVZkWk5CcU5GMw?oc=5",
+      "published": "Thu, 08 Oct 2026 02:25:25 GMT",
+      "source": "Yahoo股市"
     },
     {
-      "title": "〈貴金屬盤後〉美債殖利率升勢暫停、美元疲軟 黃金攀漲 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0ybzZoeXhYdXBNUzRZQVh2Q0VicldRcl9IQkNueU9uOVo2Mlp1amdZZHNoMHY1eGtJcTJISjNIYl80elJTTlAtejA1Q1ZNVVU?oc=5",
-      "published": "Tue, 06 Oct 2026 22:35:19 GMT",
+      "title": "〈貴金屬盤後〉美元升值、美債殖利率仍高 黃金跌到兩個月低點 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWNEYwSVhnX1hQNTdYMEEweENhUWxJX25vMnNNUm1pMVN4UW1idVJIOG1HXzBxRHZ5ZzNtdk5pYVBMZWoxRGhOU0QyQmZXZlE?oc=5",
+      "published": "Thu, 08 Oct 2026 00:21:20 GMT",
       "source": "鉅亨網"
     },
     {
       "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQSXFJZ1MwNEZmQjVVNWdacUFKd0dzRmxVRXZLb0hHYjNkZ3RoTDZ1Q2ZjN3hGVm1IRnVpMHFiNnN3R25Fa0I5ZE44ZDhhRmszdFdYbzRydFN2QW9fempNaThLTllsU0p5Sl9EbV8tTXU5b2hHWWFHM1JtZS00VmhBWnNEdzNvMi1md3FvU0lzYWV2UWRtcVNUbnFCNFdVNjVLVWFiSW56UW03VU1ZbUV0c3BiUTNzRWZtb2h0QnlJWnZ1anVPZnlRR0llX2tSa1NSbGlBUUxsMWlVWmNXX1JMSFFLTk1oWl9NWWZoOE9RMlV5TXlIS0NmZkthTnlaMC1PSkdhdTk4Wkgwcm1RUkRid2JuY0xmS21qbVpJeUx2QkRZZXBWM211ZG0zUGdNWWJWYm5ZV1FiRjhVeUpxMmtiMXEwQnA?oc=5",
-      "published": "Tue, 06 Oct 2026 13:32:40 GMT",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQaXNCOUN2UzlqbTJ1b1M2cnhaZDFoV3MteFVyTW9vUVViNS1hUG5xN3F1WTlGdERlb0t4bUtiTVR3SDlMaU4tVVAwVzc1TDRUd3puTm9mYUN6NkVyZHk3QU9VXzhvXzlLQjlkV2dFdUZxYmltbE1xVUM0d3RKOV8wZkM3eU9uWmtsREpBV2tzSEpNSmwtNWI1c0RWNDFjUm9yRjZ5OXhNNW9mYTVHMDMya3hlcl90X0NiWEdFOHVCRmpPU29Sa0FGdTl2T0xwNExlZ0xHbHFPZGJvZFVuLTl5Mi1BQWhid1FLMkd6RWREWkp1LVZCRmlxYXJjM2hFV014VzVkYzBNbmdqR25hQ0YxN0JFWTdEeldJNDRTUml0aExBWVFIUXV5R3Y0TVRLcDUxT2QxQVhldER6QmVIVWRaaEtuQlA?oc=5",
+      "published": "Thu, 08 Oct 2026 00:29:19 GMT",
       "source": "Moomoo"
     },
     {
-      "title": "考驗傳產有效匯率指數走升- 日報 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0TGtfTm9iTjIwQWNUODN3WWNLS1JoOTV4bjA0QnV4d0JHYW9NWXRNWUxOckJJbm11NzZRNmZjQkVGdG1VVUVjemV0cWpFS2hTeHRaQUc1eVYtYlFzdEFr?oc=5",
-      "published": "Tue, 06 Oct 2026 19:00:00 GMT",
+      "title": "避險熱潮的最大贏家 美元指數升破102 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yYm1ZQUFVSDBCV3FwU1NhSlN2UVZ4RG1kaDhlN0ZsOWpnLUozRVdnMUpkVF9BTFhxN2RMUjluUEtiZFkxU2NVdHhnMUU0YXRwWFRNelFUM3Bfa203MUJz?oc=5",
+      "published": "Mon, 05 Oct 2026 19:00:00 GMT",
       "source": "工商時報"
     },
     {
