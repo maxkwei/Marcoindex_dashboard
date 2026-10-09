@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08 05:00:38 (UTC)",
+  "updated_at": "2026-10-09 05:03:53 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -8,11 +8,11 @@
     "core_cpi": 337.76,
     "pmi": 97.0,
     "usdtwd": 31.91,
-    "usdjpy": 158.23,
+    "usdjpy": 158.09,
     "usdcny": 6.7,
-    "oil": 89.85,
-    "gold": 4158.6,
-    "dxy": 102.24
+    "oil": 90.37,
+    "gold": 4201.6,
+    "dxy": 102.02
   },
   "history": {
     "fed_rate": {
@@ -7794,39 +7794,39 @@
   },
   "news": [
     {
-      "title": "美債殖利率與油價齊升 美股自歷史高點回落 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNUDJhd2R6alNpXzBOYVFtVUdObG1TSWwtQ095WFBIcHNuVC1MZU1UZW5hMzBrRU92UkQtU1JxSWluQVptRDJLeE9DVnNLaHRxT19pNGFCanNaaW96ZEU0MC1sRXVuVUpTdmlQamZrdDNrM3FRSUMxMkZSQVlMbXhLdnFySkxkX3o1bFdNTW5EdHVqVzJRTlQ5Tm1PV3lDYngtNFUwbEgzMFpFOXVfZnI2WmRpLU1yMEFBVW55X1lrZXBXQ2ticDZkWjhKZkVaODg3T1lFUTRmbDM3V3pkTFpNZmlla0pRWnRrR1B3bUtNaXZ4aWtvQjNxR1Vpb1Y2Nmptc0VGWFh4ZWRiUzUzQXZnTWJOZGpYMFhyU0ZjRHRhbmdqU0FWTWVlejJWT3c1OF83YW1LVGp0SVZkWk5CcU5GMw?oc=5",
-      "published": "Thu, 08 Oct 2026 02:25:25 GMT",
-      "source": "Yahoo股市"
-    },
-    {
-      "title": "〈貴金屬盤後〉美元升值、美債殖利率仍高 黃金跌到兩個月低點 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWNEYwSVhnX1hQNTdYMEEweENhUWxJX25vMnNNUm1pMVN4UW1idVJIOG1HXzBxRHZ5ZzNtdk5pYVBMZWoxRGhOU0QyQmZXZlE?oc=5",
-      "published": "Thu, 08 Oct 2026 00:21:20 GMT",
+      "title": "〈貴金屬盤後〉權衡Fed利率前景 黃金從兩個月低點反彈 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zVHF6WHg0dmpqZ0tneTVIeERueENRcTl3cDY2NXBGV0VuQkR5b1dXMW90dHk3dFpKenk1TVNuVUxPNmg4NUxKM0RyRTlOMEE?oc=5",
+      "published": "Fri, 09 Oct 2026 04:52:30 GMT",
       "source": "鉅亨網"
     },
     {
+      "title": "【行情快報】美債殖利率創高，股市還能續強？四大關鍵一次解析！ - MacroMicro",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQX3B5Yk9wbU1OQTlOeEtkSS03a2lKTlUtMFp1Q3dyVkNEMFNqdzEyWi1fV1lBZHozVzRNa3JWRmpXcWhKVWludzVZaWpGTWtqWnpUYVI1bTNfYTZCY0NpSUNXMEV1TjRQNWEtSkV5elhUUE9kRVBOOVBsdVJLZld0N2tCMEExOVZPSWJDNkppREdaUVVpUXRPYUJQOFFWQlJKRzR2aG1iaExHeFN6MHlLSGN1LXZZNVNRRzNQc3B3UmpEbmdlOS1oRkp5MU1uMEtMQ01sbUFUbno3ZHBuVVRPS1hvRjhZR29IY2VfV2JZRTFiYUU?oc=5",
+      "published": "Tue, 06 Oct 2026 09:19:12 GMT",
+      "source": "MacroMicro"
+    },
+    {
       "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQaXNCOUN2UzlqbTJ1b1M2cnhaZDFoV3MteFVyTW9vUVViNS1hUG5xN3F1WTlGdERlb0t4bUtiTVR3SDlMaU4tVVAwVzc1TDRUd3puTm9mYUN6NkVyZHk3QU9VXzhvXzlLQjlkV2dFdUZxYmltbE1xVUM0d3RKOV8wZkM3eU9uWmtsREpBV2tzSEpNSmwtNWI1c0RWNDFjUm9yRjZ5OXhNNW9mYTVHMDMya3hlcl90X0NiWEdFOHVCRmpPU29Sa0FGdTl2T0xwNExlZ0xHbHFPZGJvZFVuLTl5Mi1BQWhid1FLMkd6RWREWkp1LVZCRmlxYXJjM2hFV014VzVkYzBNbmdqR25hQ0YxN0JFWTdEeldJNDRTUml0aExBWVFIUXV5R3Y0TVRLcDUxT2QxQVhldER6QmVIVWRaaEtuQlA?oc=5",
-      "published": "Thu, 08 Oct 2026 00:29:19 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOVVdOSnBsb0hJa3dPXzdKenVsMWlwVU9qQnJVTm93Mk5mWUJ6SWJwN0pETTc1N0otMDd5SnlkVm1nVkY4U1pEZ3ZQbVU4cFQzVlZQM09BbkNVT2pOZW9MZlExWUFweDdDNU1kZklyR0RBRG41cVRQbzlReU9YVWxqcjNSd3lwUUpOUk81b25QSUE0MkxTQzEwZ1c2b3VfQV9GT2ZIT0lyV242ckpnSGVWU1p1TmhrMF94N3QtRjF4TUVKM0FaT3NLSzBOOVQ4bVFYcDlJS24yeVluTG4wSkg3TDFKNnVueGtoelhDYm8zMGswempOdkVwbTU1UlNiLWEzdl9HU0o3dWpJcFpGbXRtX3VHUEl1RlpiMEN6c09DQW5CRUlqN0pXVm8xZ0d4YXhnLWx1OUs4X3NldUFnVlFGdzRranFBX2Z4M2RKSHVpNGZJOVd6OExPQg?oc=5",
+      "published": "Thu, 08 Oct 2026 14:03:10 GMT",
       "source": "Moomoo"
     },
     {
-      "title": "避險熱潮的最大贏家 美元指數升破102 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yYm1ZQUFVSDBCV3FwU1NhSlN2UVZ4RG1kaDhlN0ZsOWpnLUozRVdnMUpkVF9BTFhxN2RMUjluUEtiZFkxU2NVdHhnMUU0YXRwWFRNelFUM3Bfa203MUJz?oc=5",
-      "published": "Mon, 05 Oct 2026 19:00:00 GMT",
-      "source": "工商時報"
+      "title": "國慶前外資倒貨新台幣力守32元價位| 財經 - CTWANT",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFeTNCMW16QmdxbzBWWWtnSEZLZHRNUHdlX1VPRlBlRFVYUVhDUDlNcDNuc0IyU3JCaHdydnVxVlhWamNWQkVWNlNLSDJCREU?oc=5",
+      "published": "Fri, 09 Oct 2026 04:19:08 GMT",
+      "source": "CTWANT"
     },
     {
-      "title": "黃金價格走勢分析：非農意外疲弱 美債殖利率高企壓抑金價反彈 - 鉅亨號",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE56cTlVNXJwLUJVcnhBQ00xaWtOZWZkOExKVk1qQnE0Z0V5aC0wYlYyUTFSNGJwSXhhYVY4ZWxtc2pqSFFodHZoNQ?oc=5",
-      "published": "Mon, 05 Oct 2026 12:01:53 GMT",
-      "source": "鉅亨號"
+      "title": "黃金價格預測：隨著原油與殖利率上升，XAU/USD 的反彈走勢受阻 - www.tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONDMxbnczd2Rwb05HU24xbFVUeGhUZ1JYN19xN1BIMzhvLWl3b1BHa0xjQ0xJTXZkX1c0cTdDd3JUS1BlSjdGX18tTTBRUGpSRVBLaTFxRGlva1pTRkY5elZWLUdLUEJFbklMNXFPMV9BUko2ZGRnZnhFRTl5bVRMYmZSeElZekJjakxWOVl5d1drV180RjBKVGF2WGNNcTJIUXMtTVJCWU42OUpDbW0yMmlKRUFaZEs5TG1vVlhRN2Q4bENZSjd5dUhFTkh6azQ?oc=5",
+      "published": "Thu, 08 Oct 2026 11:56:38 GMT",
+      "source": "www.tmgm.com"
     },
     {
-      "title": "中東局勢迎轉機？川普「大決定」將至， 原油、黃金行情一觸即發 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBZLUlDNkhWRFA5MFdfdldaMDFobjBZY1YwUFBkWHF1Uk11N2V1LUYzUVVxcGZzVjlwRUhYcFRYVTRGckluYkI3Vk9va1htdnBIdkJ1eHByb24tZGhtam1IbF9rWGVXU1FrSklkcDBkeldCNmRmc1VrQnZn?oc=5",
-      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "title": "【財經縱覽】：WTI原油受阻90、黃金險失4100，歐、美股市承壓，納指100終結六連漲！ - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9sdExlUUpXR01vTnAtcEhJYnk3YVRFUjlzQko2TldNeVpPY3pJVEZzTVJ0ZWtpTXpjNlk5WHMzSXRaZGVpc0xFcGF6ZHVvOXJaNmFGQi1BcnBCMUJxaEhLN1VnSjItQ2ZlenUwQXNSUmc3NlBuZ3l3OWE1ejVwTWc?oc=5",
+      "published": "Thu, 08 Oct 2026 00:24:14 GMT",
       "source": "Mitrade"
     }
   ]
