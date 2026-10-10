@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09 05:03:53 (UTC)",
+  "updated_at": "2026-10-10 04:49:41 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 31.91,
-    "usdjpy": 158.09,
-    "usdcny": 6.7,
-    "oil": 90.37,
-    "gold": 4201.6,
-    "dxy": 102.02
+    "usdtwd": 31.92,
+    "usdjpy": 158.25,
+    "usdcny": 6.69,
+    "oil": 91.85,
+    "gold": 4216.3,
+    "dxy": 102.21
   },
   "history": {
     "fed_rate": {
@@ -7794,9 +7794,9 @@
   },
   "news": [
     {
-      "title": "〈貴金屬盤後〉權衡Fed利率前景 黃金從兩個月低點反彈 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zVHF6WHg0dmpqZ0tneTVIeERueENRcTl3cDY2NXBGV0VuQkR5b1dXMW90dHk3dFpKenk1TVNuVUxPNmg4NUxKM0RyRTlOMEE?oc=5",
-      "published": "Fri, 09 Oct 2026 04:52:30 GMT",
+      "title": "美債還沒跌完？四大警訊浮現 殖利率恐再衝高 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkTXMzakdYMlBwcG9MTXZScUU1WTZuRHRFMk9ONW5LX0Rudy1xa0xFazJ0Q1F3a21leU12eUJva2tRaWJJYXVhNXJfM0cyUzg?oc=5",
+      "published": "Fri, 09 Oct 2026 17:34:04 GMT",
       "source": "鉅亨網"
     },
     {
@@ -7807,27 +7807,27 @@
     },
     {
       "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOVVdOSnBsb0hJa3dPXzdKenVsMWlwVU9qQnJVTm93Mk5mWUJ6SWJwN0pETTc1N0otMDd5SnlkVm1nVkY4U1pEZ3ZQbVU4cFQzVlZQM09BbkNVT2pOZW9MZlExWUFweDdDNU1kZklyR0RBRG41cVRQbzlReU9YVWxqcjNSd3lwUUpOUk81b25QSUE0MkxTQzEwZ1c2b3VfQV9GT2ZIT0lyV242ckpnSGVWU1p1TmhrMF94N3QtRjF4TUVKM0FaT3NLSzBOOVQ4bVFYcDlJS24yeVluTG4wSkg3TDFKNnVueGtoelhDYm8zMGswempOdkVwbTU1UlNiLWEzdl9HU0o3dWpJcFpGbXRtX3VHUEl1RlpiMEN6c09DQW5CRUlqN0pXVm8xZ0d4YXhnLWx1OUs4X3NldUFnVlFGdzRranFBX2Z4M2RKSHVpNGZJOVd6OExPQg?oc=5",
-      "published": "Thu, 08 Oct 2026 14:03:10 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNYTBjWnhsa2RVVmEzOUFNZ21JVUJUdmxVN0ROeEhOaGtUa3ZyLWszd2hlZWtqYW9kWktCeHRuVENfXzFlZXVobXlmVW8zaHhrcFppVFk1Tk9EelZ6OTQ1OVRUa1ZhWmhPYTRNbW5DZzN4ZUxPNjZvdGszMmdXSHh3NFFnYm9zd2MwaFZpZXVTRnRUV05FZU1TRFBoMGdidm9CREpOWXZBand3VmpTaXFEa3NyYzZYRmk4TE5pai16OEhTUTZhYUQtTUVHNlNieHpoVEhiYWdUVTFRMjkwTUxDeEFfQ2FtVGUxVzNMVkpaWkw4QzkySVBtcDZSVy01QmhwSmVLOVA5TFN1dVpxTFFIRF9zQm1iS3BwUmJtN2xpZThWTDU5X3hwRFI0MjlGSU1mbU5YVW5qdHFMSFNvcXh6ZUd3?oc=5",
+      "published": "Thu, 08 Oct 2026 20:41:52 GMT",
       "source": "Moomoo"
     },
     {
-      "title": "國慶前外資倒貨新台幣力守32元價位| 財經 - CTWANT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFeTNCMW16QmdxbzBWWWtnSEZLZHRNUHdlX1VPRlBlRFVYUVhDUDlNcDNuc0IyU3JCaHdydnVxVlhWamNWQkVWNlNLSDJCREU?oc=5",
-      "published": "Fri, 09 Oct 2026 04:19:08 GMT",
-      "source": "CTWANT"
+      "title": "考驗傳產有效匯率指數走升- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0TGtfTm9iTjIwQWNUODN3WWNLS1JoOTV4bjA0QnV4d0JHYW9NWXRNWUxOckJJbm11NzZRNmZjQkVGdG1VVUVjemV0cWpFS2hTeHRaQUc1eVYtYlFzdEFr?oc=5",
+      "published": "Tue, 06 Oct 2026 19:00:00 GMT",
+      "source": "工商時報"
+    },
+    {
+      "title": "【今日要聞】黃金價格突破4200美元！原油價格回落，比特幣一度逼近8萬美元 - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53VmxMSTBFWW51dExQNU14RXRrWk81UGh6SEFkWFdaUVpLdG80MlhIbE5kN1hIeVA5aExBaTQ1TXItMmkzcS1YR3N6SURaVm94MC1ySktPWWxfV1RneDl4RUphalNRbVllRWhuX1JVTzFra284ZlFV?oc=5",
+      "published": "Fri, 09 Oct 2026 10:21:24 GMT",
+      "source": "Mitrade"
     },
     {
       "title": "黃金價格預測：隨著原油與殖利率上升，XAU/USD 的反彈走勢受阻 - www.tmgm.com",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONDMxbnczd2Rwb05HU24xbFVUeGhUZ1JYN19xN1BIMzhvLWl3b1BHa0xjQ0xJTXZkX1c0cTdDd3JUS1BlSjdGX18tTTBRUGpSRVBLaTFxRGlva1pTRkY5elZWLUdLUEJFbklMNXFPMV9BUko2ZGRnZnhFRTl5bVRMYmZSeElZekJjakxWOVl5d1drV180RjBKVGF2WGNNcTJIUXMtTVJCWU42OUpDbW0yMmlKRUFaZEs5TG1vVlhRN2Q4bENZSjd5dUhFTkh6azQ?oc=5",
       "published": "Thu, 08 Oct 2026 11:56:38 GMT",
       "source": "www.tmgm.com"
-    },
-    {
-      "title": "【財經縱覽】：WTI原油受阻90、黃金險失4100，歐、美股市承壓，納指100終結六連漲！ - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9sdExlUUpXR01vTnAtcEhJYnk3YVRFUjlzQko2TldNeVpPY3pJVEZzTVJ0ZWtpTXpjNlk5WHMzSXRaZGVpc0xFcGF6ZHVvOXJaNmFGQi1BcnBCMUJxaEhLN1VnSjItQ2ZlenUwQXNSUmc3NlBuZ3l3OWE1ejVwTWc?oc=5",
-      "published": "Thu, 08 Oct 2026 00:24:14 GMT",
-      "source": "Mitrade"
     }
   ]
 }
