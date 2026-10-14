@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13 05:53:38 (UTC)",
+  "updated_at": "2026-10-14 03:56:55 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 334.13,
     "core_cpi": 337.76,
     "pmi": 97.0,
-    "usdtwd": 32.12,
-    "usdjpy": 158.27,
+    "usdtwd": 32.17,
+    "usdjpy": 158.26,
     "usdcny": 6.69,
-    "oil": 92.67,
-    "gold": 4216.2,
-    "dxy": 102.42
+    "oil": 94.78,
+    "gold": 4186.7,
+    "dxy": 102.12
   },
   "history": {
     "fed_rate": {
@@ -7794,33 +7794,33 @@
   },
   "news": [
     {
-      "title": "黃金最壞時刻已過？瑞銀：美債殖利率回落將讓黃金復甦 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrM01fZ2ItY0xEYTRpYkxuMXNaWThfVXdPaWlEbHF1SndZeWgwVzR4a09FUmg0VFVYTkdZTXF1N3BCcHBRZF9pOVBHX25lV2M?oc=5",
-      "published": "Mon, 12 Oct 2026 23:47:49 GMT",
-      "source": "鉅亨網"
+      "title": "Fed 明年不必升息？紐約聯準總裁：今年再升一次可能就夠 通膨可望降溫 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wcGoxRlk4a2xyOGxGdHVENTZjMHpCNXF3cFZONkpBX2NNbzkwbnRlcEZNdUZ5VVBzaWpWd1VEYnExSlRHaFZNTTZSaXBFU1NjdnQtVExLeTZId9IBX0FVX3lxTE91dFJPbDNiUllpdS1GMmVPSS1KWkF6VEoza2lrNXhpYkRDbGJiTmJkT1lPZUM0YmppT09zdHhoRzd5SHp6anFjeWowOTZicUtDRW8yXzJGb1RrZzk3cVlV?oc=5",
+      "published": "Wed, 14 Oct 2026 01:11:16 GMT",
+      "source": "經濟日報"
     },
     {
-      "title": "美債抄底戰開打！高盛、花旗喊買美銀、巴克萊唱反調- 國際 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BaGQzcDFWTUQ3NVh2YkxLOE1pLUVvelM0VDNGQXVSREZUa2g1STdtb0xNSWw3WjhIVlpMLUliM2J5bWRFZ252Yy05elU2TUNmSjktVXhxalg4MDhMS2JR?oc=5",
-      "published": "Tue, 13 Oct 2026 01:42:00 GMT",
-      "source": "工商時報"
+      "title": "《美債》殖利率高檔回落9月CPI成下一個關鍵- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSjFKWEx4djhVcXRKeS1lakU4WTRFNjhoZVhCWlFFYlN3RVVRajJwRTZ2UXQtOWkyOXhEdEJuUGZMMmprYTEyYktwVGlqQ2F3MWZTVlUyTWhZSlRuay1uSlR1aDJFakRqWU95OUszVzdQZUVwWERDaFNrX21jbXVibzVPaUgxRDN3TzQyWEhNd09CQQ?oc=5",
+      "published": "Tue, 13 Oct 2026 23:08:00 GMT",
+      "source": "MoneyDJ"
     },
     {
       "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNYTBjWnhsa2RVVmEzOUFNZ21JVUJUdmxVN0ROeEhOaGtUa3ZyLWszd2hlZWtqYW9kWktCeHRuVENfXzFlZXVobXlmVW8zaHhrcFppVFk1Tk9EelZ6OTQ1OVRUa1ZhWmhPYTRNbW5DZzN4ZUxPNjZvdGszMmdXSHh3NFFnYm9zd2MwaFZpZXVTRnRUV05FZU1TRFBoMGdidm9CREpOWXZBand3VmpTaXFEa3NyYzZYRmk4TE5pai16OEhTUTZhYUQtTUVHNlNieHpoVEhiYWdUVTFRMjkwTUxDeEFfQ2FtVGUxVzNMVkpaWkw4QzkySVBtcDZSVy01QmhwSmVLOVA5TFN1dVpxTFFIRF9zQm1iS3BwUmJtN2xpZThWTDU5X3hwRFI0MjlGSU1mbU5YVW5qdHFMSFNvcXh6ZUd3?oc=5",
-      "published": "Thu, 08 Oct 2026 20:41:52 GMT",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQV0ozOExEdjlHSG1JOUEzU2JSQzVtS3FoLUNuN2JVOWJZd255VUZDa09mRHBsSUVZZjJFbVJEa2NreVZDVS1vZ2NEX281a2NpV1VXYmRIU2FoRG5Ua1p6LVVvY05TUVhwUGY3YzBLSUVwMnBjX05tdjBzZTJjUGRRUkJGRGx0Rkh6MXpoaVBjVmFtdklReGt3MGpHV3hjRWZjTU5TMEQ5OXZHSExUdk1CbFBaRU1Ub0JxNlJqbjdFZHBJX19ObUNwNmNkak1JcVR0aXRrTTd6Y01nenIwQTJxZFJvdHBaQmw4LXBreWhfTXFnd1VFUUF6ZWczTGF1d3Z6R1ZqQW42bjM0VlVFNXdLZnZZUUdEM250cUdyVzJGOXpKcFVRWWI3UnhsV1JGRUhKaE5XdkpJaTVnSmMwOXRzWGkzYjQ?oc=5",
+      "published": "Tue, 13 Oct 2026 18:20:12 GMT",
       "source": "Moomoo"
     },
     {
-      "title": "地緣政治風險升高助攻避險情緒 美元指數徘徊18個月高點 - 民視財經網",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05NDgya2dwQkF4SFI3bkZ5VDVJaDBpZGd5NDdXU1RnQ3R2bnhpR3ZZUEpWOUVIb0djODllUmJtZXNvb01OdXAxOHVkb2Y2dUVDVEc3WWdhSXZLQzNlVlg5WENMSHl0QQ?oc=5",
-      "published": "Tue, 13 Oct 2026 01:49:17 GMT",
-      "source": "民視財經網"
+      "title": "〈紐約匯市〉美元守住18個月高點 中東局勢緊張、美國通膨牽動市場情緒 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FczdmRFhwMy0wb2pmNTJaOEY5Q1FNbFhKMFcxSlE4V1VNRk9uZGZXUFRTT2h1LWswRk9ObWZlMk9XU0V3Qk9yREg5RnRjLW8?oc=5",
+      "published": "Tue, 13 Oct 2026 07:08:23 GMT",
+      "source": "鉅亨網"
     },
     {
-      "title": "【今日要聞】布蘭特原油站上105美元！黃金價格爭奪4200美元關口 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QbUpnTm1fWDRQQkJIVmgtTDNGYUVrWmhSTXQ1SDRZVmdyNlZ6cG1UUFlhTHlCNDhUaVZoN2lqOXM1bFc1WkFjcFR2RkEtMjNJcDd5a3RJd2N0TWhWSzBSbGFBZWtBVnl4UEh5YUdzTmx1c2RZb0dj?oc=5",
-      "published": "Mon, 12 Oct 2026 10:22:20 GMT",
+      "title": "【今日要聞】黃金價格突破4200美元！原油價格回落，比特幣一度逼近8萬美元 - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53VmxMSTBFWW51dExQNU14RXRrWk81UGh6SEFkWFdaUVpLdG80MlhIbE5kN1hIeVA5aExBaTQ1TXItMmkzcS1YR3N6SURaVm94MC1ySktPWWxfV1RneDl4RUphalNRbVllRWhuX1JVTzFra284ZlFV?oc=5",
+      "published": "Fri, 09 Oct 2026 10:21:24 GMT",
       "source": "Mitrade"
     },
     {
