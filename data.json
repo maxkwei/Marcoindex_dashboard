@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-14 03:56:55 (UTC)",
+  "updated_at": "2026-10-15 03:38:49 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
     "us20y_yield": 5.68,
-    "cpi": 334.13,
-    "core_cpi": 337.76,
+    "cpi": 336.3,
+    "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.17,
-    "usdjpy": 158.26,
+    "usdtwd": 32.31,
+    "usdjpy": 157.65,
     "usdcny": 6.69,
-    "oil": 94.78,
-    "gold": 4186.7,
-    "dxy": 102.12
+    "oil": 93.93,
+    "gold": 4170.1,
+    "dxy": 101.96
   },
   "history": {
     "fed_rate": {
@@ -2604,7 +2604,7 @@
         332.57,
         332.81,
         334.13,
-        334.13
+        336.3
       ]
     },
     "core_cpi": {
@@ -3252,7 +3252,7 @@
         336.06,
         336.79,
         337.76,
-        337.76
+        338.9
       ]
     },
     "pmi": {
@@ -7794,15 +7794,15 @@
   },
   "news": [
     {
-      "title": "Fed 明年不必升息？紐約聯準總裁：今年再升一次可能就夠 通膨可望降溫 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wcGoxRlk4a2xyOGxGdHVENTZjMHpCNXF3cFZONkpBX2NNbzkwbnRlcEZNdUZ5VVBzaWpWd1VEYnExSlRHaFZNTTZSaXBFU1NjdnQtVExLeTZId9IBX0FVX3lxTE91dFJPbDNiUllpdS1GMmVPSS1KWkF6VEoza2lrNXhpYkRDbGJiTmJkT1lPZUM0YmppT09zdHhoRzd5SHp6anFjeWowOTZicUtDRW8yXzJGb1RrZzk3cVlV?oc=5",
-      "published": "Wed, 14 Oct 2026 01:11:16 GMT",
-      "source": "經濟日報"
+      "title": "CPI高預期 美債殖利率急升 聯準會陷「升息兩難」 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92bmdEOXFaQVhucFZ0UTVXYXE2U0I1OXZsNlJMRWJpS1EtQS1vMlNiMTl6V1pjLUxRbk1PeG1EbEF0c3JwcUVRTTEycEZqUUE?oc=5",
+      "published": "Thu, 15 Oct 2026 03:10:06 GMT",
+      "source": "鉅亨網"
     },
     {
-      "title": "《美債》殖利率高檔回落9月CPI成下一個關鍵- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSjFKWEx4djhVcXRKeS1lakU4WTRFNjhoZVhCWlFFYlN3RVVRajJwRTZ2UXQtOWkyOXhEdEJuUGZMMmprYTEyYktwVGlqQ2F3MWZTVlUyTWhZSlRuay1uSlR1aDJFakRqWU95OUszVzdQZUVwWERDaFNrX21jbXVibzVPaUgxRDN3TzQyWEhNd09CQQ?oc=5",
-      "published": "Tue, 13 Oct 2026 23:08:00 GMT",
+      "title": "《美債》9月CPI增幅超標殖利率先升後跌- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYk16aWlxbDNGN09DR012RVhveGlNeENiTzBKVlpDUnpCN3Z3Sk5URldLamNHLVp4NTh5R3lPeGp0YUJaMHV2MXBrSTh2UU10aDljTUpsOXJlbFFGSWZ3R1psblJXMFRLMDU4ZFJLOXhYU2ZkRWE0SGNxX0ZpeHktRnhzZEJwRkd5Ukc3dm80OUxPZw?oc=5",
+      "published": "Wed, 14 Oct 2026 23:07:00 GMT",
       "source": "MoneyDJ"
     },
     {
@@ -7812,10 +7812,10 @@
       "source": "Moomoo"
     },
     {
-      "title": "〈紐約匯市〉美元守住18個月高點 中東局勢緊張、美國通膨牽動市場情緒 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FczdmRFhwMy0wb2pmNTJaOEY5Q1FNbFhKMFcxSlE4V1VNRk9uZGZXUFRTT2h1LWswRk9ObWZlMk9XU0V3Qk9yREg5RnRjLW8?oc=5",
-      "published": "Tue, 13 Oct 2026 07:08:23 GMT",
-      "source": "鉅亨網"
+      "title": "外資連4賣提款近1,500億元！新台幣連三貶 32元保衛戰開打 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52RTRpTjd5S0NJNXIwN3V5VXg4RTh2bjBFa3B2MzhiaTZtYUxNemtlcVl5MU5wS2JRRjRxN3lzLTNZWEJLc2xERVRubEkycVYyVlpLV2tVcGF0QdIBX0FVX3lxTE1YQW04TWlqb3Z6clFTc0dWWFpndFVlUS0xcmRkS2twOFdXTEhRWWx3LXBnaGpmN0hGdVE0VEd0OEpkVlpzSkZBdEwtSXhhaVlMY21ZRDE3TnhRbW5hUU5V?oc=5",
+      "published": "Mon, 12 Oct 2026 11:27:28 GMT",
+      "source": "經濟日報"
     },
     {
       "title": "【今日要聞】黃金價格突破4200美元！原油價格回落，比特幣一度逼近8萬美元 - Mitrade",
