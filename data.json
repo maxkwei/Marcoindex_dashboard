@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15 03:38:49 (UTC)",
+  "updated_at": "2026-10-16 03:34:45 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.31,
-    "usdjpy": 157.65,
+    "usdtwd": 32.45,
+    "usdjpy": 157.99,
     "usdcny": 6.69,
-    "oil": 93.93,
-    "gold": 4170.1,
-    "dxy": 101.96
+    "oil": 95.83,
+    "gold": 4192.1,
+    "dxy": 101.99
   },
   "history": {
     "fed_rate": {
@@ -7800,34 +7800,34 @@
       "source": "鉅亨網"
     },
     {
-      "title": "《美債》9月CPI增幅超標殖利率先升後跌- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYk16aWlxbDNGN09DR012RVhveGlNeENiTzBKVlpDUnpCN3Z3Sk5URldLamNHLVp4NTh5R3lPeGp0YUJaMHV2MXBrSTh2UU10aDljTUpsOXJlbFFGSWZ3R1psblJXMFRLMDU4ZFJLOXhYU2ZkRWE0SGNxX0ZpeHktRnhzZEJwRkd5Ukc3dm80OUxPZw?oc=5",
-      "published": "Wed, 14 Oct 2026 23:07:00 GMT",
+      "title": "MoneyDJ新聞 2026-10-16 07:16:22 李彥瑾 發佈 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUHZtWlZQUDNzN1RpR0UwelpIUW0zLU4ydzhQVWVEcVF6aGRpcHJuSUdFdGhGRFNicnE4SVZSY3h5NTJBNEVhNXFHT0EwYzU0cTVqVXpLM3o1VS1wX1dyVUdHRmY3ZDhMRzFzRFMtUmZYT3ZJVE95QzNONFQwV1lhU0FDem0xTVRNakF3Zzk2Tnc3WW8?oc=5",
+      "published": "Thu, 15 Oct 2026 23:16:41 GMT",
       "source": "MoneyDJ"
     },
     {
       "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQV0ozOExEdjlHSG1JOUEzU2JSQzVtS3FoLUNuN2JVOWJZd255VUZDa09mRHBsSUVZZjJFbVJEa2NreVZDVS1vZ2NEX281a2NpV1VXYmRIU2FoRG5Ua1p6LVVvY05TUVhwUGY3YzBLSUVwMnBjX05tdjBzZTJjUGRRUkJGRGx0Rkh6MXpoaVBjVmFtdklReGt3MGpHV3hjRWZjTU5TMEQ5OXZHSExUdk1CbFBaRU1Ub0JxNlJqbjdFZHBJX19ObUNwNmNkak1JcVR0aXRrTTd6Y01nenIwQTJxZFJvdHBaQmw4LXBreWhfTXFnd1VFUUF6ZWczTGF1d3Z6R1ZqQW42bjM0VlVFNXdLZnZZUUdEM250cUdyVzJGOXpKcFVRWWI3UnhsV1JGRUhKaE5XdkpJaTVnSmMwOXRzWGkzYjQ?oc=5",
-      "published": "Tue, 13 Oct 2026 18:20:12 GMT",
+      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPLTFvV19mRHJNT1lKVy1KUWVjVEN3eFFHUUp2MDl1VDFzNUFWWG5Pcm1SeDFjVC1qZTJsNEpIVzRrVldnbEVXdTc2MXBVc04tM3RKLU85dUdqUnNJYmtvWVdSa0pMMzJGZDNEZU55emhiei0wMHZHcG9peUVvcDJaMktOdUVGTWFhVEVHUG4zRllQeUZGR2NGOC02ekoyWGkzelhlNExPUVFvYlpVQ0NPX3dKNkJfSl9rWmNsd0FTNEZkd1A5Ql9hcDc4RzFIcDFmb0Mxa3JjRjJYVFlDNzJUek1BWXVTNEdQSHdrT2J2b3hZTUVWYkdnaVpMRTJ0cHlqbm1zeWJocDA3bEF5TE1OcUc1V1kxRkFUZ3cwVlRGczVlaXlkeDEzOG1tQnU4TWE1MW9GZGlHU0FFb05sQ3ZCYlNzMGIydw?oc=5",
+      "published": "Tue, 13 Oct 2026 13:24:01 GMT",
       "source": "Moomoo"
     },
     {
-      "title": "外資連4賣提款近1,500億元！新台幣連三貶 32元保衛戰開打 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52RTRpTjd5S0NJNXIwN3V5VXg4RTh2bjBFa3B2MzhiaTZtYUxNemtlcVl5MU5wS2JRRjRxN3lzLTNZWEJLc2xERVRubEkycVYyVlpLV2tVcGF0QdIBX0FVX3lxTE1YQW04TWlqb3Z6clFTc0dWWFpndFVlUS0xcmRkS2twOFdXTEhRWWx3LXBnaGpmN0hGdVE0VEd0OEpkVlpzSkZBdEwtSXhhaVlMY21ZRDE3TnhRbW5hUU5V?oc=5",
-      "published": "Mon, 12 Oct 2026 11:27:28 GMT",
-      "source": "經濟日報"
+      "title": "雙強並立？美元與人民幣走強格局下的投資啟示- 言論 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54dlJaSEY4MDJwUnJqQVF5ZDNtZkVVZEJna002TEFDV19nSWJfWHdzYXloYUpuQkJkZEV0ZlJieGNBVlEwOVhSUGN3SENFdXJPRVk4WEJtb3Z1dUdrQzFV?oc=5",
+      "published": "Thu, 15 Oct 2026 18:00:00 GMT",
+      "source": "工商時報"
     },
     {
-      "title": "【今日要聞】黃金價格突破4200美元！原油價格回落，比特幣一度逼近8萬美元 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53VmxMSTBFWW51dExQNU14RXRrWk81UGh6SEFkWFdaUVpLdG80MlhIbE5kN1hIeVA5aExBaTQ1TXItMmkzcS1YR3N6SURaVm94MC1ySktPWWxfV1RneDl4RUphalNRbVllRWhuX1JVTzFra284ZlFV?oc=5",
-      "published": "Fri, 09 Oct 2026 10:21:24 GMT",
+      "title": "【財經縱覽】：WTI原油六連漲！黃金、美債走強，美國三大股指轉漲，費半指數七連跌！ - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44NXNRNlVGZkZ4MnlhR2lhT1dycjJyd1JwME9oUVYxOXlKRU9wMTNOaDRYYnZVXzI1R1lOSEw2MVZmQXlFMGptZ2txNHFvN2lqMGhsMFR4bEdQQXJtSlo1TjdiTTlZblJKWmxyV2dLUk5sOGY2a1VZUUNnZ1NuWmM?oc=5",
+      "published": "Fri, 16 Oct 2026 00:57:16 GMT",
       "source": "Mitrade"
     },
     {
-      "title": "黃金只是第一站？！白銀、原油接連入局，一場千億美元金融變革正在醞釀 - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlenRjYmJoZmNhUXN0MWhoWU1ueW92alVrYUw5dkxwd3Zral9malZXTl85OExiaDlkTXZjNi1taEc1Z2VIRjZTQ2FMSE0zQjRmTi0tVjlHTEpxMmpNWlk2NE5MTEo?oc=5",
-      "published": "Mon, 12 Oct 2026 02:44:48 GMT",
-      "source": "TradingView"
+      "title": "黃金價格預測：隨著原油與殖利率上升，XAU/USD 的反彈走勢受阻 - www.tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlU1U1Bjc0xKWU9iM1VkVzlzcnEzMGxxM1hHOXM4Wi1TdzdNTWltbVRkZGZDMEd6bVBobEdxQUI0VjBwdGQ3eFN4UGVHWWtheU8xeXlBWWtHMWVJYjNkZUxmYjU5ODYyTHJHZUJtaEpsSFJZUExBOHhNSndFUjlFVEJDdlBLQXBDMk1ZVDQwZHNuYzQ4bUZnTXlHS1h1MWFGQ2RNa0d6RzJ0cnJVRkJxajR4TVdRWW16ZWZ6QS1lYkh0ZE5xXzlyMzdvc2Z3MktpV0otMg?oc=5",
+      "published": "Thu, 08 Oct 2026 10:14:02 GMT",
+      "source": "www.tmgm.com"
     }
   ]
 }
