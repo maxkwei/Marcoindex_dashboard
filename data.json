@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16 03:34:45 (UTC)",
+  "updated_at": "2026-10-17 03:25:02 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.45,
+    "usdtwd": 32.43,
     "usdjpy": 157.99,
-    "usdcny": 6.69,
-    "oil": 95.83,
-    "gold": 4192.1,
-    "dxy": 101.99
+    "usdcny": 6.68,
+    "oil": 99.04,
+    "gold": 4186.7,
+    "dxy": 101.78
   },
   "history": {
     "fed_rate": {
@@ -7794,28 +7794,28 @@
   },
   "news": [
     {
+      "title": "升息對美債有什麼影響？看懂利率、債券價格與殖利率的反向關係 - 口袋證券",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yNUZDbGs0SWd1cE1OVXhHVEw2OGtlOFJsT3J6cHU0WEZMdl9CNDZtRjBGeHhQU1oxdm9wYzRMMjg2N2tUdWdVU29vRk5vNE9IWGM0R0R3?oc=5",
+      "published": "Fri, 16 Oct 2026 11:41:13 GMT",
+      "source": "口袋證券"
+    },
+    {
       "title": "CPI高預期 美債殖利率急升 聯準會陷「升息兩難」 - 鉅亨網",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92bmdEOXFaQVhucFZ0UTVXYXE2U0I1OXZsNlJMRWJpS1EtQS1vMlNiMTl6V1pjLUxRbk1PeG1EbEF0c3JwcUVRTTEycEZqUUE?oc=5",
       "published": "Thu, 15 Oct 2026 03:10:06 GMT",
       "source": "鉅亨網"
     },
     {
-      "title": "MoneyDJ新聞 2026-10-16 07:16:22 李彥瑾 發佈 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUHZtWlZQUDNzN1RpR0UwelpIUW0zLU4ydzhQVWVEcVF6aGRpcHJuSUdFdGhGRFNicnE4SVZSY3h5NTJBNEVhNXFHT0EwYzU0cTVqVXpLM3o1VS1wX1dyVUdHRmY3ZDhMRzFzRFMtUmZYT3ZJVE95QzNONFQwV1lhU0FDem0xTVRNakF3Zzk2Tnc3WW8?oc=5",
-      "published": "Thu, 15 Oct 2026 23:16:41 GMT",
-      "source": "MoneyDJ"
-    },
-    {
       "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPLTFvV19mRHJNT1lKVy1KUWVjVEN3eFFHUUp2MDl1VDFzNUFWWG5Pcm1SeDFjVC1qZTJsNEpIVzRrVldnbEVXdTc2MXBVc04tM3RKLU85dUdqUnNJYmtvWVdSa0pMMzJGZDNEZU55emhiei0wMHZHcG9peUVvcDJaMktOdUVGTWFhVEVHUG4zRllQeUZGR2NGOC02ekoyWGkzelhlNExPUVFvYlpVQ0NPX3dKNkJfSl9rWmNsd0FTNEZkd1A5Ql9hcDc4RzFIcDFmb0Mxa3JjRjJYVFlDNzJUek1BWXVTNEdQSHdrT2J2b3hZTUVWYkdnaVpMRTJ0cHlqbm1zeWJocDA3bEF5TE1OcUc1V1kxRkFUZ3cwVlRGczVlaXlkeDEzOG1tQnU4TWE1MW9GZGlHU0FFb05sQ3ZCYlNzMGIydw?oc=5",
-      "published": "Tue, 13 Oct 2026 13:24:01 GMT",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQV0ozOExEdjlHSG1JOUEzU2JSQzVtS3FoLUNuN2JVOWJZd255VUZDa09mRHBsSUVZZjJFbVJEa2NreVZDVS1vZ2NEX281a2NpV1VXYmRIU2FoRG5Ua1p6LVVvY05TUVhwUGY3YzBLSUVwMnBjX05tdjBzZTJjUGRRUkJGRGx0Rkh6MXpoaVBjVmFtdklReGt3MGpHV3hjRWZjTU5TMEQ5OXZHSExUdk1CbFBaRU1Ub0JxNlJqbjdFZHBJX19ObUNwNmNkak1JcVR0aXRrTTd6Y01nenIwQTJxZFJvdHBaQmw4LXBreWhfTXFnd1VFUUF6ZWczTGF1d3Z6R1ZqQW42bjM0VlVFNXdLZnZZUUdEM250cUdyVzJGOXpKcFVRWWI3UnhsV1JGRUhKaE5XdkpJaTVnSmMwOXRzWGkzYjQ?oc=5",
+      "published": "Tue, 13 Oct 2026 18:20:12 GMT",
       "source": "Moomoo"
     },
     {
-      "title": "雙強並立？美元與人民幣走強格局下的投資啟示- 言論 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54dlJaSEY4MDJwUnJqQVF5ZDNtZkVVZEJna002TEFDV19nSWJfWHdzYXloYUpuQkJkZEV0ZlJieGNBVlEwOVhSUGN3SENFdXJPRVk4WEJtb3Z1dUdrQzFV?oc=5",
-      "published": "Thu, 15 Oct 2026 18:00:00 GMT",
-      "source": "工商時報"
+      "title": "台幣下周觀察 32.6 元關卡 央行態度將成重要變數 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjODl3SmRzN3llcVZSNlMwbXV4c2UxYWtuRVBWLTJlZXVIMmpkT09yU09vN1JWZ3IwTHhpN3o2YkNjNko3R1lucG8xTnhBQjNubEtremE1TWtSQdIBX0FVX3lxTE9GYVdnNktGM0MxQXBwZHNyM1Jubm1IN3AwaS1pMjNHVExVUHhLWFlDSkZWMm5sdVBnUjRUT1RJd05MQ1RqRHlyY1pvTmc1MFlRdnFfTXRzanI1Wlk3U0k0?oc=5",
+      "published": "Fri, 16 Oct 2026 18:38:47 GMT",
+      "source": "經濟日報"
     },
     {
       "title": "【財經縱覽】：WTI原油六連漲！黃金、美債走強，美國三大股指轉漲，費半指數七連跌！ - Mitrade",
