@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17 03:25:02 (UTC)",
+  "updated_at": "2026-10-18 03:30:57 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -9,10 +9,10 @@
     "pmi": 97.0,
     "usdtwd": 32.43,
     "usdjpy": 157.99,
-    "usdcny": 6.68,
-    "oil": 99.04,
-    "gold": 4186.7,
-    "dxy": 101.78
+    "usdcny": 6.69,
+    "oil": 101.41,
+    "gold": 4181.1,
+    "dxy": 101.84
   },
   "history": {
     "fed_rate": {
@@ -7794,28 +7794,28 @@
   },
   "news": [
     {
-      "title": "升息對美債有什麼影響？看懂利率、債券價格與殖利率的反向關係 - 口袋證券",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yNUZDbGs0SWd1cE1OVXhHVEw2OGtlOFJsT3J6cHU0WEZMdl9CNDZtRjBGeHhQU1oxdm9wYzRMMjg2N2tUdWdVU29vRk5vNE9IWGM0R0R3?oc=5",
-      "published": "Fri, 16 Oct 2026 11:41:13 GMT",
-      "source": "口袋證券"
-    },
-    {
       "title": "CPI高預期 美債殖利率急升 聯準會陷「升息兩難」 - 鉅亨網",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92bmdEOXFaQVhucFZ0UTVXYXE2U0I1OXZsNlJMRWJpS1EtQS1vMlNiMTl6V1pjLUxRbk1PeG1EbEF0c3JwcUVRTTEycEZqUUE?oc=5",
       "published": "Thu, 15 Oct 2026 03:10:06 GMT",
       "source": "鉅亨網"
     },
     {
-      "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQV0ozOExEdjlHSG1JOUEzU2JSQzVtS3FoLUNuN2JVOWJZd255VUZDa09mRHBsSUVZZjJFbVJEa2NreVZDVS1vZ2NEX281a2NpV1VXYmRIU2FoRG5Ua1p6LVVvY05TUVhwUGY3YzBLSUVwMnBjX05tdjBzZTJjUGRRUkJGRGx0Rkh6MXpoaVBjVmFtdklReGt3MGpHV3hjRWZjTU5TMEQ5OXZHSExUdk1CbFBaRU1Ub0JxNlJqbjdFZHBJX19ObUNwNmNkak1JcVR0aXRrTTd6Y01nenIwQTJxZFJvdHBaQmw4LXBreWhfTXFnd1VFUUF6ZWczTGF1d3Z6R1ZqQW42bjM0VlVFNXdLZnZZUUdEM250cUdyVzJGOXpKcFVRWWI3UnhsV1JGRUhKaE5XdkpJaTVnSmMwOXRzWGkzYjQ?oc=5",
-      "published": "Tue, 13 Oct 2026 18:20:12 GMT",
-      "source": "Moomoo"
+      "title": "通膨震撼連番來襲為何美債逢利空不跌？分析師：殖利率觸頂了 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JaXVPRmZZd2dlVFE0SmE0OUQ5T0RMZXFYbmhXVkxuRVl5cTAwNnVxWU1BMHJsSVNZZjZUellIREFRbXBGZzZNVDNVNHBRaG93cHdxQVdjcGxlUdIBX0FVX3lxTE0teTA2SzZZQ19VZzlYRWNraVpYOGU3dUh4SHRwdXRFMmYxekRwUld5dEU0VG53OVBwTHl4X1Q5SEt1eTEzb1ltdTE1emNJWG1Zd2RhWG1pNmVhX2RidUJv?oc=5",
+      "published": "Sat, 17 Oct 2026 14:44:18 GMT",
+      "source": "經濟日報"
     },
     {
-      "title": "台幣下周觀察 32.6 元關卡 央行態度將成重要變數 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjODl3SmRzN3llcVZSNlMwbXV4c2UxYWtuRVBWLTJlZXVIMmpkT09yU09vN1JWZ3IwTHhpN3o2YkNjNko3R1lucG8xTnhBQjNubEtremE1TWtSQdIBX0FVX3lxTE9GYVdnNktGM0MxQXBwZHNyM1Jubm1IN3AwaS1pMjNHVExVUHhLWFlDSkZWMm5sdVBnUjRUT1RJd05MQ1RqRHlyY1pvTmc1MFlRdnFfTXRzanI1Wlk3U0k0?oc=5",
-      "published": "Fri, 16 Oct 2026 18:38:47 GMT",
+      "title": "Fed 升息機率下降 美元指數區間整理格局 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15Tm9adkFPSFoxNVhENzZyajR2ME1QRXJHVFEyWHhmM0lwNTZITU1mclpZSmhTaDNrd2I2cXdyeDNRcTlhZzV1TG5WZWxtMWNmSmlsdVhTLTdSQdIBX0FVX3lxTE9GU2prWk44SjJZSDJobzBJU1drY1Z0YVpsOUZNYlotc2Y2dUhpWG5MU3Y4T2dfVU1vSWg4X1RDZ0QtVnhJNVJGNmVzUjlyX2swTHVvTE1KdVQyb1luYU5R?oc=5",
+      "published": "Sat, 17 Oct 2026 15:01:45 GMT",
       "source": "經濟日報"
+    },
+    {
+      "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
+      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNUFE0X1BrZC0zcER1bjIxZ3Ixa3B1LThDLU5pcFJuWHJYZlpnblZFQkJzd0JyZVN2YWVleElYYzRMNXdIQTNNRkl0RmxXNFg5R2dIQXVrWWZNYTVHeUsyWmM2YzRfaXlYWEhJNnpxRG5iaW9adUFodEZFXzk1cnd5aXhYaGxkcUF4VElLSTJYaWxnWHlLNkQ3blZ1LWEwcHNJX3AzbnVwRXVGWi0zc3dXOWwzcDJkajZOZVRacTBqRWd0WXJKVmc2TG84bGphcE9hV2R0VVVyenFIemFLT1BiaFZaX2ZSWWVWY2VOdWN1TXFjRkJBb1BUZTFxY2dpNU1qY3pBYWxyczF4RnM5WGtWbFRXWlRTaVNpejd1Q3o1eUFCN3BsVUdydm5SU1BhYTQxRGZ3Yg?oc=5",
+      "published": "Tue, 13 Oct 2026 14:32:15 GMT",
+      "source": "Moomoo"
     },
     {
       "title": "【財經縱覽】：WTI原油六連漲！黃金、美債走強，美國三大股指轉漲，費半指數七連跌！ - Mitrade",
@@ -7824,10 +7824,10 @@
       "source": "Mitrade"
     },
     {
-      "title": "黃金價格預測：隨著原油與殖利率上升，XAU/USD 的反彈走勢受阻 - www.tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlU1U1Bjc0xKWU9iM1VkVzlzcnEzMGxxM1hHOXM4Wi1TdzdNTWltbVRkZGZDMEd6bVBobEdxQUI0VjBwdGQ3eFN4UGVHWWtheU8xeXlBWWtHMWVJYjNkZUxmYjU5ODYyTHJHZUJtaEpsSFJZUExBOHhNSndFUjlFVEJDdlBLQXBDMk1ZVDQwZHNuYzQ4bUZnTXlHS1h1MWFGQ2RNa0d6RzJ0cnJVRkJxajR4TVdRWW16ZWZ6QS1lYkh0ZE5xXzlyMzdvc2Z3MktpV0otMg?oc=5",
-      "published": "Thu, 08 Oct 2026 10:14:02 GMT",
-      "source": "www.tmgm.com"
+      "title": "黃金價格預測：隨著原油與殖利率上升，XAU/USD 的反彈走勢受阻 - tmgm.com",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONDMxbnczd2Rwb05HU24xbFVUeGhUZ1JYN19xN1BIMzhvLWl3b1BHa0xjQ0xJTXZkX1c0cTdDd3JUS1BlSjdGX18tTTBRUGpSRVBLaTFxRGlva1pTRkY5elZWLUdLUEJFbklMNXFPMV9BUko2ZGRnZnhFRTl5bVRMYmZSeElZekJjakxWOVl5d1drV180RjBKVGF2WGNNcTJIUXMtTVJCWU42OUpDbW0yMmlKRUFaZEs5TG1vVlhRN2Q4bENZSjd5dUhFTkh6azQ?oc=5",
+      "published": "Thu, 08 Oct 2026 11:56:38 GMT",
+      "source": "tmgm.com"
     }
   ]
 }
