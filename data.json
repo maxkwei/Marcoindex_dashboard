@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19 03:42:13 (UTC)",
+  "updated_at": "2026-10-20 03:52:41 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.49,
-    "usdjpy": 158.08,
+    "usdtwd": 32.55,
+    "usdjpy": 158.29,
     "usdcny": 6.68,
-    "oil": 97.52,
-    "gold": 4199.2,
-    "dxy": 101.84
+    "oil": 98.63,
+    "gold": 4165.2,
+    "dxy": 101.82
   },
   "history": {
     "fed_rate": {
@@ -7794,33 +7794,33 @@
   },
   "news": [
     {
-      "title": "《美債》華許對後續行動態度保留殖利率震盪- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNHRpdmJ2RUQySG1PY08zS25UYnVfcGJRUTRrcEY2UzR4TWM4bmw2TTh3dV8tWWR2b0ZMdmZJTHRDNnBCRWZXblZzWF9mM0xhbWVLMUtRRGl6MWo2d2NPZy1QN0swSFB1OVhLZGNwZ0V4bUxCd2tZUDZfb29yWm5kNFlYei1lWXpjanc2ODVvcFNrZw?oc=5",
-      "published": "Sun, 18 Oct 2026 22:26:00 GMT",
-      "source": "MoneyDJ"
-    },
-    {
-      "title": "CPI高預期 美債殖利率急升 聯準會陷「升息兩難」 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92bmdEOXFaQVhucFZ0UTVXYXE2U0I1OXZsNlJMRWJpS1EtQS1vMlNiMTl6V1pjLUxRbk1PeG1EbEF0c3JwcUVRTTEycEZqUUE?oc=5",
-      "published": "Thu, 15 Oct 2026 03:10:06 GMT",
+      "title": "美長債殖利率再升 財政部融資計畫令華爾街重新繃緊神經 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1maVpJc1JHVmtHOUdkV3NSSmJHOWxTZW14UFVaZG9EQWVmYS1pckFWVWhyd2RfMDE1MmZob2k1ZzYwUWFxNXRFeWtrdw?oc=5",
+      "published": "Tue, 20 Oct 2026 03:10:04 GMT",
       "source": "鉅亨網"
     },
     {
+      "title": "美債殖利率衝破5%、12月升息警報大作！台股面臨考驗，這族群迎來結構性機會！ - 理財周刊",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81cDlScjRybWZoLWRFLVJTRXlINHI0d19scmNYME9QVmxXRmQ2VHRzQjRaYUhzbng4Mnd6MXVER2VUTFdaX3prWUJuTEc0cG5vdXYtUUI2V3FLdTBuTmx0a1h4Uk9DQzVRcUNqakhocw?oc=5",
+      "published": "Tue, 20 Oct 2026 01:51:19 GMT",
+      "source": "理財周刊"
+    },
+    {
+      "title": "Fed 升息機率下降 美元指數區間整理格局 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15Tm9adkFPSFoxNVhENzZyajR2ME1QRXJHVFEyWHhmM0lwNTZITU1mclpZSmhTaDNrd2I2cXdyeDNRcTlhZzV1TG5WZWxtMWNmSmlsdVhTLTdSQdIBX0FVX3lxTE9GU2prWk44SjJZSDJobzBJU1drY1Z0YVpsOUZNYlotc2Y2dUhpWG5MU3Y4T2dfVU1vSWg4X1RDZ0QtVnhJNVJGNmVzUjlyX2swTHVvTE1KdVQyb1luYU5R?oc=5",
+      "published": "Sat, 17 Oct 2026 15:01:45 GMT",
+      "source": "經濟日報"
+    },
+    {
       "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2ZW1nZWtwLXBpenN2YTAyeXdvcWV5OVVTX1A1LWMtWXhLX1JNcVIxUW5HMWxPdFBfbW5OZGRKc2xXN3Mxd1FYM3FsajRaQkk2NmJOMmUweXBvVlk2?oc=5",
-      "published": "Sat, 17 Oct 2026 01:46:09 GMT",
+      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNUFE0X1BrZC0zcER1bjIxZ3Ixa3B1LThDLU5pcFJuWHJYZlpnblZFQkJzd0JyZVN2YWVleElYYzRMNXdIQTNNRkl0RmxXNFg5R2dIQXVrWWZNYTVHeUsyWmM2YzRfaXlYWEhJNnpxRG5iaW9adUFodEZFXzk1cnd5aXhYaGxkcUF4VElLSTJYaWxnWHlLNkQ3blZ1LWEwcHNJX3AzbnVwRXVGWi0zc3dXOWwzcDJkajZOZVRacTBqRWd0WXJKVmc2TG84bGphcE9hV2R0VVVyenFIemFLT1BiaFZaX2ZSWWVWY2VOdWN1TXFjRkJBb1BUZTFxY2dpNU1qY3pBYWxyczF4RnM5WGtWbFRXWlRTaVNpejd1Q3o1eUFCN3BsVUdydm5SU1BhYTQxRGZ3Yg?oc=5",
+      "published": "Tue, 13 Oct 2026 14:32:15 GMT",
       "source": "Moomoo"
     },
     {
-      "title": "外銀：美元Q4震盪偏強- 日報 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PTUtxeUZDc1pZUnJTRC00MEtQbE4wS1A4bkdMal9TMzF2aDNDZzZtVWdOREQxY3NlanBha2hYWEFmaTlpRkZKdzNxdWNvM2U3ZXpxTW9hQTRsT3phX0ln?oc=5",
-      "published": "Sun, 18 Oct 2026 19:00:00 GMT",
-      "source": "工商時報"
-    },
-    {
-      "title": "【財經縱覽】：WTI原油六連漲！黃金、美債走強，美國三大股指轉漲，費半指數七連跌！ - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44NXNRNlVGZkZ4MnlhR2lhT1dycjJyd1JwME9oUVYxOXlKRU9wMTNOaDRYYnZVXzI1R1lOSEw2MVZmQXlFMGptZ2txNHFvN2lqMGhsMFR4bEdQQXJtSlo1TjdiTTlZblJKWmxyV2dLUk5sOGY2a1VZUUNnZ1NuWmM?oc=5",
-      "published": "Fri, 16 Oct 2026 00:57:16 GMT",
+      "title": "地緣衝突加劇，WTI原油重回100美元！黃金價格反彈受阻，未來走勢如何？ - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfUzdfdmFNc1ZFQVVCTHI1UDVvdDJnWk9HN1ROX2ZEY3FQR1V2eXBKRTRYZy01bnFLVVhIYVVSU2NmQ3Z5S0VKSDFabjU2cm9nSXVLeFNKZXhLcEJoTXo1ZEtrOHZsbGN2enhDZFZMbmUweGxYb3JaSE9R?oc=5",
+      "published": "Mon, 19 Oct 2026 07:50:54 GMT",
       "source": "Mitrade"
     },
     {
