@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23 03:47:16 (UTC)",
+  "updated_at": "2026-10-24 03:41:32 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.6,
-    "usdjpy": 156.88,
+    "usdtwd": 32.57,
+    "usdjpy": 156.81,
     "usdcny": 6.67,
-    "oil": 100.01,
-    "gold": 4032.6,
-    "dxy": 101.66
+    "oil": 103.44,
+    "gold": 4010.0,
+    "dxy": 101.75
   },
   "history": {
     "fed_rate": {
@@ -7794,22 +7794,22 @@
   },
   "news": [
     {
-      "title": "10年期美債殖利率跌穿5% 創2023年銀行危機以來最大降幅 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtVTVPV3ZiM09uZTdKd09KVEMzWmk0YkhCMU5nZTU2UU1SdzhTcHZqWjdmRFpGZ2p3QkFiWVB5cnJIclNERUtWd2RHbzRKZTg?oc=5",
-      "published": "Fri, 23 Oct 2026 00:29:28 GMT",
+      "title": "美債殖利率急跌、企業信用風險飆升！前Fed顧問：美國恐已陷衰退！ - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9haWludkZGR2xyVlhmNk5tcHN5QkNqTEotY1B2MkQwRVF2V0h1akZoMjhpbTAyUjBLei01OC1nZkp1OXFSeDJJTENRZXAtMG8?oc=5",
+      "published": "Sat, 24 Oct 2026 00:50:02 GMT",
       "source": "鉅亨網"
     },
     {
-      "title": "發生什麼事？美國10年期公債殖利率跌破5% 跌幅兩年多最大 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QYnVQek1ETFVpY3FFSEkyZ0kxVzJ5SjBWTGVCY205bHo5RlJ1VzJud0Y1T3Zjcllub0drdzA5LWZLNUNIc25RcnFhckN6Sk16aHZBRl96NDg4UdIBX0FVX3lxTFBJQTFiUzFkNkpNZEQ3d3ZCcWJCa3JvcUM2TDlkeGRZZWtJT3llVlNtX3hJcmExVVNzbHAycWhQSURpaW5ZU29ZemNlVW9LRk5FMlo5dkozWXJib3lCNmNF?oc=5",
-      "published": "Fri, 23 Oct 2026 02:16:50 GMT",
-      "source": "經濟日報"
+      "title": "《美債》Fed利率決策下週揭曉殖利率狹幅震盪- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcEZ3ajZRdXBUWVdqRFZVLW9HRDNPNS00d0I1M2xNR1VUbms4M0tkUzhvcWFXUzRhR0p2TDJLV25iVDVwZFJ4UjB5eHBOTW92VjhPY0J6dnFrVHhYblZmRmlJYVNRZG94R3ZETFRtd2Z3UG9kNUg3UUppek1EZGRLOENOejFhVXVOTWFZbm1ZdFJwUQ?oc=5",
+      "published": "Wed, 21 Oct 2026 23:18:00 GMT",
+      "source": "MoneyDJ"
     },
     {
-      "title": "熱錢續匯出》台幣淪最弱亞幣 下週恐測32元大關 - 自由時報",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KYkVZUVVjcV8yaWEzUDdUcXVMRXZHYl9LeEdWek40QVJmZzVEZkhveUdZaV9lZlE4cGZJN2ctT2lyYXNURk5kNGd2UGVuaHVsUFBKOFhmUQ?oc=5",
-      "published": "Thu, 22 Oct 2026 10:23:33 GMT",
-      "source": "自由時報"
+      "title": "Fed 升息機率下降 美元指數區間整理格局 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15Tm9adkFPSFoxNVhENzZyajR2ME1QRXJHVFEyWHhmM0lwNTZITU1mclpZSmhTaDNrd2I2cXdyeDNRcTlhZzV1TG5WZWxtMWNmSmlsdVhTLTdSQdIBX0FVX3lxTE9GU2prWk44SjJZSDJobzBJU1drY1Z0YVpsOUZNYlotc2Y2dUhpWG5MU3Y4T2dfVU1vSWg4X1RDZ0QtVnhJNVJGNmVzUjlyX2swTHVvTE1KdVQyb1luYU5R?oc=5",
+      "published": "Sat, 17 Oct 2026 15:01:45 GMT",
+      "source": "經濟日報"
     },
     {
       "title": "韓元兌美元匯率以1,320韓元中段開出，美元走弱與半導體出口商拋匯帶來貶值壓力 - BigGo 財經",
@@ -7818,16 +7818,16 @@
       "source": "BigGo 財經"
     },
     {
-      "title": "地緣衝突加劇，WTI原油重回100美元！黃金價格反彈受阻，未來走勢如何？ - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfUzdfdmFNc1ZFQVVCTHI1UDVvdDJnWk9HN1ROX2ZEY3FQR1V2eXBKRTRYZy01bnFLVVhIYVVSU2NmQ3Z5S0VKSDFabjU2cm9nSXVLeFNKZXhLcEJoTXo1ZEtrOHZsbGN2enhDZFZMbmUweGxYb3JaSE9R?oc=5",
-      "published": "Mon, 19 Oct 2026 07:50:54 GMT",
+      "title": "【今日要聞】布蘭特原油創5個月新高，黃金跌破4000美元，美國PMI數據來襲 - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zQTdjXzB2cGZFdHZwT1Z5LUZha005aHljRVFicXJnb1RrdTJiZ1YycWxzSC00R2JRQm1RSXUxU1VzT3h4cW1xdkh4TW1oUDJ0cXl0emVKSndZM1Jna1lzSl92ZDhpOXp1eW54RWZyQ3dUSDljX1c4?oc=5",
+      "published": "Fri, 23 Oct 2026 09:52:24 GMT",
       "source": "Mitrade"
     },
     {
-      "title": "黃金價格預測：油價高漲之際，XAU/USD 測試 4,070 美元關鍵支撐位 - www.tmgm.com",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOEdzVzNvREt5V2NpaTVaTFhUMGpvSWJZOGpMTDJwTGx1RTVQRmxfeVBTUHk0U25pYzk2dVV0c1NVTExzZkJsUHBsWnBBbWtfMmNWYmE4R0Y3MGF0TjhuZUZ3eDkyakhleXVDOGJIWWQzUEgwOWduX3BoRHB2ZWoxX1ctenBFQm5ZaEEtdUZ6bVJQV2MwdExfSFpXZl9FX3c3S2VRRUZYNlhvanFIMkdpbGdXNS1CSTlYeVBLNUxIRm9xSjVkVDh2VG9iVktmbV9XNWJERFU0SHJiMHd0anNv?oc=5",
-      "published": "Thu, 22 Oct 2026 10:31:55 GMT",
-      "source": "www.tmgm.com"
+      "title": "隨著石油上漲，金價跌至兩個月低點，跌破4,050美元 - FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVGRkRl85ZUVPZzExZFFTcXdHUzduX2lBdzR2bDNQR1RzUFppTlhOYWxJZEhiSi1YZXpsSFd0RndTQTQ2VnE2T1czbE9rQkstdl9MLTV3TWJDekg4UkNfbnltMWZJcGozaWhkUmxEU2RkcmZkNW81Z2RUY3JIejYzaGR0bzB5SW9FUjlMOGJtM2hvM0dWMmY0TXNlVGQ4YkpJYkFTNjVOTTlZSEZmNF9wVkJJTE9fZ0IwVlVJZTdqVdIBxAFBVV95cUxPUm9YU0lPTzBMZ1VrUi13bFhHT2QwUGNzTWVaRXZfeFh1Z0NuNjhHTVpRamVZSXV3NXh4TkxFMFhvQ1lvTmI5M1gyemVuWms3bkdxTXFFdHo2ejZWajh0dmFMaTYtNWdpREhjYjVqWWxWWXBYa3Rpc1BCajdoLWZjUktIWkhfYmxla29IR3c0cmh1Tk1iYzRnc1J6OUpxUkpRMzIxbklyNG5WLVEyZEl4dHh5ejZTUl9pTXNGZ0tDM1JPeUdJ?oc=5",
+      "published": "Thu, 22 Oct 2026 23:36:52 GMT",
+      "source": "FXStreet"
     }
   ]
 }
