@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25 03:39:37 (UTC)",
+  "updated_at": "2026-10-26 03:42:26 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.57,
-    "usdjpy": 156.81,
+    "usdtwd": 32.56,
+    "usdjpy": 156.76,
     "usdcny": 6.67,
-    "oil": 103.27,
-    "gold": 4007.9,
-    "dxy": 101.81
+    "oil": 100.87,
+    "gold": 4027.5,
+    "dxy": 101.62
   },
   "history": {
     "fed_rate": {
@@ -7794,28 +7794,28 @@
   },
   "news": [
     {
+      "title": "Fed 12月升息添變數！高盛示警美債殖利率風險：AI交易反轉、能源通膨升溫 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5uc3dDY3ZPZ1FUWmlhbGNhT19aaGdua3hSanZjb2EwRDVXbVo5YmVzSUdyNFAwQ3RhTWdRSGhWY0dJeVpNRGt3ZzNNVQ?oc=5",
+      "published": "Sun, 25 Oct 2026 22:30:01 GMT",
+      "source": "鉅亨網"
+    },
+    {
       "title": "《美債》Fed利率決策下週揭曉殖利率狹幅震盪- 新聞 - MoneyDJ",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcEZ3ajZRdXBUWVdqRFZVLW9HRDNPNS00d0I1M2xNR1VUbms4M0tkUzhvcWFXUzRhR0p2TDJLV25iVDVwZFJ4UjB5eHBOTW92VjhPY0J6dnFrVHhYblZmRmlJYVNRZG94R3ZETFRtd2Z3UG9kNUg3UUppek1EZGRLOENOejFhVXVOTWFZbm1ZdFJwUQ?oc=5",
       "published": "Wed, 21 Oct 2026 23:18:00 GMT",
       "source": "MoneyDJ"
     },
     {
-      "title": "美國期中選舉倒數　聯準會下週利率料將按兵不動 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Sc0VxcHdNb3RqLUJBaVowOFh5S2djbGNaemg0QzN5bUVUV0ZsNTR3cVJtemxBZkI4aExfWmllbWIyRFZUS3cxRlVwUTFFakZGSnFGTUFBRDdyNldodkVCMW9oNzJhVnpSTklrclhJcFpFRHQ1UXE5ddIBX0FVX3lxTFA4WnpHQWZiV3h0M1NrX3BjVkRwOHdhYTBGdWR3R3dtREZqSHFSQ3dqa3dGcGFpX1AtRDJVWm9CRk9jTmR1b3F1eHJWNzk3VVE2cE5adUY0bXpfWmlFalBZ?oc=5",
-      "published": "Sun, 25 Oct 2026 03:15:00 GMT",
+      "title": "如何善用美元指數 - 香港經濟日報HKET",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWmExMU9jSUx2Wk1Scl83T2E0ZXBaZDBwZERwalVSc0lkdG52dHVUYlE4MjY3VnNXNFJlOEV5TW5TdWdHX2pfTmhOT1NkVDEyX2hoX21KcTZ1bHljY2cwbXotN1UyWlZVbnlkUE9QeGtINEdMUXBUN2VrQXJ0YzIzcmRvM2NIX0FoVkp3NnFXUkpFNS0xSldEaHByME81TU1TZGllOHpqc2djczNWMzFhZG5sWVltYm5GTE9mT0lvOVZPVW1a?oc=5",
+      "published": "Mon, 26 Oct 2026 03:08:36 GMT",
+      "source": "香港經濟日報HKET"
+    },
+    {
+      "title": "Fed 升息機率下降 美元指數區間整理格局 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15Tm9adkFPSFoxNVhENzZyajR2ME1QRXJHVFEyWHhmM0lwNTZITU1mclpZSmhTaDNrd2I2cXdyeDNRcTlhZzV1TG5WZWxtMWNmSmlsdVhTLTdSQdIBX0FVX3lxTE9GU2prWk44SjJZSDJobzBJU1drY1Z0YVpsOUZNYlotc2Y2dUhpWG5MU3Y4T2dfVU1vSWg4X1RDZ0QtVnhJNVJGNmVzUjlyX2swTHVvTE1KdVQyb1luYU5R?oc=5",
+      "published": "Sat, 17 Oct 2026 07:00:00 GMT",
       "source": "經濟日報"
-    },
-    {
-      "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2ZW1nZWtwLXBpenN2YTAyeXdvcWV5OVVTX1A1LWMtWXhLX1JNcVIxUW5HMWxPdFBfbW5OZGRKc2xXN3Mxd1FYM3FsajRaQkk2NmJOMmUweXBvVlk2?oc=5",
-      "published": "Sat, 24 Oct 2026 00:36:13 GMT",
-      "source": "Moomoo"
-    },
-    {
-      "title": "熱錢續匯出》台幣淪最弱亞幣 下週恐測32元大關 - 自由時報",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KYkVZUVVjcV8yaWEzUDdUcXVMRXZHYl9LeEdWek40QVJmZzVEZkhveUdZaV9lZlE4cGZJN2ctT2lyYXNURk5kNGd2UGVuaHVsUFBKOFhmUQ?oc=5",
-      "published": "Thu, 22 Oct 2026 10:23:33 GMT",
-      "source": "自由時報"
     },
     {
       "title": "地緣衝突加劇，WTI原油重回100美元！黃金價格反彈受阻，未來走勢如何？ - Mitrade",
