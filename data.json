@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27 04:06:14 (UTC)",
+  "updated_at": "2026-10-28 04:33:28 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.51,
-    "usdjpy": 157.64,
+    "usdtwd": 32.42,
+    "usdjpy": 157.94,
     "usdcny": 6.67,
-    "oil": 101.76,
-    "gold": 4038.4,
-    "dxy": 101.96
+    "oil": 101.31,
+    "gold": 4054.9,
+    "dxy": 102.43
   },
   "history": {
     "fed_rate": {
@@ -7794,28 +7794,28 @@
   },
   "news": [
     {
-      "title": "美債10月反彈停歇 殖利率下一步牽動美股走向 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zd0RYSmJIcWcyWFpBQ0VTMklpX1BNMko3THo2Ql90bGoybE9nRkdWSlRBakg5bjMzSkktQ3hFQXZPMGt0QWJKdklEUFZ1Y1E?oc=5",
-      "published": "Tue, 27 Oct 2026 03:10:03 GMT",
-      "source": "鉅亨網"
-    },
-    {
-      "title": "《美債》Fed決策倒數殖利率持穩觀望華許談話- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY0c4UTduVmlURy04VDB0NHU1aW16VHZCLVNTZ08telBIMjRIc1MyV2NfTkdWbm0zZi1OTzdUVy1CQkRZQkNzNlVrU2EyX3BmWUtDOHFFN0JrOXo2RjRsT3JHeE8xdVNOeVdLSVpsM2I4dXBBS1Q2RGR6Q2Q0ajJyZlRFaUhJclBLdkxPaVJMWGNZQQ?oc=5",
-      "published": "Mon, 26 Oct 2026 22:48:00 GMT",
+      "title": "《美債》Fed按兵不動機率逾九成殖利率小漲- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaHpaS1dVN2hSRmNKYTFkRnprV0FFOXVEMWNHVXFkejBQV3NySlhscFdaZUlMYk5pZFRQSkxkU2lJb0w1VjZfRUtNUnB3eG0yZEl6bDQtejZYa00zME10VmVjdmtQVU9fRmpMc1RYX1VGM1kxT0xrMVI1TV9mTFhSYmxjYnBqWU9YTEVIejN0TzRxdw?oc=5",
+      "published": "Tue, 27 Oct 2026 22:54:00 GMT",
       "source": "MoneyDJ"
     },
     {
-      "title": "韓元兌美元匯率1320韓元區間震盪，美國利率走強一度觸及1325韓元 - BigGo 財經",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vd3RfOHVSLTdmcGpQUmZoZ18zWElnSFNXMFdnMHdhS0ZIczVCOGthcmstVEtYNTgtX1ZhRXd5QjJOZkhaQXNpSHJPdlZFTDVsU2tXSWJ2ZGFsY2RNcFJFSUpwdE5YQW9qTVhVMHZldERzY2dyNG5VUS1R?oc=5",
-      "published": "Tue, 27 Oct 2026 01:55:00 GMT",
-      "source": "BigGo 財經"
+      "title": "Fed決策倒數！預料按兵不動若釋「鷹派訊號」 美債多頭恐爆平倉潮| 全球財經| 全球 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE44SzhqMFVHMkRvcEZvQnpFNXVkUE1mWU45UzZLcElDbk0tanRFQVZLS3BEZ2tQTEp3Sm1SQzF4SEJBcTk4Y3owM1ZRY1c2b1hO?oc=5",
+      "published": "Wed, 28 Oct 2026 03:10:22 GMT",
+      "source": "UDN"
     },
     {
-      "title": "Fed 升息機率下降 美元指數區間整理格局 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15Tm9adkFPSFoxNVhENzZyajR2ME1QRXJHVFEyWHhmM0lwNTZITU1mclpZSmhTaDNrd2I2cXdyeDNRcTlhZzV1TG5WZWxtMWNmSmlsdVhTLTdSQdIBX0FVX3lxTE9GU2prWk44SjJZSDJobzBJU1drY1Z0YVpsOUZNYlotc2Y2dUhpWG5MU3Y4T2dfVU1vSWg4X1RDZ0QtVnhJNVJGNmVzUjlyX2swTHVvTE1KdVQyb1luYU5R?oc=5",
-      "published": "Sat, 17 Oct 2026 07:00:00 GMT",
-      "source": "經濟日報"
+      "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2ZW1nZWtwLXBpenN2YTAyeXdvcWV5OVVTX1A1LWMtWXhLX1JNcVIxUW5HMWxPdFBfbW5OZGRKc2xXN3Mxd1FYM3FsajRaQkk2NmJOMmUweXBvVlk2?oc=5",
+      "published": "Tue, 27 Oct 2026 14:08:31 GMT",
+      "source": "Moomoo"
+    },
+    {
+      "title": "KOSPI飆漲6%，韓元兌美元匯率仍回升至1,330韓元區間…FOMC警戒推升美元 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvMEg5cmhzcEtqdUFWTmpPQnRPWFptbWlCMm9uRldxSjRiZzhmTWdMZXFqdDYyV1Q1djFrS0xUYW1qQllSa3dxbXktS2hjSXpzVUNVZXpsRXJySGxOb0NYYzNNNFhuNHBrUGFqTDZJbUNVdUpValN0azNR?oc=5",
+      "published": "Wed, 28 Oct 2026 03:26:00 GMT",
+      "source": "BigGo 財經"
     },
     {
       "title": "【財經縱覽】：美元收復102.0、黃金收復4000，WTI原油挫逾2%，Anthropic公開IPO招股書提振AI行情 - Mitrade",
@@ -7824,10 +7824,10 @@
       "source": "Mitrade"
     },
     {
-      "title": "【今日要聞】布蘭特原油跌破110美元！黃金價格重回4000 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1oNDRkUWZ5QUZXb3NWY2JndU93ZnVNR2p4WExtTGFCbXRfcE9nZ3JvM3o2R1ZtTUZLaHQtQ2hCS0lBNzc0blZZMFF5MzRobHpVNDhWWlgxbnF0RDd6N0VRRjlydk5wOWxGdWFKak9UZzI4OEpPOUNv?oc=5",
-      "published": "Mon, 26 Oct 2026 10:27:32 GMT",
-      "source": "Mitrade"
+      "title": "聯準會、原油、美元及中東情勢 四大因素牽動金價走勢 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPb3Z2R1BWcG44YVIwZlpLc1FvcEtFR0h3cEp2cWZHT0RCcmZqekwtajdra0c3UHJtT3BpSDJvalFubWU5WVhaSnhQcGZ6U0lWd212QUVieTBzcEF2RUNPV2FuNW9MOTJoZ3h1M0NkYjk5dUo4d2pZbTh3LVl4ejdjcnBoUHEteE5XdFM4OHFoN1FZYjRRZzRnRmltNU1DNUdZWlJlT3FrdVpodk44X3VSNzFHdTF1ZlhuN0hjZXhjaDk2dW1Hemx3VENkVm51cTIzRWVjdUZNS21lXzZHWnQ0SGJCdGRVMGJfblZhdkpUcUZTek5Ock1mNEVieDVCQjVNQ3BvcWVuTEJtblNvQ3B0YXdqT2hKVmZSWktSZEg5MHFhQ25PQ3FTUnJCUy1QUXpCT2puYXp4Q0Jwa0VtNUVPd2FYQ2ZPSmVCcjJxYmhpaDBHdHd5Rm9mR0g1LTFLTkwwLWt2TVhvQQ?oc=5",
+      "published": "Sun, 13 Sep 2026 07:00:00 GMT",
+      "source": "Yahoo股市"
     }
   ]
 }
