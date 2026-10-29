@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 04:33:28 (UTC)",
+  "updated_at": "2026-10-29 04:48:28 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.42,
-    "usdjpy": 157.94,
-    "usdcny": 6.67,
-    "oil": 101.31,
-    "gold": 4054.9,
-    "dxy": 102.43
+    "usdtwd": 32.54,
+    "usdjpy": 157.8,
+    "usdcny": 6.66,
+    "oil": 101.36,
+    "gold": 4047.3,
+    "dxy": 102.17
   },
   "history": {
     "fed_rate": {
@@ -7794,28 +7794,28 @@
   },
   "news": [
     {
-      "title": "《美債》Fed按兵不動機率逾九成殖利率小漲- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaHpaS1dVN2hSRmNKYTFkRnprV0FFOXVEMWNHVXFkejBQV3NySlhscFdaZUlMYk5pZFRQSkxkU2lJb0w1VjZfRUtNUnB3eG0yZEl6bDQtejZYa00zME10VmVjdmtQVU9fRmpMc1RYX1VGM1kxT0xrMVI1TV9mTFhSYmxjYnBqWU9YTEVIejN0TzRxdw?oc=5",
-      "published": "Tue, 27 Oct 2026 22:54:00 GMT",
+      "title": "《美債》Fed按兵不動、升息未完 殖利率長升短降-新聞內容-基金 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYzVmRWJlTFhsUFBrNXpvODhoYjVWZGZseTNtZzBLX0o1UjlER04zSGxoanNFWUVyUFBZMllXdUk2Wk5Fa1E2ZnNIZE9Ma05rYS1ZTDZVcUFhZTdyZ1NYUTlzV2c0eTR6cDJQVGZoUVNJZUF5RnNldEFmQ0lFaTlHUXBXTU5vbXBLRkRBY0Znck16Tms?oc=5",
+      "published": "Wed, 28 Oct 2026 23:39:00 GMT",
       "source": "MoneyDJ"
     },
     {
-      "title": "Fed決策倒數！預料按兵不動若釋「鷹派訊號」 美債多頭恐爆平倉潮| 全球財經| 全球 - UDN",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE44SzhqMFVHMkRvcEZvQnpFNXVkUE1mWU45UzZLcElDbk0tanRFQVZLS3BEZ2tQTEp3Sm1SQzF4SEJBcTk4Y3owM1ZRY1c2b1hO?oc=5",
-      "published": "Wed, 28 Oct 2026 03:10:22 GMT",
-      "source": "UDN"
+      "title": "【行情快報】聯準會暫停升息，宣布明年起減少利率決策場次！ - MacroMicro",
+      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNNUxUa1NKQ1ZXS3BLbWR0ZExHU2NMTkpmMjFzdmJsMmhKOHZZdldJby1GX19LeEgydHZZU19Xb1hVRkFVcDZfMHdha0huVzlsVW92eGlUMW1FbXk3WVNLVUF1MDNiX1pqTkhpRkVjOU9Wc19mRTZQUmllRFdkSE9jcGhoTzFGZ1BMeUpGR3k5NE9ydFIwZUJvald1RWtqRkM4WUt2emVwSEM3b2NDRWU5VEd1b21HVkVqRy1GWVFnTEc4SElraE8zQlFPd2VPajdXRmx4ZGVkdHhMYy11SXNMdEIyOE5JZjZ5eEREeFpkRW5HcTRjbzYzQm92U2ItbHE2X1hKQV9vaThwS0w5TUZrczZ5empwZ0h3eFBodERZVVM?oc=5",
+      "published": "Thu, 29 Oct 2026 00:08:16 GMT",
+      "source": "MacroMicro"
     },
     {
       "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2ZW1nZWtwLXBpenN2YTAyeXdvcWV5OVVTX1A1LWMtWXhLX1JNcVIxUW5HMWxPdFBfbW5OZGRKc2xXN3Mxd1FYM3FsajRaQkk2NmJOMmUweXBvVlk2?oc=5",
-      "published": "Tue, 27 Oct 2026 14:08:31 GMT",
+      "published": "Wed, 28 Oct 2026 07:38:48 GMT",
       "source": "Moomoo"
     },
     {
-      "title": "KOSPI飆漲6%，韓元兌美元匯率仍回升至1,330韓元區間…FOMC警戒推升美元 - BigGo 財經",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvMEg5cmhzcEtqdUFWTmpPQnRPWFptbWlCMm9uRldxSjRiZzhmTWdMZXFqdDYyV1Q1djFrS0xUYW1qQllSa3dxbXktS2hjSXpzVUNVZXpsRXJySGxOb0NYYzNNNFhuNHBrUGFqTDZJbUNVdUpValN0azNR?oc=5",
-      "published": "Wed, 28 Oct 2026 03:26:00 GMT",
-      "source": "BigGo 財經"
+      "title": "美元指數飆漲！歐元匯率6連跌！聯準會將鷹派暫停？ - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96WG5lWmtkWWtPVXBoT2FOS2k5X2lfNDBrWDBGY0FrYk1xNEREZ2s2dEwzWmtkWlNLUUtzenRJMkdBTjUwVGtIQzVvX3IwVFJOcVg4SXBGWDBDNVdoQ1FoOFAyc1hOb1VaN2FwR0hXV0hQVF8w?oc=5",
+      "published": "Wed, 28 Oct 2026 06:41:19 GMT",
+      "source": "Mitrade"
     },
     {
       "title": "【財經縱覽】：美元收復102.0、黃金收復4000，WTI原油挫逾2%，Anthropic公開IPO招股書提振AI行情 - Mitrade",
@@ -7824,10 +7824,10 @@
       "source": "Mitrade"
     },
     {
-      "title": "聯準會、原油、美元及中東情勢 四大因素牽動金價走勢 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPb3Z2R1BWcG44YVIwZlpLc1FvcEtFR0h3cEp2cWZHT0RCcmZqekwtajdra0c3UHJtT3BpSDJvalFubWU5WVhaSnhQcGZ6U0lWd212QUVieTBzcEF2RUNPV2FuNW9MOTJoZ3h1M0NkYjk5dUo4d2pZbTh3LVl4ejdjcnBoUHEteE5XdFM4OHFoN1FZYjRRZzRnRmltNU1DNUdZWlJlT3FrdVpodk44X3VSNzFHdTF1ZlhuN0hjZXhjaDk2dW1Hemx3VENkVm51cTIzRWVjdUZNS21lXzZHWnQ0SGJCdGRVMGJfblZhdkpUcUZTek5Ock1mNEVieDVCQjVNQ3BvcWVuTEJtblNvQ3B0YXdqT2hKVmZSWktSZEg5MHFhQ25PQ3FTUnJCUy1QUXpCT2puYXp4Q0Jwa0VtNUVPd2FYQ2ZPSmVCcjJxYmhpaDBHdHd5Rm9mR0g1LTFLTkwwLWt2TVhvQQ?oc=5",
-      "published": "Sun, 13 Sep 2026 07:00:00 GMT",
-      "source": "Yahoo股市"
+      "title": "黃金價跳水「摜破4000美元」 單週狂跌寫逾4個月最慘 - TVBS新聞網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZYS1xMWNINWgwTVlEWjBOamxaRHRpWE9HUFZDNkFnNVB2djRUM1VHaGFpRi1IOWN0X1dpTVJiRGx2dHU0OGVSd1dwNFM0LVE?oc=5",
+      "published": "Sat, 24 Oct 2026 04:20:00 GMT",
+      "source": "TVBS新聞網"
     }
   ]
 }
