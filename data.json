@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29 04:48:28 (UTC)",
+  "updated_at": "2026-10-30 04:48:15 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 5.29,
@@ -7,12 +7,12 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.54,
-    "usdjpy": 157.8,
-    "usdcny": 6.66,
-    "oil": 101.36,
-    "gold": 4047.3,
-    "dxy": 102.17
+    "usdtwd": 32.62,
+    "usdjpy": 157.39,
+    "usdcny": 6.65,
+    "oil": 103.22,
+    "gold": 4002.1,
+    "dxy": 101.77
   },
   "history": {
     "fed_rate": {
@@ -7794,40 +7794,40 @@
   },
   "news": [
     {
-      "title": "《美債》Fed按兵不動、升息未完 殖利率長升短降-新聞內容-基金 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYzVmRWJlTFhsUFBrNXpvODhoYjVWZGZseTNtZzBLX0o1UjlER04zSGxoanNFWUVyUFBZMllXdUk2Wk5Fa1E2ZnNIZE9Ma05rYS1ZTDZVcUFhZTdyZ1NYUTlzV2c0eTR6cDJQVGZoUVNJZUF5RnNldEFmQ0lFaTlHUXBXTU5vbXBLRkRBY0Znck16Tms?oc=5",
-      "published": "Wed, 28 Oct 2026 23:39:00 GMT",
-      "source": "MoneyDJ"
+      "title": "Fed 決策倒數！預料按兵不動 若釋「鷹派訊號」 美債多頭恐爆平倉潮 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Pby1iYy1PQnpFOUJtY3h0c3UtbXByTnRPeXQ3VWVJUGlmekxJclIwcUpfMnpUZVVRWUl6MFp5enh6UkZjQXM0a1NaOURGdk9QLVBwUjFoVkNOd9IBX0FVX3lxTE9oSThlWWt6a3p5U2taZzVieHd4bkhLYnZtTE4xSUo2RnpJUWQ5eVliOFdhOUtmOUFnU2ZWVlEyTFRLR2NPblBub0ZiZUxyNkRHQUVEbFNUaGUwbGJUalBn?oc=5",
+      "published": "Wed, 28 Oct 2026 03:10:30 GMT",
+      "source": "經濟日報"
     },
     {
-      "title": "【行情快報】聯準會暫停升息，宣布明年起減少利率決策場次！ - MacroMicro",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNNUxUa1NKQ1ZXS3BLbWR0ZExHU2NMTkpmMjFzdmJsMmhKOHZZdldJby1GX19LeEgydHZZU19Xb1hVRkFVcDZfMHdha0huVzlsVW92eGlUMW1FbXk3WVNLVUF1MDNiX1pqTkhpRkVjOU9Wc19mRTZQUmllRFdkSE9jcGhoTzFGZ1BMeUpGR3k5NE9ydFIwZUJvald1RWtqRkM4WUt2emVwSEM3b2NDRWU5VEd1b21HVkVqRy1GWVFnTEc4SElraE8zQlFPd2VPajdXRmx4ZGVkdHhMYy11SXNMdEIyOE5JZjZ5eEREeFpkRW5HcTRjbzYzQm92U2ItbHE2X1hKQV9vaThwS0w5TUZrczZ5empwZ0h3eFBodERZVVM?oc=5",
-      "published": "Thu, 29 Oct 2026 00:08:16 GMT",
-      "source": "MacroMicro"
+      "title": "Fed利率「凍漲」迎選後慶祝行情！法人授「關鍵3招」鎖定美國股債雙贏 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15RTVPNnZzWFlqU0hpSHVTRHV0dFpJaUl1WlY2YUc4V3NSMHFTak83Mlk4b0dxSWgwNjR4akMwUlhXbDR4YmQ4Q21uUGs3YlU?oc=5",
+      "published": "Thu, 29 Oct 2026 14:20:10 GMT",
+      "source": "鉅亨網"
     },
     {
-      "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2ZW1nZWtwLXBpenN2YTAyeXdvcWV5OVVTX1A1LWMtWXhLX1JNcVIxUW5HMWxPdFBfbW5OZGRKc2xXN3Mxd1FYM3FsajRaQkk2NmJOMmUweXBvVlk2?oc=5",
-      "published": "Wed, 28 Oct 2026 07:38:48 GMT",
-      "source": "Moomoo"
+      "title": "韓元兌美元匯率1320韓元區間震盪，美國利率走強一度觸及1325韓元 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vd3RfOHVSLTdmcGpQUmZoZ18zWElnSFNXMFdnMHdhS0ZIczVCOGthcmstVEtYNTgtX1ZhRXd5QjJOZkhaQXNpSHJPdlZFTDVsU2tXSWJ2ZGFsY2RNcFJFSUpwdE5YQW9qTVhVMHZldERzY2dyNG5VUS1R?oc=5",
+      "published": "Tue, 27 Oct 2026 01:55:00 GMT",
+      "source": "BigGo 財經"
     },
     {
-      "title": "美元指數飆漲！歐元匯率6連跌！聯準會將鷹派暫停？ - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96WG5lWmtkWWtPVXBoT2FOS2k5X2lfNDBrWDBGY0FrYk1xNEREZ2s2dEwzWmtkWlNLUUtzenRJMkdBTjUwVGtIQzVvX3IwVFJOcVg4SXBGWDBDNVdoQ1FoOFAyc1hOb1VaN2FwR0hXV0hQVF8w?oc=5",
-      "published": "Wed, 28 Oct 2026 06:41:19 GMT",
+      "title": "避險熱潮的最大贏家 美元指數升破102 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yYm1ZQUFVSDBCV3FwU1NhSlN2UVZ4RG1kaDhlN0ZsOWpnLUozRVdnMUpkVF9BTFhxN2RMUjluUEtiZFkxU2NVdHhnMUU0YXRwWFRNelFUM3Bfa203MUJz?oc=5",
+      "published": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "source": "工商時報"
+    },
+    {
+      "title": "聚焦美國PCE數據、科技股走勢分化！黃金、WTI原油、甲骨文、Alphabet技術分析 - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16MkdYWWhqcGdwX2NSMS1wNTN1RjNHNXR1QktjdmpiYk5XOHo0eGxsMXRqNXFfWWFMOEg2NW5VcTE4ak9jWlhZS0wybDhYT2tzc1NROXlJLVM4dGxJbUhPanFiQXhmUVJPSkh2dVRMTmtfekpyQURZ?oc=5",
+      "published": "Thu, 29 Oct 2026 10:40:21 GMT",
       "source": "Mitrade"
     },
     {
-      "title": "【財經縱覽】：美元收復102.0、黃金收復4000，WTI原油挫逾2%，Anthropic公開IPO招股書提振AI行情 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EV2k4MGpuVVdqVUJ6UzJOLWdwVV9sVEl0bjUwejExUHVKZ3l4ODVzM29JMlZSZjJTZjNUZUV6TkQyLUZUdnk1VW5UYWpfNEp0Tk8xb2VHUERMek5LS0hmZUpHQ2h5V0M1ZUdkRHd5SndSd0FuNTNfa0twU2JnUXc?oc=5",
-      "published": "Tue, 27 Oct 2026 00:28:19 GMT",
-      "source": "Mitrade"
-    },
-    {
-      "title": "黃金價跳水「摜破4000美元」 單週狂跌寫逾4個月最慘 - TVBS新聞網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZYS1xMWNINWgwTVlEWjBOamxaRHRpWE9HUFZDNkFnNVB2djRUM1VHaGFpRi1IOWN0X1dpTVJiRGx2dHU0OGVSd1dwNFM0LVE?oc=5",
-      "published": "Sat, 24 Oct 2026 04:20:00 GMT",
-      "source": "TVBS新聞網"
+      "title": "聯準會、原油、美元及中東情勢 四大因素牽動金價走勢 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPb3Z2R1BWcG44YVIwZlpLc1FvcEtFR0h3cEp2cWZHT0RCcmZqekwtajdra0c3UHJtT3BpSDJvalFubWU5WVhaSnhQcGZ6U0lWd212QUVieTBzcEF2RUNPV2FuNW9MOTJoZ3h1M0NkYjk5dUo4d2pZbTh3LVl4ejdjcnBoUHEteE5XdFM4OHFoN1FZYjRRZzRnRmltNU1DNUdZWlJlT3FrdVpodk44X3VSNzFHdTF1ZlhuN0hjZXhjaDk2dW1Hemx3VENkVm51cTIzRWVjdUZNS21lXzZHWnQ0SGJCdGRVMGJfblZhdkpUcUZTek5Ock1mNEVieDVCQjVNQ3BvcWVuTEJtblNvQ3B0YXdqT2hKVmZSWktSZEg5MHFhQ25PQ3FTUnJCUy1QUXpCT2puYXp4Q0Jwa0VtNUVPd2FYQ2ZPSmVCcjJxYmhpaDBHdHd5Rm9mR0g1LTFLTkwwLWt2TVhvQQ?oc=5",
+      "published": "Sun, 13 Sep 2026 07:00:00 GMT",
+      "source": "Yahoo股市"
     }
   ]
 }
