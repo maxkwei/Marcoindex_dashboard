@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01 04:53:29 (UTC)",
+  "updated_at": "2026-11-02 04:54:36 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 4.98,
@@ -7,12 +7,12 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.57,
-    "usdjpy": 157.8,
+    "usdtwd": 32.58,
+    "usdjpy": 157.9,
     "usdcny": 6.65,
-    "oil": 104.12,
-    "gold": 3898.9,
-    "dxy": 101.88
+    "oil": 100.86,
+    "gold": 3910.5,
+    "dxy": 101.92
   },
   "history": {
     "fed_rate": {
@@ -7818,33 +7818,33 @@
   },
   "news": [
     {
-      "title": "聯準會宣示對抗通膨決心 美元指數短線可望續強 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IeExtcHBLYWZKM3N4dFplNllwY2JtTzFZZzg1Zzk1TnMyMU91REs1YzFWZi0zUEpmdll1eXUxdXRQT21ib19ZTkg2cExPaU0zY3pIWXptN2I0Z9IBX0FVX3lxTFBqUm0wTXoxVkZDMzBLVmdOTzgzM3hPTEpGXzZuQlR3aDRPSERNa24yRXpIS3JjNko1clJLUnhtTl96cW4zTkxxeEVpZzNjWndSVVN2V2JKMEc5MlJYaXZj?oc=5",
-      "published": "Sat, 31 Oct 2026 17:26:13 GMT",
+      "title": "Fed 決策倒數！預料按兵不動 若釋「鷹派訊號」 美債多頭恐爆平倉潮 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Pby1iYy1PQnpFOUJtY3h0c3UtbXByTnRPeXQ3VWVJUGlmekxJclIwcUpfMnpUZVVRWUl6MFp5enh6UkZjQXM0a1NaOURGdk9QLVBwUjFoVkNOd9IBX0FVX3lxTE9oSThlWWt6a3p5U2taZzVieHd4bkhLYnZtTE4xSUo2RnpJUWQ5eVliOFdhOUtmOUFnU2ZWVlEyTFRLR2NPblBub0ZiZUxyNkRHQUVEbFNUaGUwbGJUalBn?oc=5",
+      "published": "Wed, 28 Oct 2026 03:10:30 GMT",
       "source": "經濟日報"
     },
     {
-      "title": "高通膨與高殖利率拉鋸！PIMCO解析Fed：12月升息1碼機率高 長期維持高利率 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yMkhzQ2YzdUE3WFhwS1p4YmxrZ2ZHUWlxLWU1dVBzcTRZYTBCaHpCa1RCdnZBd1BhdXpLeXo2R2dzZXkwY1Bmdkg5N0pIS0U?oc=5",
-      "published": "Sun, 01 Nov 2026 00:40:03 GMT",
-      "source": "鉅亨網"
+      "title": "財管教授「捨百張長債ETF」轉賽道 週刊曝原因 | 太報 - LINE TODAY",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sZzJXVlZ5ZVNPTVBmM0pGTi1ma1hLOG5kcEszZDRqejFScDBDaVBqOVNwcVpMMjY4MHpGYmUzb2VwOWdwU29ieWJPUjRmVE83eThJdld3?oc=5",
+      "published": "Mon, 02 Nov 2026 03:48:47 GMT",
+      "source": "LINE TODAY"
     },
     {
-      "title": "美元指數(USDindex)匯率, 走勢圖, 即時行情 - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2ZW1nZWtwLXBpenN2YTAyeXdvcWV5OVVTX1A1LWMtWXhLX1JNcVIxUW5HMWxPdFBfbW5OZGRKc2xXN3Mxd1FYM3FsajRaQkk2NmJOMmUweXBvVlk2?oc=5",
-      "published": "Sat, 31 Oct 2026 00:05:33 GMT",
-      "source": "Moomoo"
+      "title": "史上最大外資賣超、台幣淪最弱亞幣 - 中華電信",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV0ZwMThlYzZYbjVkTW1keUs0QU84M3pBZUY4LXg0aElnYUJoNi00UE9mM0lBYzJTTUUxRFFzd3RaaFdKNEc1YXpmMzVDN3NlZlkzdlUzNy1zSUtyd2I2YmJ1WWpoM2t5aHF3VXNSbU5ZWl9SZDU1NDNJZFVJTllHTnJoZm9sU1dSZFRlWEdRM3NoR1RVRzZaYVlhdw?oc=5",
+      "published": "Sun, 01 Nov 2026 18:42:08 GMT",
+      "source": "中華電信"
     },
     {
-      "title": "大陸經濟基本面持續修復 人民幣有望穩步走強 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84UXlDb2RqRWdFaVFwaTdtcV9CdjdvemdSRmNUeU96R2RMTGxpZnN3N1lGSzdHeGpGNVNtN3pnUnNMSmNRWUkyaGlfUDJZbGdBYkVLYktBTzdpd9IBX0FVX3lxTFB4MDd3SVhRRE42NmZBT2hud05ZWmx4cFY0U1JyeEkyWUtfRDN3dXphNmx3UWZXeW8yMXhFVVBsUHJ4cmpRVmJBMU8xeUtXWXYtZ2hjUFA3c1gzZm5OejIw?oc=5",
-      "published": "Sat, 31 Oct 2026 17:25:21 GMT",
-      "source": "經濟日報"
+      "title": "美元指數飆漲！歐元匯率6連跌！聯準會將鷹派暫停？ - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96WG5lWmtkWWtPVXBoT2FOS2k5X2lfNDBrWDBGY0FrYk1xNEREZ2s2dEwzWmtkWlNLUUtzenRJMkdBTjUwVGtIQzVvX3IwVFJOcVg4SXBGWDBDNVdoQ1FoOFAyc1hOb1VaN2FwR0hXV0hQVF8w?oc=5",
+      "published": "Wed, 28 Oct 2026 06:41:19 GMT",
+      "source": "Mitrade"
     },
     {
-      "title": "【今日要聞】原油價格3連漲！黃金創三個月新低，比特幣重挫 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE94ekcwU0ZVV2ZMWENyR2R6UlB2emNSdU5WUUZwaXZzQ1FoSnBYUnN1TFY4aFdSUW9WYThaMDE2eERHa2xLQzRONVMyVXpwUGxYbmpNMWVVWjMzdUlnbWFwUTN6bWREdTBsbUUyWXFjX252WlBybjVJ?oc=5",
-      "published": "Fri, 30 Oct 2026 09:47:10 GMT",
+      "title": "【財經縱覽】：黃金重挫3.6%跌破3900、WTI原油沖高回落，納指挫2.86%、英特爾挫近30% - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NeHpaLUxJVnp2VWQtM2FKNl9jWE5VSGk3Y2xvNkpHSWxJTURHeEp1TzI4T1JSOV9JcWktWXRQdk4ta0NiR0lQSjNRakM5RUFEOXZtNlVCUXEtRV9pSXBVSE5TSmFzU3E2M0FaTVNSYWgwcUt3bFMxLWlFck1QMjg?oc=5",
+      "published": "Mon, 02 Nov 2026 00:25:22 GMT",
       "source": "Mitrade"
     },
     {
