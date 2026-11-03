@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-02 04:54:36 (UTC)",
+  "updated_at": "2026-11-03 05:44:06 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
-    "us10y_yield": 4.98,
-    "us20y_yield": 5.35,
+    "us10y_yield": 4.94,
+    "us20y_yield": 5.34,
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.58,
-    "usdjpy": 157.9,
-    "usdcny": 6.65,
-    "oil": 100.86,
-    "gold": 3910.5,
-    "dxy": 101.92
+    "usdtwd": 32.73,
+    "usdjpy": 157.85,
+    "usdcny": 6.67,
+    "oil": 97.02,
+    "gold": 3930.1,
+    "dxy": 101.73
   },
   "history": {
     "fed_rate": {
@@ -1312,7 +1312,7 @@
         4.75,
         4.75,
         5.29,
-        4.98
+        4.94
       ]
     },
     "us20y_yield": {
@@ -1962,7 +1962,7 @@
         5.28,
         5.24,
         5.68,
-        5.35
+        5.34
       ]
     },
     "cpi": {
@@ -4562,7 +4562,7 @@
         32.27,
         31.67,
         31.85,
-        32.54
+        32.59
       ]
     },
     "usdjpy": {
@@ -5212,7 +5212,7 @@
         159.16,
         159.74,
         157.25,
-        156.87
+        157.47
       ]
     },
     "usdcny": {
@@ -5862,7 +5862,7 @@
         6.75,
         6.72,
         6.7,
-        6.67
+        6.65
       ]
     },
     "oil": {
@@ -7818,33 +7818,33 @@
   },
   "news": [
     {
-      "title": "Fed 決策倒數！預料按兵不動 若釋「鷹派訊號」 美債多頭恐爆平倉潮 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Pby1iYy1PQnpFOUJtY3h0c3UtbXByTnRPeXQ3VWVJUGlmekxJclIwcUpfMnpUZVVRWUl6MFp5enh6UkZjQXM0a1NaOURGdk9QLVBwUjFoVkNOd9IBX0FVX3lxTE9oSThlWWt6a3p5U2taZzVieHd4bkhLYnZtTE4xSUo2RnpJUWQ5eVliOFdhOUtmOUFnU2ZWVlEyTFRLR2NPblBub0ZiZUxyNkRHQUVEbFNUaGUwbGJUalBn?oc=5",
-      "published": "Wed, 28 Oct 2026 03:10:30 GMT",
+      "title": "華許是鷹是鴿或非重點？Fed暫停升息背後 「長債殖利率」成關鍵 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1TYk5UV1QwQVZncmIwbUE1SFQ2UjlWY1ZSZlhtUVVtSjdzVWZ0ZV9ZN0JYalRWeDEzSVNPbTlZN05PTW5tT1psU0N1M216WU0?oc=5",
+      "published": "Tue, 03 Nov 2026 02:30:04 GMT",
+      "source": "鉅亨網"
+    },
+    {
+      "title": "沃什鷹鴿之謎有解 經濟學家：聯準會真正盯的是美債殖利率 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4yWTI4U2taRElRQTQ5RzVxU1BIOVFtRlRhX1dVZXc3SV9XTmtIRE1CdDdkNXNjb041YkVScTdCdUl1bUFucVk0X1pBRmdTQ095ckZYVFMyaHRUdmxjcVRBWU9jeEJTR1dDS0lGT1VIQ01MRVBTaFBxb1FR?oc=5",
+      "published": "Mon, 02 Nov 2026 14:35:00 GMT",
+      "source": "BigGo 財經"
+    },
+    {
+      "title": "外資股匯兩頭撤…新台幣承壓短線震盪偏弱| 金融 - 非凡新聞台",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5yaFI4eVh0WlRJSFVjNXV1TEdTM0w0aWNLLVlLWnFERTl0WlRJLUVzWEdZQ1ZMZnNnZFpONlkwS2JqUGQ2VEJOLUx3UDlsODdZdVlrdVBUME1IMS1KdV9ZNA?oc=5",
+      "published": "Tue, 03 Nov 2026 01:33:04 GMT",
+      "source": "非凡新聞台"
+    },
+    {
+      "title": "大陸經濟基本面持續修復 人民幣有望穩步走強 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84UXlDb2RqRWdFaVFwaTdtcV9CdjdvemdSRmNUeU96R2RMTGxpZnN3N1lGSzdHeGpGNVNtN3pnUnNMSmNRWUkyaGlfUDJZbGdBYkVLYktBTzdpd9IBX0FVX3lxTFB4MDd3SVhRRE42NmZBT2hud05ZWmx4cFY0U1JyeEkyWUtfRDN3dXphNmx3UWZXeW8yMXhFVVBsUHJ4cmpRVmJBMU8xeUtXWXYtZ2hjUFA3c1gzZm5OejIw?oc=5",
+      "published": "Sat, 31 Oct 2026 17:25:21 GMT",
       "source": "經濟日報"
     },
     {
-      "title": "財管教授「捨百張長債ETF」轉賽道 週刊曝原因 | 太報 - LINE TODAY",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sZzJXVlZ5ZVNPTVBmM0pGTi1ma1hLOG5kcEszZDRqejFScDBDaVBqOVNwcVpMMjY4MHpGYmUzb2VwOWdwU29ieWJPUjRmVE83eThJdld3?oc=5",
-      "published": "Mon, 02 Nov 2026 03:48:47 GMT",
-      "source": "LINE TODAY"
-    },
-    {
-      "title": "史上最大外資賣超、台幣淪最弱亞幣 - 中華電信",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV0ZwMThlYzZYbjVkTW1keUs0QU84M3pBZUY4LXg0aElnYUJoNi00UE9mM0lBYzJTTUUxRFFzd3RaaFdKNEc1YXpmMzVDN3NlZlkzdlUzNy1zSUtyd2I2YmJ1WWpoM2t5aHF3VXNSbU5ZWl9SZDU1NDNJZFVJTllHTnJoZm9sU1dSZFRlWEdRM3NoR1RVRzZaYVlhdw?oc=5",
-      "published": "Sun, 01 Nov 2026 18:42:08 GMT",
-      "source": "中華電信"
-    },
-    {
-      "title": "美元指數飆漲！歐元匯率6連跌！聯準會將鷹派暫停？ - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96WG5lWmtkWWtPVXBoT2FOS2k5X2lfNDBrWDBGY0FrYk1xNEREZ2s2dEwzWmtkWlNLUUtzenRJMkdBTjUwVGtIQzVvX3IwVFJOcVg4SXBGWDBDNVdoQ1FoOFAyc1hOb1VaN2FwR0hXV0hQVF8w?oc=5",
-      "published": "Wed, 28 Oct 2026 06:41:19 GMT",
-      "source": "Mitrade"
-    },
-    {
-      "title": "【財經縱覽】：黃金重挫3.6%跌破3900、WTI原油沖高回落，納指挫2.86%、英特爾挫近30% - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NeHpaLUxJVnp2VWQtM2FKNl9jWE5VSGk3Y2xvNkpHSWxJTURHeEp1TzI4T1JSOV9JcWktWXRQdk4ta0NiR0lQSjNRakM5RUFEOXZtNlVCUXEtRV9pSXBVSE5TSmFzU3E2M0FaTVNSYWgwcUt3bFMxLWlFck1QMjg?oc=5",
-      "published": "Mon, 02 Nov 2026 00:25:22 GMT",
+      "title": "【今日要聞】美伊局勢有新進展！WTI原油跌破100美元，黃金失守3900 - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE14STkyekFsLWxjcjRMLUk1RVpOS1Z3c0t1VUhyaTZfMzVTejNTSDFpVzA4aUk3MkxhZzdxSm1PdUNnVTRLZDZkcl83cC13R2JtNGdrd1AwYUExTFNrdEZIVWRzSHVZazZQT015QW5ac2RRQ1MwMzRR?oc=5",
+      "published": "Mon, 02 Nov 2026 09:47:26 GMT",
       "source": "Mitrade"
     },
     {
