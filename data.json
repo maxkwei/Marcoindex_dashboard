@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04 05:16:59 (UTC)",
+  "updated_at": "2026-11-05 05:37:22 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 4.94,
@@ -7,12 +7,12 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.83,
-    "usdjpy": 157.96,
-    "usdcny": 6.69,
-    "oil": 96.42,
-    "gold": 3958.6,
-    "dxy": 101.49
+    "usdtwd": 33.01,
+    "usdjpy": 157.89,
+    "usdcny": 6.67,
+    "oil": 87.18,
+    "gold": 4135.2,
+    "dxy": 101.23
   },
   "history": {
     "fed_rate": {
@@ -6512,7 +6512,7 @@
         86.16,
         87.03,
         97.18,
-        103.37
+        107.56
       ]
     },
     "gold": {
@@ -7818,40 +7818,40 @@
   },
   "news": [
     {
-      "title": "理財最前線／長債ETF苦等解套　專家教戰3招換債拚6％收益 - 鏡週刊Mirror Media",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PY3c1cjR2d3A4a010YnBoT3hkaUVIRWI5X0VjRG9lT2JNUkN3YlZzeU5MbXpRTk94dWFLOTFQczBxVHlLS2JOUXZUcEd2TmZLU3hkenBkZVJJcC0tcXfSAWNBVV95cUxQVUN6Z3VnUzRDVmk5WVIzYzgzRG5qTmlVb2Z5X3BBT0tjMWlYZW4zc09DbVNub2NqLUhwMkc2WHU4Z2cxNE5leWp4UWd0bHdYTzFHVkk5clM0cFBhT2ZLd2JTUWM?oc=5",
-      "published": "Tue, 03 Nov 2026 23:39:00 GMT",
-      "source": "鏡週刊Mirror Media"
+      "title": "Fed利率未明短債ETF卡穩- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMQjFMSjBzSTdVSmt6M1J1OWRBcDBnTUtLaVZqeGY4NjlTY1I1LWdBaUdxajRILURicFV3a09QMkoxMVNtNGJMbGVGbzhlajNBRHE3aEQ4OWtPZ3ozR2VB?oc=5",
+      "published": "Wed, 04 Nov 2026 19:00:00 GMT",
+      "source": "工商時報"
     },
     {
-      "title": "〈貴金屬盤後〉聚焦美國期中選舉 黃金下跌 美債和美元殖利率雙升 - Yahoo 財經",
-      "link": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNTGdFd1RRQ1hIQnNaNUFVRnNheUItQ1p5ZWdES0xoel9pNUEza2pCRWFrVXVuek04WVVHSTR5SWxUZFVLOVlMaVJtdTRtUW5ncV95TnFndzJhQnhYRDU5Y1VNejM2b1RySXNuQnpPdEEwU3M2Wi1ET3lVcDBWVUZhenc5ckh4Y2pjb0hXOW5ubnpyQkZtWGw2UXVER0U0VGRQMFk3M1RkUktnVkJRZ0p2eXFLM0hoQTFraVl6XzFCZDcxY0Noc2RLZHR3T1A4R2RweUN5ZjR0dGxvMzhlaDM2NndSUHFNbm5tUWphWE1SUDhnRVVINGpPdWNJMDc5TzVWbGo5Wm9QRF9qMXc5bWhjYUxHaFU0cXdPX0lMcDJCZTN4N1FWU1d3RUFWMjVoNmRXNUFlN3A5cEtzMG1YaDQ2dUU1eFlsVEJXc3pWblN6WmlhMGpPN0lvaHpRY1d5UUxkOGFjYU80QkZrRzE3dFg2U0hieWRJdk1MQXg0V1B2UnEwbmhiM095WWtndVFfellPMGhkZzFHYVFaRjBxWjN4YjFfR0p5dw?oc=5",
-      "published": "Tue, 03 Nov 2026 22:45:27 GMT",
-      "source": "Yahoo 財經"
+      "title": "Fed不降息！債市卻出現轉機 它好猛殖利率衝逾6% - 三立新聞網SETN.com",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8zcC0ycDZRYjl5SUZVcWgyNV9aYTRYc2xtay1PNUJfQUE1T3hNRVV6TzFFMEMyRmlKSk1fUXZTdU1Lb2dYQnhTcWp0RQ?oc=5",
+      "published": "Wed, 04 Nov 2026 19:53:11 GMT",
+      "source": "三立新聞網SETN.com"
     },
     {
-      "title": "越南銀行美元匯率跌至一年半低點，徘徊在每美元25,930越南盾 - BigGo 財經",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB4bmNDbDJjSl9uTWFFU1JmQlJJWGVSaWRFSGhSaXdCSDBMMlNDc19CcG5WWnJJeWJwWWwyTnhJQjZaZ3VWUENLSU5yMENUb0ZMUzlmV1R0bE9OcGtJS3ZiMlhCU2EwUXBhaG4tczlFVXBFV3FfVjVBRUV3?oc=5",
-      "published": "Wed, 04 Nov 2026 04:05:00 GMT",
+      "title": "美國期中選舉民主黨大勝、美元走弱，韓元兌美元匯率試圖叩關1,330韓元 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HQ1RtZWM4cnRXRDVPai1kRzRLUC1lLTVteG5KVHdlcnN5NkxMajgxZFlTWVpZb2FFMGJpSzJNa3NYTjNOdnpZRDBsQzlheHhRWnVvNUtMRlF6elNJTng4bU96aTJCZHlVenBVVzRIZlk5Y25iWWNPR1VR?oc=5",
+      "published": "Wed, 04 Nov 2026 23:35:00 GMT",
       "source": "BigGo 財經"
     },
     {
-      "title": "台幣匯率貶破32.8！美元走弱為何仍止不住台幣貶值？33元守得住嗎？ - TOP1markets",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNVhqVHNkRHk0NE5QWVlyNXhZRUFxZ0ZzYTR6a2pFTGFNYnozN1A3UktuUkVaVlIzSV9iMjFhTmJfYWE5aXFLaUdzUndIR2lGV1ZpWW5MNWg1RmpwYnptRGZEa3RjOHFtbl9QS1BSS254bjBnYWJfdVFEWm14RkdtNDdHc1Yzajd4QzZQX3ItUlp0OVZyYmtPUTRnMTN1UQ?oc=5",
-      "published": "Wed, 04 Nov 2026 02:44:20 GMT",
-      "source": "TOP1markets"
+      "title": "期貨商論壇／匯率期 避險優選 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EaUVWbXZqdDZjMV9DbHhRemo1ejl6TXNVZ1hXOVhIRE9ObThCMEZVNlIwalB1OG9JanRmeTNueVpNR1hNMEhTQWE4bGFoSjZN0gFWQVVfeXFMTUNVMHFramVBN1VjbnBmTmhyWmZOcXhkN0FyVklXSHlGMnlSQ3JCSjJIZUEwY1B1TkE5M01aSF9CdnpvVTVFZ0d2clg1NERSVzlNbzNfZXc?oc=5",
+      "published": "Wed, 04 Nov 2026 22:56:46 GMT",
+      "source": "UDN"
     },
     {
-      "title": "AI股拋售或僅剛開啟？黃金、WTI原油、納指100、費城半導體指數技術分析 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGN2tqQ0VlRDZyYmhGMnZaNlRNV2lSTFlWZkU0MzN0RUlXbzdkOS1ZOXZyclFqRTZTUW42Zm4xSUNmMFVMYmctZFlveWlnX3V3MVp0Um5MeHJQZFZ0VE5xcE85Q2pHcEFCbDZGZkIzX1V1ZGdLdDlv?oc=5",
-      "published": "Tue, 03 Nov 2026 09:02:57 GMT",
+      "title": "金價驚人暴漲後如何交易？黃金、白銀和原油最新技術分析 盯住關鍵支撐和阻力 作者 FX168 - Investing.com 香港 - 股市報價& 財經新聞",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85YjkzaXZSME81RHJRWkxtNTRpbnZjSTJLa2RBS2dDaTFDeTE5SXNGNlBSOTN5WTBpNGpGdVZOVDJiYWFuVHhQblRoTjNMZnlUUk9BaE1OMUNfdEpSeXN5OXdJdnhMUUJ6Zl9NYlVUWQ?oc=5",
+      "published": "Thu, 05 Nov 2026 01:47:54 GMT",
+      "source": "Investing.com 香港 - 股市報價& 財經新聞"
+    },
+    {
+      "title": "【今日要聞】原油價格3連漲！黃金創三個月新低，比特幣重挫 - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE94ekcwU0ZVV2ZMWENyR2R6UlB2emNSdU5WUUZwaXZzQ1FoSnBYUnN1TFY4aFdSUW9WYThaMDE2eERHa2xLQzRONVMyVXpwUGxYbmpNMWVVWjMzdUlnbWFwUTN6bWREdTBsbUUyWXFjX252WlBybjVJ?oc=5",
+      "published": "Fri, 30 Oct 2026 09:47:10 GMT",
       "source": "Mitrade"
-    },
-    {
-      "title": "聯準會、原油、美元及中東情勢 四大因素牽動金價走勢 - Yahoo股市",
-      "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPb3Z2R1BWcG44YVIwZlpLc1FvcEtFR0h3cEp2cWZHT0RCcmZqekwtajdra0c3UHJtT3BpSDJvalFubWU5WVhaSnhQcGZ6U0lWd212QUVieTBzcEF2RUNPV2FuNW9MOTJoZ3h1M0NkYjk5dUo4d2pZbTh3LVl4ejdjcnBoUHEteE5XdFM4OHFoN1FZYjRRZzRnRmltNU1DNUdZWlJlT3FrdVpodk44X3VSNzFHdTF1ZlhuN0hjZXhjaDk2dW1Hemx3VENkVm51cTIzRWVjdUZNS21lXzZHWnQ0SGJCdGRVMGJfblZhdkpUcUZTek5Ock1mNEVieDVCQjVNQ3BvcWVuTEJtblNvQ3B0YXdqT2hKVmZSWktSZEg5MHFhQ25PQ3FTUnJCUy1QUXpCT2puYXp4Q0Jwa0VtNUVPd2FYQ2ZPSmVCcjJxYmhpaDBHdHd5Rm9mR0g1LTFLTkwwLWt2TVhvQQ?oc=5",
-      "published": "Sun, 13 Sep 2026 07:00:00 GMT",
-      "source": "Yahoo股市"
     }
   ]
 }
