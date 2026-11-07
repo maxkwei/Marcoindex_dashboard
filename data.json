@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06 05:34:02 (UTC)",
+  "updated_at": "2026-11-07 05:02:13 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 4.94,
@@ -7,12 +7,12 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 32.95,
-    "usdjpy": 157.79,
+    "usdtwd": 33.11,
+    "usdjpy": 157.5,
     "usdcny": 6.67,
-    "oil": 91.31,
-    "gold": 4048.2,
-    "dxy": 101.77
+    "oil": 90.83,
+    "gold": 4074.9,
+    "dxy": 102.3
   },
   "history": {
     "fed_rate": {
@@ -7818,40 +7818,40 @@
   },
   "news": [
     {
-      "title": "《美債》避險買盤湧現美債殖利率全面下滑- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVkNjbnlBbE1NakQwcU0zaGRLS3EwRTNMSmhucjhtd2ZkNkpZbkdTNXJCb1lTV0lmSjg2RmdyTzdYa3VwZmJGdkpaYkJ0My1zbnpqekhCN00xMmJFSUNHYXdwWmlYQ1NlanllbjJybWd4RUt6NVh0b3JSeVNhRE9keVFDVDdpcDhIY20xbG1YWVFqdw?oc=5",
-      "published": "Thu, 05 Nov 2026 23:32:00 GMT",
-      "source": "MoneyDJ"
+      "title": "美國10月非農超預期！Fed下月升息機率約八成 美債殖利率為何衝高又回落？ - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMZHQ2VmJMVG44Q1p1X3RtU0w2d3VLVVJ0UFU1cjJZSGpBZVdCdmZoQ0ZOQlpnTUltbWplWDZ6ZWRPdWlYeW1yaDNXWUtJUk0?oc=5",
+      "published": "Fri, 06 Nov 2026 23:01:51 GMT",
+      "source": "鉅亨網"
     },
     {
-      "title": "Fed利率未明短債ETF卡穩- 日報 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMQjFMSjBzSTdVSmt6M1J1OWRBcDBnTUtLaVZqeGY4NjlTY1I1LWdBaUdxajRILURicFV3a09QMkoxMVNtNGJMbGVGbzhlajNBRHE3aEQ4OWtPZ3ozR2VB?oc=5",
-      "published": "Wed, 04 Nov 2026 19:00:00 GMT",
+      "title": "美國非農就業超預期升溫 美元創近5個月最大單日漲幅 - 民視財經網",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE50ZUF6LXVZVG9tZFhBZVYzdEc2N2F3Q2N1RTVuMC1nYXpnWU1Qd0FucU43bWhUQURGeWlZS2hPTHdRVWR3SEJIRVdTRnpZencta09wRFc3TWFleE8xRkJoQWk5cE9rdw?oc=5",
+      "published": "Fri, 06 Nov 2026 19:50:03 GMT",
+      "source": "民視財經網"
+    },
+    {
+      "title": "新台幣10月重貶 REER 創近半年新低 傳產迎喘息空間 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tZElJbFZUbVM3XzlCZFhlNUQ3Wm1CRndzS3pZckxJbHpYTzIzWGczXzY2NXJlaGU5VWRaR0haVUYxU3lGTTktRmhVQ1dXQUR20gFWQVVfeXFMT1ItNmZsUEFWeFpzS084NWhreTVMdi1EOFEwT0pQMHBySGxGc0xjUUNZem9YekZLOEJHV3BaUWFhZTN1dXZmZFFKUlVBeTU4WGJkMmJVSFE?oc=5",
+      "published": "Sat, 07 Nov 2026 03:28:40 GMT",
+      "source": "UDN"
+    },
+    {
+      "title": "AI風雲起金融新變局》台幣開盤貶破33元逆轉貶翻升- 日報 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uRGN5SXVVQ2hiTzI5RGF2aTU3bG1vMV9GY0RmZ09od2pFTG9ZcjJtT1RnV1JDbkRRd2ViRWtjbFpYRTA3TWN1UVNRYWZrdVg4dDlJaTFnZW9tMGtEUy1V?oc=5",
+      "published": "Fri, 06 Nov 2026 19:00:00 GMT",
       "source": "工商時報"
     },
     {
-      "title": "新台幣往33元靠攏 富邦金羅瑋：三大因素干擾 估美元明年上半年維持強勢 - 優分析UAnalyze",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15dTd2YUtYdEhHQ1U2U3NSbFEyUkNFZ0duSHFvZTdWY0h0TXBFV1RtaGxhYU8xeVN6UjdVUkZqTXB3ZlZ4cFlvTDhvdnF3bm0wX0YtUDJ3?oc=5",
-      "published": "Thu, 05 Nov 2026 09:06:27 GMT",
-      "source": "優分析UAnalyze"
-    },
-    {
-      "title": "美元指數小幅走高，緊盯美國期中選舉與伊朗談判，日圓徘徊158後半 - BigGo 財經",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lWFRlNVl6ZmRvVE4wTHJPLVFkU1p6Ni1IaHR5b1RQWEdEUEQ3QUhRem1ZN0RVeWdRVUFwdUpQenpWZW9pQzRBRU1SUmlRRUhpdC1uOTh3d3VYTllLR1FPeTllTE5qN2tBXzlITGRfRG1fNWVFVWhkSGZR?oc=5",
-      "published": "Tue, 03 Nov 2026 21:05:00 GMT",
-      "source": "BigGo 財經"
+      "title": "油價暴跌20%，金價為何逆勢大漲“？高盛：黃金成為\"反向石油交易\" - 鉅亨號",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBpai1hODh2Z1F4QXVYS2taVWZzeXIyMGlINzFDSEo4X0hhak14Q1I0MFB3Z1NSTkFEM0wxREhuUDVBWHZOM0pIeA?oc=5",
+      "published": "Sat, 07 Nov 2026 04:17:09 GMT",
+      "source": "鉅亨號"
     },
     {
       "title": "金價驚人暴漲後如何交易？黃金、白銀和原油最新技術分析 盯住關鍵支撐和阻力 作者 FX168 - Investing.com 香港 - 股市報價& 財經新聞",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85YjkzaXZSME81RHJRWkxtNTRpbnZjSTJLa2RBS2dDaTFDeTE5SXNGNlBSOTN5WTBpNGpGdVZOVDJiYWFuVHhQblRoTjNMZnlUUk9BaE1OMUNfdEpSeXN5OXdJdnhMUUJ6Zl9NYlVUWQ?oc=5",
       "published": "Thu, 05 Nov 2026 01:47:54 GMT",
       "source": "Investing.com 香港 - 股市報價& 財經新聞"
-    },
-    {
-      "title": "AI股拋售或僅剛開啟？黃金、WTI原油、納指100、費城半導體指數技術分析 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGN2tqQ0VlRDZyYmhGMnZaNlRNV2lSTFlWZkU0MzN0RUlXbzdkOS1ZOXZyclFqRTZTUW42Zm4xSUNmMFVMYmctZFlveWlnX3V3MVp0Um5MeHJQZFZ0VE5xcE85Q2pHcEFCbDZGZkIzX1V1ZGdLdDlv?oc=5",
-      "published": "Tue, 03 Nov 2026 09:02:57 GMT",
-      "source": "Mitrade"
     }
   ]
 }
