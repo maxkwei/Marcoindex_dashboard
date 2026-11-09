@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08 04:56:58 (UTC)",
+  "updated_at": "2026-11-09 05:05:36 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 4.94,
@@ -7,8 +7,8 @@
     "cpi": 336.3,
     "core_cpi": 338.9,
     "pmi": 97.0,
-    "usdtwd": 33.11,
-    "usdjpy": 158.43,
+    "usdtwd": 32.8,
+    "usdjpy": 158.24,
     "usdcny": 6.67,
     "oil": 90.83,
     "gold": 4074.9,
@@ -7818,22 +7818,16 @@
   },
   "news": [
     {
+      "title": "《美債》10月非農就業超預期殖利率全面走升- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaHFVTXB2eldXNXZvNFowaVFudkpzUTBBS2ZOOGZBRGMyVGF2M2NfYXA3ZjJ4Z3VVMWNUTF8wdWdJSWJwMGNuR1RaMFlOYnRheUp3V3BCT3pEcWxKVWM5R3pNemxFSTVKTmIxMFIxSlpFMDQwckRsVlNIcmdmVG5uWmE2aEtkcHNsLVV5Z2hCR1ZTQQ?oc=5",
+      "published": "Sun, 08 Nov 2026 22:20:00 GMT",
+      "source": "MoneyDJ"
+    },
+    {
       "title": "美國10月非農超預期！Fed下月升息機率約八成 美債殖利率為何衝高又回落？ - 鉅亨網",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMZHQ2VmJMVG44Q1p1X3RtU0w2d3VLVVJ0UFU1cjJZSGpBZVdCdmZoQ0ZOQlpnTUltbWplWDZ6ZWRPdWlYeW1yaDNXWUtJUk0?oc=5",
       "published": "Fri, 06 Nov 2026 23:01:51 GMT",
       "source": "鉅亨網"
-    },
-    {
-      "title": "Fed利率未明短債ETF卡穩- 日報 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMQjFMSjBzSTdVSmt6M1J1OWRBcDBnTUtLaVZqeGY4NjlTY1I1LWdBaUdxajRILURicFV3a09QMkoxMVNtNGJMbGVGbzhlajNBRHE3aEQ4OWtPZ3ozR2VB?oc=5",
-      "published": "Wed, 04 Nov 2026 19:00:00 GMT",
-      "source": "工商時報"
-    },
-    {
-      "title": "美元指數小幅走高，緊盯美國期中選舉與伊朗談判，日圓徘徊158後半 - BigGo 財經",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lWFRlNVl6ZmRvVE4wTHJPLVFkU1p6Ni1IaHR5b1RQWEdEUEQ3QUhRem1ZN0RVeWdRVUFwdUpQenpWZW9pQzRBRU1SUmlRRUhpdC1uOTh3d3VYTllLR1FPeTllTE5qN2tBXzlITGRfRG1fNWVFVWhkSGZR?oc=5",
-      "published": "Tue, 03 Nov 2026 21:05:00 GMT",
-      "source": "BigGo 財經"
     },
     {
       "title": "美元為什麼還沒跌？2026下半年美元匯率走勢的三個關鍵｜豐雲學堂 2026 年 11 月 - 永豐金證券",
@@ -7842,16 +7836,22 @@
       "source": "永豐金證券"
     },
     {
+      "title": "新台幣10月重貶 REER創近半年新低 傳產迎喘息空間 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tZElJbFZUbVM3XzlCZFhlNUQ3Wm1CRndzS3pZckxJbHpYTzIzWGczXzY2NXJlaGU5VWRaR0haVUYxU3lGTTktRmhVQ1dXQUR20gFWQVVfeXFMT1ItNmZsUEFWeFpzS084NWhreTVMdi1EOFEwT0pQMHBySGxGc0xjUUNZem9YekZLOEJHV3BaUWFhZTN1dXZmZFFKUlVBeTU4WGJkMmJVSFE?oc=5",
+      "published": "Sat, 07 Nov 2026 03:28:40 GMT",
+      "source": "UDN"
+    },
+    {
       "title": "油價暴跌20%，金價為何逆勢大漲“？高盛：黃金成為\"反向石油交易\" - 鉅亨號",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBpai1hODh2Z1F4QXVYS2taVWZzeXIyMGlINzFDSEo4X0hhak14Q1I0MFB3Z1NSTkFEM0wxREhuUDVBWHZOM0pIeA?oc=5",
       "published": "Sat, 07 Nov 2026 04:17:09 GMT",
       "source": "鉅亨號"
     },
     {
-      "title": "金價驚人暴漲後如何交易？黃金、白銀和原油最新技術分析 盯住關鍵支撐和阻力 作者 FX168 - Investing.com 香港 - 股市報價& 財經新聞",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85YjkzaXZSME81RHJRWkxtNTRpbnZjSTJLa2RBS2dDaTFDeTE5SXNGNlBSOTN5WTBpNGpGdVZOVDJiYWFuVHhQblRoTjNMZnlUUk9BaE1OMUNfdEpSeXN5OXdJdnhMUUJ6Zl9NYlVUWQ?oc=5",
-      "published": "Thu, 05 Nov 2026 01:47:54 GMT",
-      "source": "Investing.com 香港 - 股市報價& 財經新聞"
+      "title": "地緣衝突加劇，WTI原油重回100美元！黃金價格反彈受阻，未來走勢如何？ - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfUzdfdmFNc1ZFQVVCTHI1UDVvdDJnWk9HN1ROX2ZEY3FQR1V2eXBKRTRYZy01bnFLVVhIYVVSU2NmQ3Z5S0VKSDFabjU2cm9nSXVLeFNKZXhLcEJoTXo1ZEtrOHZsbGN2enhDZFZMbmUweGxYb3JaSE9R?oc=5",
+      "published": "Mon, 19 Oct 2026 07:00:00 GMT",
+      "source": "Mitrade"
     }
   ]
 }
