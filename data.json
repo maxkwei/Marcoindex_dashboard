@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-10 06:22:09 (UTC)",
+  "updated_at": "2026-11-11 05:07:42 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 4.94,
     "us20y_yield": 5.34,
-    "cpi": 336.3,
-    "core_cpi": 338.9,
+    "cpi": 337.48,
+    "core_cpi": 339.9,
     "pmi": 97.0,
-    "usdtwd": 32.85,
-    "usdjpy": 158.04,
+    "usdtwd": 32.82,
+    "usdjpy": 158.71,
     "usdcny": 6.67,
-    "oil": 85.66,
-    "gold": 4134.1,
-    "dxy": 101.62
+    "oil": 86.04,
+    "gold": 4030.2,
+    "dxy": 102.23
   },
   "history": {
     "fed_rate": {
@@ -2612,7 +2612,7 @@
         332.81,
         334.13,
         336.3,
-        336.3
+        337.48
       ]
     },
     "core_cpi": {
@@ -3262,7 +3262,7 @@
         336.79,
         337.76,
         338.9,
-        338.9
+        339.9
       ]
     },
     "pmi": {
@@ -7818,16 +7818,22 @@
   },
   "news": [
     {
-      "title": "《美債》10月CPI牽動Fed升息決策殖利率續揚- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUGRxVDRZVnRIOG5Pdk1aUlZySUJGb1hfaFREU1poQUFEd09HelhjLVlTSlpFT0ljYjloaUNLanVTakJDU2lwQkxoaWM1Y3dJa1Ftemd5NkRXUHVZTE1hLTZCdGtpLUk0NWFhYmpCRnc1aGNIS0JoVkdvaFg3SVVBTUJvQloyZG9nQnBsT0xFQmZ1dw?oc=5",
-      "published": "Mon, 09 Nov 2026 23:09:00 GMT",
-      "source": "MoneyDJ"
+      "title": "聯準會鷹風勁吹！全球債市感受寒意兩年期美債殖利率創19個月最大升幅- 國際 - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6bmR4YVFVX180c0dNUXVybm5YS2lUc0xTMGZGcF9RS3BtcHpmVVhZeTBsa1l0VFdId2pobU02SGFJbU5ITnMyZjdMVk5mMzdkenZReHZCdHVoSFBjVTNV?oc=5",
+      "published": "Wed, 11 Nov 2026 03:24:00 GMT",
+      "source": "工商時報"
     },
     {
-      "title": "美國10月非農超預期！Fed下月升息機率約八成 美債殖利率為何衝高又回落？ - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMZHQ2VmJMVG44Q1p1X3RtU0w2d3VLVVJ0UFU1cjJZSGpBZVdCdmZoQ0ZOQlpnTUltbWplWDZ6ZWRPdWlYeW1yaDNXWUtJUk0?oc=5",
-      "published": "Fri, 06 Nov 2026 23:01:51 GMT",
-      "source": "鉅亨網"
+      "title": "美10月通膨高於預期 學者：美債殖利率下滑 聯準會升息2碼機率仍低 - Rti 中央廣播電臺",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ia2FFTmxNM04yb3FmN3pwX0JxZDA1Z3pwUnNPcVpiSVl0elMzai12WElvMXJEWDA4bVhGTEVNUllqUUpraDc0dmh2Qzgyb3pVZ3BhZlJ1WFE?oc=5",
+      "published": "Wed, 11 Nov 2026 03:36:57 GMT",
+      "source": "Rti 中央廣播電臺"
+    },
+    {
+      "title": "美國CPI意外升溫，韓元兌美元匯率重返1340韓元價位，市場警戒12月大幅升息 - BigGo 財經",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HRGRLOFBvVUVRV1FHOVVzOWVLUG5kZng5enlHVFFhV1UxOGlRQXNpSkhURmRjX0Z6SnJOQXlwSGZsNkx3dUFTZ2NaSTJOUFY5V2p3bUROVVBOZmFtY0UyWjhhakJRbmxEeFJ2VWpuZDNCSVNaelYteUhR?oc=5",
+      "published": "Tue, 10 Nov 2026 23:36:00 GMT",
+      "source": "BigGo 財經"
     },
     {
       "title": "10月台幣重貶NEER近7年新低- 日報 - 工商時報",
@@ -7836,22 +7842,16 @@
       "source": "工商時報"
     },
     {
-      "title": "美元為什麼還沒跌？2026下半年美元匯率走勢的三個關鍵｜豐雲學堂 2026 年 11 月 - 永豐金證券",
-      "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxQMTdCX29uWnh5V0VOWmhndnkycDRZV0FRTFh5OWtTRENxdDN5aGtoTmlTRVlRNktvajk1M0dwejhsT0o4V2ZuQ2RRR3doR29HeWJRVVA4cHdBVENhbl9vWXdfem9aZGhZMkNrcnRTbUdBVnZpR2Vsamw3QnRJSi1wZjdLQnBKdmNOSllVbUU2Q0JyUTdHcGpRR0REWkxBd0hDcnJ1bDRjOHE3UlBkUl9LTFhCNFR1b1pwN21BTVlldGd0UHpkVllLZGYwUmtrTnE4M3M0Y0o4YzktMFhWa0xNUDVOaVZTM0pFMDRudGVJZ3hWOFI2ck5sS2JyZ3g4Z0doWi1jZi1HMGlFZVZyV2E4Sm1KdmFfUldKUTBLb29IRjNBYkRSV1NxMHVaOTJXZHgzZHJBeEloR1ZXRHhjUmphWUxBaDdoUXIwOGJSa185SFdEMzhmV0N4b01zQUJPTndQV09lUFVxZjUzWkp5WTRFQU5WaUdGR2trQ2JFUkRhNVNMTi1lbzBLLWlPc3dDMnJBblFpOGp3?oc=5",
-      "published": "Fri, 28 Aug 2026 07:00:00 GMT",
-      "source": "永豐金證券"
-    },
-    {
       "title": "原油暴跌黃金就會漲？美伊談判降溫油價殺回90美元 真正推升金價的是這條利率交易 - 理財周刊",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE14ODRYZEVJQk9OMzZiNnk1aWFMZU0yMmNkZ0RjVUFncGdoUmpPMk5ELWdoVVFwN1d4bW03Z25HR21tM1djWWItMG1zOXhXUDdhaElQNFRWU1Zjbm5NUU5xLVVrTXo5X0Zyb0hndjVSRQ?oc=5",
       "published": "Tue, 10 Nov 2026 03:40:37 GMT",
       "source": "理財周刊"
     },
     {
-      "title": "金價暴漲、油價狂瀉後如何走？黃金、白銀與原油最新技術分析 作者 FX168 - Investing.com 香港 - 股市報價& 財經新聞",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HOEh1cmFHdVlFUjdReXNZN2hyNVJsOURzN0hyN2RXSW1wTm5LUmZRbnMwbzVkbmdiQ3ZFSDA4Y0QwRmJFSEZqWFgtczF4ZHhwMFQyRENHdEJZNXppaS1vdjBGUURXV3RaSlE0ZEVLUQ?oc=5",
-      "published": "Tue, 10 Nov 2026 01:17:32 GMT",
-      "source": "Investing.com 香港 - 股市報價& 財經新聞"
+      "title": "美國10月CPI來襲！黃金、WTI原油、美元指數、費城半導體指數技術分析 - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92OU4xSG10cDViVUxXZkZXZmsyb1pibElBMVZXM0xCVDM1ekFaWlk3VEV6aWJYZG5PUnd3amc0MlpYWjVHYk9PYUtEQURkdDNjWlRzM3lrbTJMLWR0OTl3TmUwRE9GYTVaQWZ2eldpbm5nX20t?oc=5",
+      "published": "Tue, 10 Nov 2026 09:09:59 GMT",
+      "source": "Mitrade"
     }
   ]
 }
