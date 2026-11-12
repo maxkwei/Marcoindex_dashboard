@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 05:07:42 (UTC)",
+  "updated_at": "2026-11-12 06:11:43 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 4.94,
@@ -7,12 +7,12 @@
     "cpi": 337.48,
     "core_cpi": 339.9,
     "pmi": 97.0,
-    "usdtwd": 32.82,
-    "usdjpy": 158.71,
+    "usdtwd": 32.97,
+    "usdjpy": 159.81,
     "usdcny": 6.67,
-    "oil": 86.04,
-    "gold": 4030.2,
-    "dxy": 102.23
+    "oil": 85.79,
+    "gold": 3982.2,
+    "dxy": 102.98
   },
   "history": {
     "fed_rate": {
@@ -7818,28 +7818,28 @@
   },
   "news": [
     {
-      "title": "聯準會鷹風勁吹！全球債市感受寒意兩年期美債殖利率創19個月最大升幅- 國際 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6bmR4YVFVX180c0dNUXVybm5YS2lUc0xTMGZGcF9RS3BtcHpmVVhZeTBsa1l0VFdId2pobU02SGFJbU5ITnMyZjdMVk5mMzdkenZReHZCdHVoSFBjVTNV?oc=5",
-      "published": "Wed, 11 Nov 2026 03:24:00 GMT",
+      "title": "Fed鷹風陣陣 12月升息2碼？ - 工商時報",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ySUkyTXV6NFJlSmw5aGhtRUZYZjB1LTBpVnc1MVkzVmZTQmFaOE1sSkM4UjdQRnVpRE1zUXRQMDBXR2VOQzdQSXdXT2VZNF9JRW5sSGNNT3dPaUxqUzVv?oc=5",
+      "published": "Wed, 11 Nov 2026 19:00:00 GMT",
       "source": "工商時報"
     },
     {
-      "title": "美10月通膨高於預期 學者：美債殖利率下滑 聯準會升息2碼機率仍低 - Rti 中央廣播電臺",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ia2FFTmxNM04yb3FmN3pwX0JxZDA1Z3pwUnNPcVpiSVl0elMzai12WElvMXJEWDA4bVhGTEVNUllqUUpraDc0dmh2Qzgyb3pVZ3BhZlJ1WFE?oc=5",
-      "published": "Wed, 11 Nov 2026 03:36:57 GMT",
-      "source": "Rti 中央廣播電臺"
+      "title": "Fed 又放鷹 美債多頭部位慘遭狙擊 - 經濟日報",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85M2tGQ2pKa25YdVRYaFl3aE5IVXJTaW1Cd0JqMmZhYmJKblpfUkhKdXVUOTRVTE1DZXhabk1idXpvRmw1dWNYZVRLRzJOczZ6UkJJLWNtampId9IBX0FVX3lxTFBKMUZlVTVXZjhoWk5YUkJsY3pkVlA1TXJHMF9tdVRqMmc0R3pLZ1FhVjZlUGl6R2xiTUEtS3BYb1dkZkQ0S1otbHFxMVNMSG1lUDBqbXBOcHVfRlRTT21z?oc=5",
+      "published": "Wed, 11 Nov 2026 17:06:34 GMT",
+      "source": "經濟日報"
     },
     {
-      "title": "美國CPI意外升溫，韓元兌美元匯率重返1340韓元價位，市場警戒12月大幅升息 - BigGo 財經",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HRGRLOFBvVUVRV1FHOVVzOWVLUG5kZng5enlHVFFhV1UxOGlRQXNpSkhURmRjX0Z6SnJOQXlwSGZsNkx3dUFTZ2NaSTJOUFY5V2p3bUROVVBOZmFtY0UyWjhhakJRbmxEeFJ2VWpuZDNCSVNaelYteUhR?oc=5",
-      "published": "Tue, 10 Nov 2026 23:36:00 GMT",
-      "source": "BigGo 財經"
+      "title": "美元站上103、輝達人事風波擾台股 新台幣午盤貶至32.916元 - 自由財經",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sRXhyMGtmaTA4Ni1pcktFOW0tbGlYZy10WjhFRzdQbGZnOW5lLUU3cWZaV2JtOWhuZk83X0hOdEtIdnNXOFo1T0Qxc0xIbDF6Z3NIa1c5d3JabXQzZ2xr0gFkQVVfeXFMTzNDRTFIcDg1ekg0blJGejRxOVBuMFg2dHI4bUd1SFFSWmRieGp0NnppZ0Jnbkx2a2c1ZHdRVGFXME5ocWJZMG1KazFnTThXLWo0QUFDZ3huUW9VSTJZTHAxN2kxSg?oc=5",
+      "published": "Thu, 12 Nov 2026 05:31:56 GMT",
+      "source": "自由財經"
     },
     {
-      "title": "10月台幣重貶NEER近7年新低- 日報 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PRlN4bXZFd1c3OXpMVElKaFYybW5NSHo4RzhhNFJWRjh5Qmx1S1NxN2ZlWUZQTFRNbm8zVHBYM2t5MmhLVnhKRkFHOVZ6blN5UmxMYTR1ZmE1WFlIUFB3?oc=5",
-      "published": "Mon, 09 Nov 2026 19:00:00 GMT",
-      "source": "工商時報"
+      "title": "外資匯出放緩台幣躍升最強亞幣| 金融 - 非凡新聞台",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11elJCNXhYU2RQYXlWaEJQYXEtdFpuZy1POEZaLTZrMW9HZTFhTDBiLXN5UzRXaXQxWHRLck5GUDk2aWd4RC1jWnZNbThGeG45UkZmN3p4SkFDaHRPLWVF?oc=5",
+      "published": "Thu, 12 Nov 2026 02:00:00 GMT",
+      "source": "非凡新聞台"
     },
     {
       "title": "原油暴跌黃金就會漲？美伊談判降溫油價殺回90美元 真正推升金價的是這條利率交易 - 理財周刊",
@@ -7848,10 +7848,10 @@
       "source": "理財周刊"
     },
     {
-      "title": "美國10月CPI來襲！黃金、WTI原油、美元指數、費城半導體指數技術分析 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92OU4xSG10cDViVUxXZkZXZmsyb1pibElBMVZXM0xCVDM1ekFaWlk3VEV6aWJYZG5PUnd3amc0MlpYWjVHYk9PYUtEQURkdDNjWlRzM3lrbTJMLWR0OTl3TmUwRE9GYTVaQWZ2eldpbm5nX20t?oc=5",
-      "published": "Tue, 10 Nov 2026 09:09:59 GMT",
-      "source": "Mitrade"
+      "title": "金價暴漲、油價狂瀉後如何走？黃金、白銀與原油最新技術分析 作者 FX168 - Investing.com 香港 - 股市報價& 財經新聞",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HOEh1cmFHdVlFUjdReXNZN2hyNVJsOURzN0hyN2RXSW1wTm5LUmZRbnMwbzVkbmdiQ3ZFSDA4Y0QwRmJFSEZqWFgtczF4ZHhwMFQyRENHdEJZNXppaS1vdjBGUURXV3RaSlE0ZEVLUQ?oc=5",
+      "published": "Tue, 10 Nov 2026 01:17:32 GMT",
+      "source": "Investing.com 香港 - 股市報價& 財經新聞"
     }
   ]
 }
