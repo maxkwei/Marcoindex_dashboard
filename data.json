@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 06:11:43 (UTC)",
+  "updated_at": "2026-11-13 05:32:45 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 4.94,
@@ -7,12 +7,12 @@
     "cpi": 337.48,
     "core_cpi": 339.9,
     "pmi": 97.0,
-    "usdtwd": 32.97,
-    "usdjpy": 159.81,
-    "usdcny": 6.67,
-    "oil": 85.79,
-    "gold": 3982.2,
-    "dxy": 102.98
+    "usdtwd": 32.85,
+    "usdjpy": 159.97,
+    "usdcny": 6.66,
+    "oil": 88.26,
+    "gold": 3918.7,
+    "dxy": 103.18
   },
   "history": {
     "fed_rate": {
@@ -7818,28 +7818,28 @@
   },
   "news": [
     {
-      "title": "Fed鷹風陣陣 12月升息2碼？ - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ySUkyTXV6NFJlSmw5aGhtRUZYZjB1LTBpVnc1MVkzVmZTQmFaOE1sSkM4UjdQRnVpRE1zUXRQMDBXR2VOQzdQSXdXT2VZNF9JRW5sSGNNT3dPaUxqUzVv?oc=5",
-      "published": "Wed, 11 Nov 2026 19:00:00 GMT",
-      "source": "工商時報"
+      "title": "升息陰影壓境比特幣失守7萬美元美債2年期殖利率四日增近40個基點| 全球財經| 全球 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9uQ3JkMGI0SWJUbk8yWW5wRF9fXy1LbC11ZEdUZ0d1WHBiRFM2cjJFbWFiaWV3bWlhcFhwMTVVSWxSVEhBLWZLaDVzYUNoaVVT?oc=5",
+      "published": "Fri, 13 Nov 2026 05:16:49 GMT",
+      "source": "UDN"
     },
     {
-      "title": "Fed 又放鷹 美債多頭部位慘遭狙擊 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85M2tGQ2pKa25YdVRYaFl3aE5IVXJTaW1Cd0JqMmZhYmJKblpfUkhKdXVUOTRVTE1DZXhabk1idXpvRmw1dWNYZVRLRzJOczZ6UkJJLWNtampId9IBX0FVX3lxTFBKMUZlVTVXZjhoWk5YUkJsY3pkVlA1TXJHMF9tdVRqMmc0R3pLZ1FhVjZlUGl6R2xiTUEtS3BYb1dkZkQ0S1otbHFxMVNMSG1lUDBqbXBOcHVfRlRTT21z?oc=5",
-      "published": "Wed, 11 Nov 2026 17:06:34 GMT",
-      "source": "經濟日報"
+      "title": "《美債》川普對伊朗撂狠話 10年債殖利率衝破5% - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdUNZdVlFaE1ycVAteTdpNTJqc0JhT1Bab1JTUWFER1FTUjBBazhXSHVzdDhCSE1wSkxuLWkxeEQ3S2MtYmFIOUE0TDJaTEFraVM2YzJXQ25oWUtwY0dPUV9pQzJNcTBFUlh0WDE5WFRUZERKekNsU3pQbTNfNjQyZ0lYV0hLS1FYRVh6TmZja0d3UQ?oc=5",
+      "published": "Thu, 12 Nov 2026 22:58:00 GMT",
+      "source": "MoneyDJ"
     },
     {
-      "title": "美元站上103、輝達人事風波擾台股 新台幣午盤貶至32.916元 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sRXhyMGtmaTA4Ni1pcktFOW0tbGlYZy10WjhFRzdQbGZnOW5lLUU3cWZaV2JtOWhuZk83X0hOdEtIdnNXOFo1T0Qxc0xIbDF6Z3NIa1c5d3JabXQzZ2xr0gFkQVVfeXFMTzNDRTFIcDg1ekg0blJGejRxOVBuMFg2dHI4bUd1SFFSWmRieGp0NnppZ0Jnbkx2a2c1ZHdRVGFXME5ocWJZMG1KazFnTThXLWo0QUFDZ3huUW9VSTJZTHAxN2kxSg?oc=5",
-      "published": "Thu, 12 Nov 2026 05:31:56 GMT",
+      "title": "輝達利空出盡？台股一度強彈逾千點 新台幣翻升、暫收32.859元 - 自由財經",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EdlhCZUJ5QWZfdGFGcHlNcnhTa1RDLUxNUVFfa3BUelV4RktsVWVUS2FlY2NnQ2xKdjJrWXZ6b244SFAzNExGZS1oWXlWZmo5cGRIUGxsUjJPaFZlWTA00gFkQVVfeXFMTmlSVFg1Y1l0Sl9TSHJhSXhyUnppdC1CTWJKNHJWUzBLblNHV016cC01OE9kWjFnZTQxRlhEMktLRFZVbEhBVl9vQ0cybC1yazhlNDA4ckFfbjFpZFBVaGc1X3dBOA?oc=5",
+      "published": "Fri, 13 Nov 2026 04:32:29 GMT",
       "source": "自由財經"
     },
     {
-      "title": "外資匯出放緩台幣躍升最強亞幣| 金融 - 非凡新聞台",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11elJCNXhYU2RQYXlWaEJQYXEtdFpuZy1POEZaLTZrMW9HZTFhTDBiLXN5UzRXaXQxWHRLck5GUDk2aWd4RC1jWnZNbThGeG45UkZmN3p4SkFDaHRPLWVF?oc=5",
-      "published": "Thu, 12 Nov 2026 02:00:00 GMT",
-      "source": "非凡新聞台"
+      "title": "今日外匯：美元指數攀升至19個月新高，黃金跌破4,000美元 - FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeUdFQkhtcWs4Q19CVXRSbjhQTklucGtWUVZ0Vmk5d0pmRHIwVy0tMEpHT3BPVWI0cm9iMlZwVWsxX0xnT0hMYWFpakdDR2RHdEJsTnVNLTBHcnRtSURyNVMtc3EteFRvVWJhLWVmZTFlNkdFMFFwSHJ1WlhfUlF0MWd3SFF0Yjh5Sk5tR1ZCMm9PYk1URkY5VjExbVpTU1oxQXNCcDY3eUFfQnhjNUJrR05YcXZoellWY19NT2YwRngtbktieUNiOVVXQjQ3YWlz?oc=5",
+      "published": "Thu, 12 Nov 2026 07:26:28 GMT",
+      "source": "FXStreet"
     },
     {
       "title": "原油暴跌黃金就會漲？美伊談判降溫油價殺回90美元 真正推升金價的是這條利率交易 - 理財周刊",
