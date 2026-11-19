@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 06:22:32 (UTC)",
+  "updated_at": "2026-11-19 06:23:43 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 4.94,
@@ -7,12 +7,12 @@
     "cpi": 337.48,
     "core_cpi": 339.9,
     "pmi": 97.0,
-    "usdtwd": 32.96,
-    "usdjpy": 159.3,
+    "usdtwd": 32.92,
+    "usdjpy": 159.49,
     "usdcny": 6.67,
-    "oil": 84.54,
-    "gold": 3786.0,
-    "dxy": 103.66
+    "oil": 82.26,
+    "gold": 3738.8,
+    "dxy": 103.89
   },
   "history": {
     "fed_rate": {
@@ -7818,40 +7818,40 @@
   },
   "news": [
     {
-      "title": "《美債》美10月消費韌性仍強殖利率不漲反跌- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUUJ1aU1WcTdwR0ZFcGlyZ3ZaTl9nbGRmR1NPdmQtOUdmYVRjd2hZREFvM0hMMm5zRHhoWlJwcUJCbkhHV0NJVEljeF84cy1zUGljMXhGY19hdllOWW9YLTliWm95MlVWbWtsNllmYmoxUGZXSDdyS1lXQjdiRWNaZ3dZbUQxeFhpdTVEaEs4dHJKdw?oc=5",
-      "published": "Tue, 17 Nov 2026 23:06:00 GMT",
+      "title": "《美債》Fed理事喊升息兩碼長天期殖利率回落- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYm8tX3plMWJzTG1VWkhDWktrS1VyZFBTcWpLd2hRV1VSNFAzdlhMZENXMndsM2lVYm0xQ0lqNWQycmJ3U2ZsX3liMFhGX0lVSFF2b2VHVWEzWVJ2ei1SRk9Vc0FqVzRSTU9sNTRPY3FYdmZEV0JZM1lYaDRNNlcyVUd4S3pDXy01Z1B0Qm1VRWFOZw?oc=5",
+      "published": "Wed, 18 Nov 2026 23:16:00 GMT",
       "source": "MoneyDJ"
     },
     {
-      "title": "12月聯準會升息風暴來了？股市、匯市、美債走到十字路口- 國際 - 工商時報",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtejFxa2Znc3JZbnhyOC1oUXBMUkNtdUQzbkNvRjN2WGFxZ0JmWXREX3k1NDlBNVoyVFpUajJ1R1U0cWxtU0ROeTJwTll1eFZwSnBlYWtIb0ZTV1hYck5F?oc=5",
-      "published": "Wed, 18 Nov 2026 03:44:00 GMT",
-      "source": "工商時報"
+      "title": "12月升息2碼有伏筆？Fed會議紀錄：幾乎全體官員預期續升息 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNb0NPVFVwNUJNTkpjcDh0TzQ3cVpvRC1NNkM3UEk2V1pIMTU4MWpaU2RvczZROXdTcldZbnY0NURHMGlhSFRBTGJfekdCSTR2S3E5emZpUzVKQVViMFNnVVVCMU5UaHc5WFJJTFRob3hmUUE4TGVETVdtWmZkRlZrOXJTd2R0TWZ2a0lFN25IcVRQcUVyNEdRYnpEYVRubVFsTUMtd3FhbWx1MUxES3k4MElBUzBNd3JiTHdIR3NPWVhrZW5iV01jMmx3clh6TGxEZjFIcE1pVFhjZ3Vpb3lUTTA2c0xpRHZyV3JmOUc4SmZtc3BiMEdvTEtQV0FFVHFBTG9XNi1EWHNCX1EtRmRpWkk1cXhVXzhMZnpocXhoZU5KbnZQWFoxU25heXpuckpSa0FtN3REdG9pNF9xRE1oOW9ldlhLaTZ3TUFrVkFiYnQ4dnJTQWNFUWJ0cExoRExDcEg4LXh6REFJY0tYTEE?oc=5",
+      "published": "Wed, 18 Nov 2026 19:15:46 GMT",
+      "source": "Yahoo股市"
     },
     {
-      "title": "美元指數升到19個月高點 已收復去年關稅「解放日」至今的失土 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1idHJXWWlOdllGamVzN2VFRU5vVmZhZkVpUE5kVll4M1QzWTM5aGphM0FNTU1UdU53WUpNcWtEM1ZUS1FXMFhpOFV2ZDhmSFhkOVZ2MG5HVHczQdIBX0FVX3lxTFBfSjNEMHRlNXFPMWRaTkQ1SDZ2YmxfZ2RLVURuNTJkWkUxczVFdzZtRmtZeHRacjBMM2E0OHhCMUlveGYxN1kwZFV0djVjUkN1SDFZRFdLQzliN2lDV1hr?oc=5",
-      "published": "Tue, 17 Nov 2026 15:52:18 GMT",
-      "source": "經濟日報"
+      "title": "台幣匯率／外資持續調節！盤中再貶破33元 創1年半新低 - TVBS",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1YVkd4UklsN09qM0tNRkpwdHNIWmFyczBRS0Q4VTQ0eThfbWhNYjZhbkRPYTY5Ym1MQ3MwNTlRN0h4by00Z1NQM2JfSmsxU0E?oc=5",
+      "published": "Thu, 19 Nov 2026 02:48:00 GMT",
+      "source": "TVBS"
     },
     {
-      "title": "通則康威(301718.SZ)：境外銷售佔比較高，匯率波動會對匯兑損益產生一定影響 - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4OGpWVi1nSzZhX1BBM1JYT09wcE1YdFpyY0tIbnUtVTUxbXlLcE9wMW5fSTBEeHZJTXl1c0pXUnFpT21wOUZFSUYxaUlNXzk2ZXFhSkx4bkY5ZUczX2l6ZFBEV0k1akhKdHc?oc=5",
-      "published": "Wed, 18 Nov 2026 04:47:58 GMT",
-      "source": "TradingView"
+      "title": "美元強升！收復川普關稅解放日失土金價跌破3,800美元關卡| 全球財經| 全球 - UDN",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zRGowOXdVSlp5LURGWnM4Z1hFYy1JOHprdTNqc3JpOUN5NG5DZE1DRDBPSG91cU9BTWFfUTBDZFF6amplM24zMVZqQjF6YXlz?oc=5",
+      "published": "Wed, 18 Nov 2026 19:14:50 GMT",
+      "source": "UDN"
+    },
+    {
+      "title": "【財經縱覽】：通脹擔憂再升溫！黃金挫逾3%、白銀跌近5%，WTI原油逼近80，標普500五連跌！ - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LSkY0UDhBMEFLQnB2cWhqTFl3c2xzODF6V0U1aG1nSXFpTTlBb01ZQTA4SUhldFFQcUd2VFVmbkx0NjFZM1pUS0RBOUg2VzdFMHNlaFNPRWlVaF9rUlVlMllLUkYyanF5TnY5N1lkUmZuOUl0Y1k4em02eUhuaDA?oc=5",
+      "published": "Thu, 19 Nov 2026 00:58:44 GMT",
+      "source": "Mitrade"
     },
     {
       "title": "美伊戰火未熄，金價崩逾三成、油價回落90美元！避險資產為何同步走空？美元與供需揭露市場真正危機 - 台灣好新聞",
       "link": "https://news.google.com/rss/articles/CBMi7wRBVV95cUxPdUEwOHNCSTFUd25WcDRsbnR2UFd4MDJlZ0VaZ3lDekNBM3Q5ck9FT3QyLUI2ZzVBbU5Lb0hJcWFFdExycmJsMjVuYWVHYkZnSUxWTDdPaHR6V3dJXzdEYTVSLWZDNTZQbThQc29vUlEzcGxKRnRfZW11T2dTMFJlTGRGOFNWTXZOaXJfdHUwSWExdVNMbmh2V1kxdkFVeW5oalhiSE5JdV9yNnlLemM0b045X3lpYk5YWk5WV3FUM0lJSG96RV9Na2JseEtKT2NyMVItczk0VmhjUEpwWjEzZjRMRzFobVl4M1l6UWthOXVsWUVDUWR2OFRfdVE5WWpjRl9jQm9fSkZLMzJHakkxWVJ1RGh0XzVoQ2FLSjFMU1lScHB2SmZhdk1ZZjFHMU1WMEwxYmpYM0sta096UWIwMjN5djhaWmtrV3l6NWxXX3gzeXloTTB6dEhOYXVONmktS2x3NFhDWUplSEdaS0RqanZ2eV9MM1JHVGFzOHp0NTdJTFlVT05WQ2JwSnNjaTdneW1tdGFUZVg0ZC16bmpiVGlhYWs3SW44dnBESWZCYzlFUnZndXE0aUNXY1dxVGRPVzZVMUh6Q0FKLWh2eUFXd2JidlZJRW9vbHBwVWtfWGlmSWVWN1hGR3NoZHBIRUFETjhGSXRiMVQ0ZmR2WGJZZnZaaHp1LTNyQzZlRkd6ZFQxVkhJeUlIVlNFOVkzUlVEZ0ZPTUttTzJnX2xwZkNPUEdsV2taZEx6clJkdXdITWRjX1M4dmwtZW9TcTQxcDA1aC0yNUFpNUF3UTl2VGJ5LXc0SUdNeTd0QldGdjRSbw?oc=5",
       "published": "Tue, 17 Nov 2026 16:01:11 GMT",
       "source": "台灣好新聞"
-    },
-    {
-      "title": "今日黃金價格分析｜今日外匯黃金分析｜今日 XAU/USD 分析－2026年11月17日 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ0RWMVRmMnVOQU9pWTJsUjhGZmlLRWxPUVZPWEJFS2NMaE04TTNVbC16V251czlLRmV1M2lOQXVBUjBTa1IwUUdHd19NeWpYakFnQzhpVlZDa0FrNG1mTk84cDdZcEhWVGpYdjZ4WXl5OVEzanh4dER6RTVib2lKLUZhN0FQUUdwS3VOLUR4MmdtbHNuR01zU3p5VVU2Q01vZGc?oc=5",
-      "published": "Tue, 17 Nov 2026 03:33:51 GMT",
-      "source": "Mitrade"
     }
   ]
 }
