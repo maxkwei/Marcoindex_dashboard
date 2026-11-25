@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 08:52:29 (UTC)",
+  "updated_at": "2026-11-25 07:28:18 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 4.94,
@@ -7,12 +7,12 @@
     "cpi": 337.48,
     "core_cpi": 339.9,
     "pmi": 97.0,
-    "usdtwd": 32.9,
-    "usdjpy": 159.33,
-    "usdcny": 6.65,
-    "oil": 79.43,
-    "gold": 3623.5,
-    "dxy": 104.27
+    "usdtwd": 33.17,
+    "usdjpy": 159.13,
+    "usdcny": 6.67,
+    "oil": 80.6,
+    "gold": 3518.6,
+    "dxy": 104.03
   },
   "history": {
     "fed_rate": {
@@ -7818,40 +7818,40 @@
   },
   "news": [
     {
-      "title": "12 月升息 2 碼恐衝擊股債？聯準會轉鷹，古爾斯比點名 AI 過熱與 Anthropic IPO 財富效應｜美股觀察 - 永豐金證券",
-      "link": "https://news.google.com/rss/articles/CBMilgRBVV95cUxPV2VITVJ1aWF0TnNEang0NTU0bDRJNDdJOEZLSS1wSnhJb3dTeEhocmlWenBJUlBwaFl4UV82WlE4ME9wWTR2a2d3c3hHME00Nks3VWhyeTJhRS1fR19NYVZtZDJXU0FaaV9Qd25RWHJNc2xXYzRsSDZ2cDJ5ZTFSTmUtNlU4Y2h5Z0xmZ09wM250LXZEZXh4cTEwU1FYcmVrTWxTaG1LQ1ZROHU5YUVZRlI5QW5Gd05wZ1pnLTFSRU1HNkh2ampaWXdvdVBPNWE5QS1ZeU5OU2NSb21mMFE5XzFzd1hkZ3Nhc0ZtQUNial9wLWpMcEYxaTc5QUdnd2hONlhNcHdacDBVS2VPLXhjaUJxbGRRcXdYcE81WUZvN0JGN2RVdUtLRnlYRHBRYi1YQ09HZkhlRTdHY3JuOWxaREt0YzRuZ2JBeEt0eDI0cHVJN1dTaHBpcDA5YmhSWk9ROWV1RWc0NXFqdGRMS2RrRTVSN2JPSFBGVXNzakltbl9MeXlSbmRMMUhGSl9iY01NSHR5N1dZU0FlcGxzc1NHZk1QTkdaOGloUmhhT2szakVQX2tudmpDdGJIWFoyTTZORm54bHc3Q3Q3TzVZSk9UbVRkLXg3aEFQOGhpal94bFk3VWNKZUFiYXJWVlQ0UUdZSnVERDFXUTJWb0tpMGdaY2ZEU05TZjZGbmUySy12TkFKdnd4X3c?oc=5",
-      "published": "Fri, 20 Nov 2026 05:51:22 GMT",
-      "source": "永豐金證券"
+      "title": "《美債》12月升息幾乎成定局殖利率小幅走揚- 新聞 - MoneyDJ",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUTlObnZjZWV0Vlk0S2ZlTUVIdFctNXpQN3JZeGs2YmFIVTJiSEtUbDMxX0t0N1dueUhJQ0FqekRfRmt2Z1dEZEYwaVNqS2pQZFJOajFRRmNfUjJDMFA2ZFdxVXZESkZhR0U3cy1WcFJHMU9DUlpGMk1PRVg4dWtiOU4tZDVUbDMzeTY2R0lCS3hTUQ?oc=5",
+      "published": "Tue, 24 Nov 2026 22:55:00 GMT",
+      "source": "MoneyDJ"
     },
     {
-      "title": "股市大跌難撼聯準會鷹派立場 華爾街仍青睞美債殖利率曲線趨平交易 | 國際焦點 | 國際 - 經濟日報",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDd1BLSG5mZ2VLazNnVmtQVHJHN3hkclB5dTFzZUdHQ2FlNGpFMGFqeTZXYXZKZlVWUDZBeFFFamw5ZXdQS095TFhXTnd6T0k2eUdEWjhWaFplUQ?oc=5",
-      "published": "Mon, 23 Nov 2026 11:40:41 GMT",
-      "source": "經濟日報"
+      "title": "市場預計聯準會持續升息之際 債券交易員卡位2028年激進降息 - 鉅亨網",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE41Nno2NGdmOUpuQllMYzc0SktwNFAxZG5KUktjbmEzRTBMYlpyOTdiNnNiSlFCZ1lPcHJOYXhLbGk4bmRaVUdJeUNoTXlSQTg?oc=5",
+      "published": "Wed, 25 Nov 2026 06:20:04 GMT",
+      "source": "鉅亨網"
     },
     {
-      "title": "台股跳空大漲逾3000點！美元指數衝破104 新台幣開高後翻貶 - 自由財經",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wZDVwc0FxMkdqM3lSdjFNQWx4MHRlZ0ZLcHhUZjJ1UmVnWHBWVUpiTWNnNElwWW9ZUUQ0SFlRWUVzU29nSGxtaVc0bFRGbzlMbVlFUHQ4bFU2cU53ckpZ0gFkQVVfeXFMT1dBdmxNTVpjTlRpaUV5UXAxU3pZa1pYLWRPb3pxNDVCLS1CVlhvMHNaT0tvb2dwZWJrVVEwYnBYMFdKRjYtMlliM2k1bWd5WjlEQmdITFhZRHIyakdzdlJzeGczVw?oc=5",
-      "published": "Tue, 24 Nov 2026 03:35:54 GMT",
-      "source": "自由財經"
+      "title": "〈台幣〉美元指數強升衝破104大關 台幣終止連3升收在32.939元 - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xWDZONjRiQlJsQzFjcXFsSkVoanpGb1VKbDZCeF9OMnlHOUJfczdQNDZvQmN3MlB4ZmFhYzFQOVpsQ3FFUUt1NHNPdGhyaDdfQXNZY20zX2JjTzlleXhPUWtNSzM?oc=5",
+      "published": "Tue, 24 Nov 2026 10:02:52 GMT",
+      "source": "TradingView"
     },
     {
-      "title": "美元指數與台幣匯率 - CMoney",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54M0k4SXUzYjdmX0pXWGJ5SHFZd1I1c0x0QUNwOG1SOHlFemkwcnNpWlBfaHZWMWlvdFVtc0FUcFI0dTExNGp2bzhDN0JsaFptcUdsVHQycmk?oc=5",
-      "published": "Mon, 23 Nov 2026 10:57:39 GMT",
-      "source": "CMoney"
-    },
-    {
-      "title": "【今日要聞】FOMC會議紀要来袭！黃金價格失守3800美元，WTI原油創兩個多月新低 - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yQkRlaHE3Tm0tOXB2WGx2OVlHMl9CVERkYVhYZ0dvMHcxS1NudHJodjRyNlR5dEQ0d2J4bjJVM0g3bm9CY0FGemFEdEhKWVZCaGtNVzdZc05oaV9BSDVFTHVtd3kxa2FURFNkNktpZnFoN2ktYmdn?oc=5",
-      "published": "Wed, 18 Nov 2026 10:24:58 GMT",
+      "title": "美元指數突破104，創近20個月新高！歐元匯率累跌7% - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12WHVsQWZUZHl3aHl6aVJjMmhlMURkX2c1c3dpbGxGaHR6czd0T1hPYmtHcmw4MmI3Qkx2LU9pdkZCcXpvQVNSUm0zSkh3QjFnWTFtc1dYNGdhaDE1U05yckZUWTBvSk1qVGxmMGxTclFXSzZL?oc=5",
+      "published": "Tue, 24 Nov 2026 07:28:08 GMT",
       "source": "Mitrade"
     },
     {
-      "title": "美股盘前要闻：美股恐慌指数VIX回落至31附近，摩根大通下调2027年布伦特原油价格 - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtYjYyQkhoSlA1cjJNMkpfSHU4ZXIwVURwR3JJNFZhb3dDV1QycEtTZW1LOWc2QzFLLTU0dFpRTWRQUnJQTHNLREozZDJRMm12NUwtSE9VZ1llTTZxV0tpWXFhcDBwQQ?oc=5",
-      "published": "Mon, 23 Nov 2026 13:50:27 GMT",
-      "source": "TradingView"
+      "title": "【今日要聞】原油價格創三個月新低，比特幣失守6萬美元，黃金反彈受阻 - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUTW1qS21DRE5RMGRPUkhRWk5FMExUVEZ1MGdFQ1JxZmk4RzZZNzB5OWtxYWloaV9HdEJpeFpyS3lDdWZZWDV3NTZra2ZGYjQzcUhEUVc1TmRaUWtiSFF3ZnRROUtfWmxiVDdvUFFpeVhTZmtVQW5v?oc=5",
+      "published": "Tue, 24 Nov 2026 10:16:20 GMT",
+      "source": "Mitrade"
+    },
+    {
+      "title": "聯準會、原油、美元及中東情勢 四大因素牽動金價走勢 - Yahoo股市",
+      "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPb3Z2R1BWcG44YVIwZlpLc1FvcEtFR0h3cEp2cWZHT0RCcmZqekwtajdra0c3UHJtT3BpSDJvalFubWU5WVhaSnhQcGZ6U0lWd212QUVieTBzcEF2RUNPV2FuNW9MOTJoZ3h1M0NkYjk5dUo4d2pZbTh3LVl4ejdjcnBoUHEteE5XdFM4OHFoN1FZYjRRZzRnRmltNU1DNUdZWlJlT3FrdVpodk44X3VSNzFHdTF1ZlhuN0hjZXhjaDk2dW1Hemx3VENkVm51cTIzRWVjdUZNS21lXzZHWnQ0SGJCdGRVMGJfblZhdkpUcUZTek5Ock1mNEVieDVCQjVNQ3BvcWVuTEJtblNvQ3B0YXdqT2hKVmZSWktSZEg5MHFhQ25PQ3FTUnJCUy1QUXpCT2puYXp4Q0Jwa0VtNUVPd2FYQ2ZPSmVCcjJxYmhpaDBHdHd5Rm9mR0g1LTFLTkwwLWt2TVhvQQ?oc=5",
+      "published": "Sun, 13 Sep 2026 07:00:00 GMT",
+      "source": "Yahoo股市"
     }
   ]
 }
