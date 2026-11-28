@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 07:13:13 (UTC)",
+  "updated_at": "2026-11-28 06:45:50 (UTC)",
   "latest_macro": {
     "fed_rate": 3.88,
     "us10y_yield": 4.94,
@@ -7,12 +7,12 @@
     "cpi": 337.48,
     "core_cpi": 339.9,
     "pmi": 97.0,
-    "usdtwd": 32.95,
-    "usdjpy": 159.3,
+    "usdtwd": 32.92,
+    "usdjpy": 159.51,
     "usdcny": 6.65,
-    "oil": 85.99,
-    "gold": 3687.7,
-    "dxy": 103.68
+    "oil": 83.08,
+    "gold": 3639.6,
+    "dxy": 104.01
   },
   "history": {
     "fed_rate": {
@@ -7818,10 +7818,10 @@
   },
   "news": [
     {
-      "title": "《美債》12月升息幾乎成定局殖利率小幅走揚- 新聞 - MoneyDJ",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUTlObnZjZWV0Vlk0S2ZlTUVIdFctNXpQN3JZeGs2YmFIVTJiSEtUbDMxX0t0N1dueUhJQ0FqekRfRmt2Z1dEZEYwaVNqS2pQZFJOajFRRmNfUjJDMFA2ZFdxVXZESkZhR0U3cy1WcFJHMU9DUlpGMk1PRVg4dWtiOU4tZDVUbDMzeTY2R0lCS3hTUQ?oc=5",
-      "published": "Tue, 24 Nov 2026 22:55:00 GMT",
-      "source": "MoneyDJ"
+      "title": "小編下班聊點錢》買美債ETF等降息可能從一開始就想錯了？2大投顧揭低利率時代新變局- 上市櫃 - 旺得富理財網",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nOWJKSzY0VDBWdnNsMGl3bmZMSHhROTM4WUtwOTZfODdvWmhCNzBHU2UzSFdtLVlkWDVLajM1OHZXUldQTFBFXzhxVzZ5Y1d1cHlSTlVTOHNtRjl3c1B1U3l3Zi1WX0JMR3c?oc=5",
+      "published": "Fri, 27 Nov 2026 11:04:43 GMT",
+      "source": "旺得富理財網"
     },
     {
       "title": "美債殖利率走高迎布局契機- 日報 - 工商時報",
@@ -7830,21 +7830,21 @@
       "source": "工商時報"
     },
     {
-      "title": "〈台幣〉美元指數強升衝破104大關 台幣終止連3升收在32.939元 - 鉅亨網",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pLVBZcUw0UlVZOHBLMjhmNU1sSU1ZdHQ3cjJ3Rnp2RWZoVERWQzM4QnpqcHFBWXFWLUxSWHd1clloVFdEa1BSeFVqTl9GQUk?oc=5",
-      "published": "Tue, 24 Nov 2026 10:02:52 GMT",
-      "source": "鉅亨網"
-    },
-    {
       "title": "美元指數突破104，創近20個月新高！歐元匯率累跌7% - Mitrade",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12WHVsQWZUZHl3aHl6aVJjMmhlMURkX2c1c3dpbGxGaHR6czd0T1hPYmtHcmw4MmI3Qkx2LU9pdkZCcXpvQVNSUm0zSkh3QjFnWTFtc1dYNGdhaDE1U05yckZUWTBvSk1qVGxmMGxTclFXSzZL?oc=5",
       "published": "Tue, 24 Nov 2026 07:28:08 GMT",
       "source": "Mitrade"
     },
     {
-      "title": "【財經縱覽】：美核心PCE物價指數同比上漲3.3%、美元兩連跌，黃金巨震，WTI原油大漲3% - Mitrade",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xYzhkbFhrRk9nbXNMZFhPN0lWa2dsWkdKSThZN3lYc3p2cTN4Q0xzVlBmbTFXMjY0VEtWblljUmVieVYyT0s1OEp2VERNR3NpenBBTU9XeV9rZS0yQ3VNT1FJMVR5TVBmQ1h2c1RCR1ZQLU8tUlpTX24yMVZuOGc?oc=5",
-      "published": "Thu, 26 Nov 2026 01:13:33 GMT",
+      "title": "〈台幣〉美元指數強升衝破104大關 台幣終止連3升收在32.939元 - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MSE9LN1J3YTMtcTFFaUkxOUxZRmotdkdBYmlabXFDRnhGLU1Kelc1R2taZW80MWF1MjhOaVlreWdnN25UekhSbU9veGxGTXRIQkwyYTE3M0cwZWo0OURHTDFCREE?oc=5",
+      "published": "Tue, 24 Nov 2026 10:02:52 GMT",
+      "source": "TradingView"
+    },
+    {
+      "title": "【今日要聞】金銀銅齊漲！白銀價格飆升7%，原油價格4連漲 - Mitrade",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBrUldPSUlsemRCb2xBY3ZhTWRRUy1Ucm56YklxQjNYcFV5QTZWRjlxSGM0WmRUdGc5TU9vYWxKNWtjMlNCTU5lX1Nic1o5bHAycUFsNE50TkpRSFpUNWtQeHdQZWtBdHVEUkpDRXNSTjBoODJKZlp3?oc=5",
+      "published": "Fri, 27 Nov 2026 10:10:09 GMT",
       "source": "Mitrade"
     },
     {
